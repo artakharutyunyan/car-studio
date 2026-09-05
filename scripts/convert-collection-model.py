@@ -47,6 +47,9 @@ for m in bpy.data.materials:
    p.inputs['Base Color'].default_value=(.8,.11,.015,1);p.inputs['Metallic'].default_value=.25;p.inputs['Roughness'].default_value=.28
   if car=='bmw-m3-e30' and m.name=='BMW_E30_M3_PAINT':
    p.inputs['Base Color'].default_value=(.62,.018,.025,1);p.inputs['Metallic'].default_value=.22;p.inputs['Roughness'].default_value=.3
+  if car=='aston-martin-db5' and m.name=='Car_paint_coated':
+   # Silver Birch, the shade driven in the Bond films, replacing the source's teal-green.
+   p.inputs['Base Color'].default_value=(.52,.52,.49,1);p.inputs['Metallic'].default_value=.5;p.inputs['Roughness'].default_value=.22
   if car=='lamborghini-countach' and m.name=='CARO':
    p.inputs['Base Color'].default_value=(.82,.84,.84,1);p.inputs['Metallic'].default_value=.3;p.inputs['Roughness'].default_value=.24
   if car=='toyota-supra-mk4' and m.name=='Primary1.001':

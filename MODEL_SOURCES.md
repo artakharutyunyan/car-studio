@@ -35,7 +35,7 @@ These assets are embedded in an independent interactive study. The application d
 
 Orientation and scale were normalized, presentation floors removed, physical materials adapted, and disconnected source geometry separated or clustered for browser interaction. Embedded textures were resized where needed. Card previews are renders of the exported meshes. The source detail level varies between models.
 
-The F40 has red paint and the Porsche 930 has yellow paint. The Porsche radio antenna was removed. The Phantom uses midnight-blue paint, and the Roma uses red paint. The Diablo retains its low-poly yellow SV appearance. The BMW M1 retains its Procar livery, and the M3 uses red paint. Formula 1 liveries are from the attributed source models.
+The F40 has red paint and the Porsche 930 has yellow paint. The Porsche radio antenna was removed. The Phantom uses midnight-blue paint, and the Roma uses red paint. The Diablo retains its low-poly yellow SV appearance. The BMW M1 retains its Procar livery, and the M3 uses red paint. The DB5 uses Silver Birch paint, the shade driven in the Bond films, replacing the source model's teal-green. Formula 1 liveries are from the attributed source models.
 
 The Range Rover and McLaren F1 GTR Longtail derivatives and their rendered previews retain the CC BY-NC-SA 4.0 license: attribution, noncommercial use, and share-alike terms apply. BlendKit models remain subject to the linked asset license.
 
