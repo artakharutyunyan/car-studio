@@ -1,12 +1,12 @@
 # Collection validation
 
-Validated on 2026-09-05. Re-validated the same day after two fixes: the Williams FW14B's synthetic livery (previously defaulted almost the whole body to blue; rebalanced to the correct white-dominant Camel-era split with blue flanks and yellow tips) and an added illustrative "TOYOTA" badge on the Supra's front fascia (the source model had none). Both were verified with `validate-collection.mjs`, `validate-explosion.mjs`, and `validate-touch.mjs`, and their card renders were regenerated with `render-car-cards.py`.
+Validated on 2026-09-05. Re-validated on 2026-09-06 after two fixes: an added illustrative "TOYOTA" badge on the Supra's front fascia (the source model had none), and the Williams FW14B, which was first rebalanced from a solid-blue synthetic livery to a white/blue/yellow synthetic split, then replaced outright with a different, properly textured source model carrying real Canon/Camel/Elf/Labatt's-era sponsor decals. Both were verified with `validate-collection.mjs`, `validate-explosion.mjs`, and `validate-touch.mjs`, and their card renders were regenerated with `render-car-cards.py`.
 
 - TypeScript passes (`npx tsc --noEmit`).
 - Application lint passes (`npx oxlint app vercel-app`). Repository-wide lint still reports existing issues in the bundled `components/ui` and `hooks/use-mobile.ts`; these unrelated files were not changed.
 - Both production builds pass: Vinext / Cloudflare and the standalone Vercel browser app. The build reports a large JavaScript chunk warning.
 - Three.js GLTFLoader checks pass for all twenty-four models: unique selectable IDs, catalog correspondence, finite geometry bounds, embedded texture payloads, non-overlapping exploded layouts, and camera coverage at three viewport proportions.
-- Selectable counts: Model X 334, F40 185, Porsche 930 318, Phantom 423, DB5 108, Roma 181, Diablo 72, Countach 216, Range Rover 707, Mercedes 300 SL 115, AMG ONE 184, BMW M1 186, BMW M3 E30 93, Supra Mk4 87 (includes the added badge piece), Nissan Skyline R34 83, Audi Quattro S1 63, Bugatti Veyron 113, Jaguar E-Type 86, McLaren F1 GTR Longtail 257, SF-23 168, AMR23 160, W14 138, MP4/5 132, and Williams FW14B 77.
+- Selectable counts: Model X 334, F40 185, Porsche 930 318, Phantom 423, DB5 108, Roma 181, Diablo 72, Countach 216, Range Rover 707, Mercedes 300 SL 115, AMG ONE 184, BMW M1 186, BMW M3 E30 93, Supra Mk4 87 (includes the added badge piece), Nissan Skyline R34 83, Audi Quattro S1 63, Bugatti Veyron 113, Jaguar E-Type 86, McLaren F1 GTR Longtail 257, SF-23 168, AMR23 160, W14 138, MP4/5 132, and Williams FW14B 140.
 - The Porsche manifest excludes its original antenna object. The regenerated model and card preview were inspected.
 - Existing explosion and pointer tests pass, including drag-return, pinch, cancellation, and tap recovery.
 - Local HTTP checks return 200 for both collections and all twenty-four car routes. An unknown car returns 404.

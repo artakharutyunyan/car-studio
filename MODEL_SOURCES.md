@@ -27,7 +27,7 @@ These assets are embedded in an independent interactive study. The application d
 | Aston Martin AMR23 | [Redgrund](https://sketchfab.com/3d-models/aston-martin-f1-amr23-2023-f6ba825a43b146a9b669934a4e1fd529) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 160 |
 | Mercedes-AMG W14 | [3dblender_1](https://sketchfab.com/3d-models/mercedes-f1-w14-free-26fda66f3e8a48d5a636056f8a64e299) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 138 |
 | McLaren-Honda MP4/5 | [vecarz](https://sketchfab.com/3d-models/mclaren-mp45-wwwvecarzcom-b0db423a98584469a73ad9b5df2ab969) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 132 |
-| Williams-Renault FW14B | [RubénGM14](https://sketchfab.com/3d-models/williams-fw14b-e84d5941fd354881abdd97ca791e8e2a) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 77 |
+| Williams-Renault FW14B | [Dave Love SketchFab](https://sketchfab.com/3d-models/none-3f5bce9286154ac38f2010ea931a9fb2) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 140 |
 
 ## Adaptations
 
@@ -37,4 +37,4 @@ The F40 has red paint and the Porsche 930 has yellow paint. The Porsche radio an
 
 The Range Rover and McLaren F1 GTR Longtail derivatives and their rendered previews retain the CC BY-NC-SA 4.0 license: attribution, noncommercial use, and share-alike terms apply. BlendKit models remain subject to the linked asset license.
 
-The Tesla is a pre-refresh source model with an unverified exact year. Its battery, drive units, and suspension are separately identified illustrative additions. The Supra's source model had no badge geometry; a small illustrative "TOYOTA" badge was added to the front fascia to match the real car's appearance. The Williams FW14B's source model carried no livery textures; its Camel-era white/blue/yellow paint split was reconstructed from reference photos rather than recovered from the source asset. All mesh labels and groupings are descriptive interpretations rather than OEM part identifiers.
+The Tesla is a pre-refresh source model with an unverified exact year. Its battery, drive units, and suspension are separately identified illustrative additions. The Supra's source model had no badge geometry; a small illustrative "TOYOTA" badge was added to the front fascia to match the real car's appearance. The Williams FW14B uses its source model's embedded livery textures (Canon/Camel/Elf/Labatt's-era sponsor decals) directly; an earlier conversion of a different, texture-less source asset had reconstructed a synthetic paint split instead, since replaced. All mesh labels and groupings are descriptive interpretations rather than OEM part identifiers.
