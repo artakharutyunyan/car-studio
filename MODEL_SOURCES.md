@@ -18,10 +18,16 @@ These assets are embedded in an independent interactive study. The application d
 | BMW M1 Procar | [Todor Malakchiev](https://sketchfab.com/3d-models/16e5bc3a62ab4b78a0ef95579a09a67c) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 186 |
 | BMW M3 E30 | [Martin Trafas](https://sketchfab.com/3d-models/free-bmw-m3-e30-ac3c7013434e403e8faff87948caf422) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 93 |
 | Toyota Supra Mk4 | [LePoint_BAT](https://sketchfab.com/3d-models/ca13250844cc43e387032f8b8a5c97ed) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 86 |
+| Nissan Skyline GT-R R34 | [Lexyc16](https://sketchfab.com/3d-models/nissan-skyline-r34-gt-r-ff8fb2251dfa4bb9979e7022c5a6666c) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 83 |
+| Audi Quattro S1 | [TonyWony](https://sketchfab.com/3d-models/audi-quattro-s1-402697365eaa41a68a543b71d0e0bfa8) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 63 |
+| Bugatti Veyron 16.4 Super Sport | [andikapratamaw](https://sketchfab.com/3d-models/bugatti-veyron-164-super-sport-lowpoly-0ee4c65face949efa4500deb17c79150) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 113 |
+| Jaguar E-Type | [Nommoc](https://sketchfab.com/3d-models/jaguar-etype-32aa25ea6e1b40f395b2aff33ca0a279) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 86 |
+| McLaren F1 GTR Longtail | [vecarz](https://sketchfab.com/3d-models/a6dbc062d2e843828c392bbd07727ead) | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) | 257 |
 | Ferrari SF-23 | [Redgrund](https://sketchfab.com/3d-models/scuderia-ferrari-f1-sf23-2023-ecb0f812bc454331bbe721655b0780ec) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 168 |
 | Aston Martin AMR23 | [Redgrund](https://sketchfab.com/3d-models/aston-martin-f1-amr23-2023-f6ba825a43b146a9b669934a4e1fd529) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 160 |
 | Mercedes-AMG W14 | [3dblender_1](https://sketchfab.com/3d-models/mercedes-f1-w14-free-26fda66f3e8a48d5a636056f8a64e299) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 138 |
 | McLaren-Honda MP4/5 | [vecarz](https://sketchfab.com/3d-models/mclaren-mp45-wwwvecarzcom-b0db423a98584469a73ad9b5df2ab969) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 132 |
+| Williams-Renault FW14B | [RubénGM14](https://sketchfab.com/3d-models/williams-fw14b-e84d5941fd354881abdd97ca791e8e2a) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 77 |
 
 ## Adaptations
 
@@ -29,6 +35,6 @@ Orientation and scale were normalized, presentation floors removed, physical mat
 
 The F40 has red paint and the Porsche 930 has yellow paint. The Porsche radio antenna was removed. The Phantom uses midnight-blue paint, and the Roma uses red paint. The Diablo retains its low-poly yellow SV appearance. The BMW M1 retains its Procar livery, and the M3 uses red paint. Formula 1 liveries are from the attributed source models.
 
-The Range Rover derivative and its rendered preview retain the CC BY-NC-SA 4.0 license: attribution, noncommercial use, and share-alike terms apply. BlendKit models remain subject to the linked asset license.
+The Range Rover and McLaren F1 GTR Longtail derivatives and their rendered previews retain the CC BY-NC-SA 4.0 license: attribution, noncommercial use, and share-alike terms apply. BlendKit models remain subject to the linked asset license.
 
 The Tesla is a pre-refresh source model with an unverified exact year. Its battery, drive units, and suspension are separately identified illustrative additions. All mesh labels and groupings are descriptive interpretations rather than OEM part identifiers.

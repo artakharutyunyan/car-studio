@@ -64,6 +64,16 @@ for o in list(meshes):
 bpy.context.view_layer.update()
 def bounds(o):
  points=[v.co for v in o.data.vertices];lo=Vector([min(v[a] for v in points) for a in range(3)]);hi=Vector([max(v[a] for v in points) for a in range(3)]);return (lo+hi)/2,hi-lo
+def solid_material(name,color,metallic=0,roughness=.38):
+ m=bpy.data.materials.get(name) or bpy.data.materials.new(name);m.use_nodes=True
+ p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*color,1);p.inputs['Metallic'].default_value=metallic;p.inputs['Roughness'].default_value=roughness
+ return m
+williams_materials={
+ 'blue':solid_material('Williams blue',(.015,.08,.42),.16,.3),
+ 'yellow':solid_material('Williams yellow',(.95,.58,.015),.08,.32),
+ 'white':solid_material('Williams white',(.82,.84,.86),.12,.3),
+ 'wheel':solid_material('Williams wheels',(.012,.014,.018),.05,.58),
+} if car=='f1-williams-fw14b' else None
 small={}
 for o in list(bpy.context.scene.objects):
  if o.type!='MESH' or not len(o.data.polygons):continue
@@ -77,6 +87,13 @@ for o in list(bpy.context.scene.objects):
  elif 'suspension' in name:group='suspension';label='Suspension detail'
  if car.startswith('f1-') and group=='body':label='Chassis & aerodynamic detail'
  o['part']=group;o['label']=label
+ if williams_materials:
+  if group=='wheels':key='wheel'
+  elif c.z>.58:key='blue'
+  elif c.y<(-length*.28):key='yellow'
+  elif abs(c.x)>.48:key='white'
+  else:key='blue'
+  o.data.materials.clear();o.data.materials.append(williams_materials[key])
  # Retain small trim in spatial clusters to bound browser draw calls.
  if max(size)<.18 or len(o.data.polygons)<8:
   key=(group,int(c.x*2),int(c.y*2),int(c.z*2));small.setdefault(key,[]).append(o)
