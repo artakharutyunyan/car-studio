@@ -11,11 +11,13 @@ These assets are embedded in an independent interactive study. The application d
 | Aston Martin DB5 | [AngryBearr](https://sketchfab.com/3d-models/aston-martin-db5-bf1fe23e1578417ab11db67dc89fbe32) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 108 |
 | Ferrari Roma | [zizian](https://sketchfab.com/3d-models/ferrari-roma-vr-ready-nr-130-no-for-sell-eed82330760041b7bb9583cff3e97813) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 181 |
 | Lamborghini Diablo SV | [anathlyst](https://sketchfab.com/3d-models/cf2efc656451443882d72418c1aa6d96) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 72 |
+| Lamborghini Countach LP500S | [SDC PERFORMANCE™️](https://sketchfab.com/3d-models/32e9ee8d129e4c2992e1753b4fc3094c) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 216 |
 | Range Rover | [VTX](https://sketchfab.com/3d-models/range-rover-f0702fae150f4cfd98065def645edbde) | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) | 707 |
 | Mercedes-Benz 300 SL Gullwing | [Lexyc16](https://sketchfab.com/3d-models/505241c829c540a4921533000736904e) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 115 |
 | Mercedes-AMG ONE | [srush651](https://sketchfab.com/3d-models/15690215e244466f9c4ae0f3acc20020) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 184 |
 | BMW M1 Procar | [Todor Malakchiev](https://sketchfab.com/3d-models/16e5bc3a62ab4b78a0ef95579a09a67c) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 186 |
 | BMW M3 E30 | [Martin Trafas](https://sketchfab.com/3d-models/free-bmw-m3-e30-ac3c7013434e403e8faff87948caf422) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 93 |
+| Toyota Supra Mk4 | [LePoint_BAT](https://sketchfab.com/3d-models/ca13250844cc43e387032f8b8a5c97ed) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 86 |
 | Ferrari SF-23 | [Redgrund](https://sketchfab.com/3d-models/scuderia-ferrari-f1-sf23-2023-ecb0f812bc454331bbe721655b0780ec) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 168 |
 | Aston Martin AMR23 | [Redgrund](https://sketchfab.com/3d-models/aston-martin-f1-amr23-2023-f6ba825a43b146a9b669934a4e1fd529) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 160 |
 | Mercedes-AMG W14 | [3dblender_1](https://sketchfab.com/3d-models/mercedes-f1-w14-free-26fda66f3e8a48d5a636056f8a64e299) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 138 |

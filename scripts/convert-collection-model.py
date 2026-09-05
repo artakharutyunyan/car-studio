@@ -47,6 +47,10 @@ for m in bpy.data.materials:
    p.inputs['Base Color'].default_value=(.8,.11,.015,1);p.inputs['Metallic'].default_value=.25;p.inputs['Roughness'].default_value=.28
   if car=='bmw-m3-e30' and m.name=='BMW_E30_M3_PAINT':
    p.inputs['Base Color'].default_value=(.62,.018,.025,1);p.inputs['Metallic'].default_value=.22;p.inputs['Roughness'].default_value=.3
+  if car=='lamborghini-countach' and m.name=='CARO':
+   p.inputs['Base Color'].default_value=(.82,.84,.84,1);p.inputs['Metallic'].default_value=.3;p.inputs['Roughness'].default_value=.24
+  if car=='toyota-supra-mk4' and m.name=='Primary1.001':
+   p.inputs['Base Color'].default_value=(.88,.18,.025,1);p.inputs['Metallic'].default_value=.22;p.inputs['Roughness'].default_value=.27
   if car=='lamborghini-diablo' and m.name=='Default':
    # Alpha blending this atlas across separated pieces creates depth-sorting
    # holes in WebGL, even though Blender's offline render looks assembled.
