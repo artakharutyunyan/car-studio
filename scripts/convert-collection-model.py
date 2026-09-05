@@ -73,7 +73,7 @@ williams_materials={
  'yellow':solid_material('Williams yellow',(.95,.58,.015),.08,.32),
  'white':solid_material('Williams white',(.82,.84,.86),.12,.3),
  'wheel':solid_material('Williams wheels',(.012,.014,.018),.05,.58),
-} if car=='f1-williams-fw14b' else None
+} if car=='f1-williams-fw14b' and not any(img.type=='IMAGE' for img in bpy.data.images) else None
 small={}
 for o in list(bpy.context.scene.objects):
  if o.type!='MESH' or not len(o.data.polygons):continue
@@ -88,11 +88,14 @@ for o in list(bpy.context.scene.objects):
  if car.startswith('f1-') and group=='body':label='Chassis & aerodynamic detail'
  o['part']=group;o['label']=label
  if williams_materials:
+  # Camel-era FW14B is white-dominant with blue sidepod flanks and yellow tips;
+  # the source asset ships no livery textures at all, so this rebuilds the
+  # split from reference photos instead of leaving everything the old
+  # default (blue), which made the whole car read as solid blue.
   if group=='wheels':key='wheel'
-  elif c.z>.58:key='blue'
-  elif c.y<(-length*.28):key='yellow'
-  elif abs(c.x)>.48:key='white'
-  else:key='blue'
+  elif abs(c.x)>.42:key='blue'
+  elif abs(c.y)>length*.42:key='yellow'
+  else:key='white'
   o.data.materials.clear();o.data.materials.append(williams_materials[key])
  # Retain small trim in spatial clusters to bound browser draw calls.
  if max(size)<.18 or len(o.data.polygons)<8:
@@ -120,8 +123,8 @@ for o in sorted(bpy.context.scene.objects,key=lambda o:o.name):
   if k not in ['part','label','component']:del o[k]
  entries.append({'id':o.name,'part':group,'label':label,'source':source_name,'center':list(c),'size':list(size),'faces':len(o.data.polygons)})
 for img in bpy.data.images:
- if max(img.size)>1024:
-  factor=1024/max(img.size);img.scale(max(1,int(img.size[0]*factor)),max(1,int(img.size[1]*factor)))
+ if max(img.size)>2048:
+  factor=2048/max(img.size);img.scale(max(1,int(img.size[0]*factor)),max(1,int(img.size[1]*factor)))
 bpy.ops.export_scene.gltf(filepath=os.path.abspath(f'public/models/{car}.glb'),export_format='GLB',export_extras=True,export_cameras=False,export_lights=False,export_yup=True)
 # The glTF exporter omits zero-area geometry. Catalog only exported pieces.
 blob=open(f'public/models/{car}.glb','rb').read();exported=json.loads(blob[20:20+struct.unpack_from('<I',blob,12)[0]])

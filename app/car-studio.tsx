@@ -12,6 +12,7 @@ import type {Vehicle} from './vehicles';
 export default function CarStudio({vehicle}:{vehicle:Vehicle}){
  const parts=vehicle.parts;
  const [selected,setSelected]=useState<PartId>('body');
+ const [highQuality,setHighQuality]=useState(false);
  const [canFullscreen,setCanFullscreen]=useState(false);
  const [compact,setCompact]=useState(false);const [toolsOpen,setToolsOpen]=useState(false);
  const [componentsOpen,setComponentsOpen]=useState(false);const [detailOpen,setDetailOpen]=useState(false);
@@ -40,7 +41,7 @@ export default function CarStudio({vehicle}:{vehicle:Vehicle}){
 
  return <main className="studio" ref={root}>
   <section className="stage-view" aria-label={`Interactive ${vehicle.make} ${vehicle.name} studio`}>
-   <VehicleScene key={vehicle.id} vehicle={vehicle} focusedMesh={focusedMesh} onInspect={setFocusedMesh} ref={scene} selected={selected} explode={explode} labels={labels} autoRotate={rotate} isolated={isolated} onSelect={select}/>
+   <VehicleScene key={vehicle.id} vehicle={vehicle} highQuality={highQuality} focusedMesh={focusedMesh} onInspect={setFocusedMesh} ref={scene} selected={selected} explode={explode} labels={labels} autoRotate={rotate} isolated={isolated} onSelect={select}/>
   </section>
   <div className="studio-heading"><a className="back-to-garage" href={vehicle.category==='formula-1'?'/formula-1':'/'} aria-label="Back to car collection"><ArrowLeft size={16}/><span>Collection</span></a><div className="model-plaque"><span>{vehicle.make.toUpperCase()}</span><h1>{vehicle.name.toUpperCase()}</h1></div></div>
   {componentsOpen&&<aside className="components-panel floating-panel" aria-label="Components">
@@ -52,6 +53,7 @@ export default function CarStudio({vehicle}:{vehicle:Vehicle}){
    <span/>
    <button className="tools-extra" title="Zoom in" onClick={()=>scene.current?.zoom(.85)} aria-label="Zoom in"><Plus size={18}/></button>
    <button className="tools-extra" title="Zoom out" onClick={()=>scene.current?.zoom(1.18)} aria-label="Zoom out"><Minus size={18}/></button>
+   <button className={'tools-extra '+(highQuality?'active':'')} title="High quality rendering" onClick={()=>setHighQuality(!highQuality)} aria-label="High quality rendering" aria-pressed={highQuality}>HQ</button>
    <button className="tools-reset" title="Reset view" onClick={()=>{setRotate(false);scene.current?.reset()}} aria-label="Reset view"><RotateCcw size={17}/></button>
    <button className={'tools-extra '+(rotate?'active':'')} title="Auto rotate" onClick={()=>setRotate(!rotate)} aria-label="Toggle auto rotation" aria-pressed={rotate}><Rotate3d size={18}/></button>
    <span/>
@@ -67,6 +69,7 @@ export default function CarStudio({vehicle}:{vehicle:Vehicle}){
     <p className="detail-copy">{piece&&tab==='overview'?vehicle.id==='model-x'?describePiece(piece.label):`${piece.label.split(' · ')[0]} is an individual piece of the ${vehicle.make} ${vehicle.name} model. ${part.description}`:tab==='overview'?part.description:part.principle}</p>
     <dl className="specs">{part.specs.map(([a,b])=><div key={a}><dt>{a}</dt><dd>{b}</dd></div>)}</dl>
     {catalog.some(p=>p.part===selected)&&<div className="piece-picker"><span>Individual pieces</span><Select value={focusedMesh||'all'} onValueChange={value=>setFocusedMesh(value==='all'?'':String(value))}><SelectTrigger aria-label="Choose an individual mesh piece"><SelectValue>{piece?piece.label:`All ${catalog.filter(p=>p.part===selected).length} pieces`}</SelectValue></SelectTrigger><SelectContent alignItemWithTrigger={false}>{[{id:'all',label:'All pieces in this system'},...catalog.filter(p=>p.part===selected)].map((p,i)=><SelectItem key={p.id} value={p.id}>{i?`${String(i).padStart(2,'0')} · `:''}{p.label}</SelectItem>)}</SelectContent></Select></div>}
+    <button className="isolate-button" onClick={()=>{setRotate(false);scene.current?.focus()}}><Crosshair size={15}/> {focusedMesh?'Focus on piece':'Focus on component'}</button>
     <button className={'isolate-button '+(isolated?'is-active':'')} onClick={()=>setIsolated(!isolated)}>{isolated?<Layers3 size={15}/>:<Crosshair size={15}/>} {isolated?'Show everything':focusedMesh?'Isolate piece':'Isolate component'}</button>
     <a className="source-link" href={part.source} target="_blank" rel="noreferrer">{part.source===vehicle.source?'Model source':`${vehicle.make} documentation`} <ArrowUpRight size={12}/></a>
    </div>

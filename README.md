@@ -35,6 +35,6 @@ npm run build:vercel
 
 See [MODEL_SOURCES.md](MODEL_SOURCES.md) for creator credits, source links, licenses, and conversion notes. The Range Rover asset is **noncommercial, share-alike**; its license is distinct from the other models.
 
-The models have different source detail levels; the Diablo is intentionally labeled a low-poly study. Selectable pieces are artist-authored geometry, not verified manufacturer service parts. Only the Tesla has illustrative battery, drive, and suspension geometry. The Porsche’s fender antenna has been removed.
+The models have different source detail levels; the Diablo is intentionally labeled a low-poly study. Selectable pieces are artist-authored geometry, not verified manufacturer service parts. The Tesla has illustrative battery, drive, and suspension geometry, and the Supra has an illustrative front badge (the source model had none). The Porsche’s fender antenna has been removed.
 
 Model conversion uses Blender’s `bpy` module. `scripts/convert-classic-cars.py` handles the F40 and 930; `scripts/convert-collection-model.py` handles the expanded collection. `scripts/render-car-cards.py` renders card images from the exported models. Original source downloads are not required to run the app.

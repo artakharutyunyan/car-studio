@@ -9,21 +9,21 @@ import {createExplosionLayout,layoutCenter,overviewDirection} from './explosion-
 import {PointerTap} from './pointer-tap';
 import {type PartId} from './parts';
 import type {Vehicle} from './vehicles';
-export type SceneHandle={zoom:(factor:number)=>void;reset:()=>void};
-type Props={vehicle:Vehicle;focusedMesh:string;onInspect:(id:string)=>void;selected:PartId;explode:number;labels:boolean;autoRotate:boolean;isolated:boolean;onSelect:(id:PartId)=>void};
+export type SceneHandle={zoom:(factor:number)=>void;reset:()=>void;focus:()=>void};
+type Props={vehicle:Vehicle;highQuality:boolean;focusedMesh:string;onInspect:(id:string)=>void;selected:PartId;explode:number;labels:boolean;autoRotate:boolean;isolated:boolean;onSelect:(id:PartId)=>void};
 const offsets:Record<PartId,[number,number,number]>={body:[0,.6,0],glass:[0,2,0],doors:[0,1.1,0],cabin:[0,.7,0],battery:[0,-.85,0],drive:[0,-.18,0],suspension:[0,.08,0],wheels:[0,0,0]};
 const anchors:Record<PartId,[number,number,number]>={body:[-1.9,1.02,.2],glass:[.15,1.94,0],doors:[.25,1.44,1.05],cabin:[.05,1.05,-.4],battery:[.1,.24,1.02],drive:[-1.54,.57,.2],suspension:[1.57,.83,-.83],wheels:[1.53,.46,1.1]};
 const VehicleScene=forwardRef<SceneHandle,Props>(function VehicleScene(props,ref){
  const host=useRef<HTMLDivElement>(null);const latest=useRef(props);useLayoutEffect(()=>{latest.current=props});
- const engine=useRef<{camera:THREE.PerspectiveCamera;controls:OrbitControls;reset:()=>void;interrupt:()=>void}|null>(null);const [error,setError]=useState<string|null>(null);const [ready,setReady]=useState(false);
- useImperativeHandle(ref,()=>({zoom(f){const e=engine.current;if(e){e.interrupt();e.camera.position.sub(e.controls.target).multiplyScalar(f).add(e.controls.target)}},reset(){const e=engine.current;if(e){e.reset()}}}),[]);
+ const engine=useRef<{camera:THREE.PerspectiveCamera;controls:OrbitControls;reset:()=>void;focus:()=>void;interrupt:()=>void}|null>(null);const [error,setError]=useState<string|null>(null);const [ready,setReady]=useState(false);
+ useImperativeHandle(ref,()=>({zoom(f){const e=engine.current;if(e){e.interrupt();const direction=e.camera.position.clone().sub(e.controls.target);const distance=THREE.MathUtils.clamp(direction.length()*f,e.controls.minDistance,e.controls.maxDistance);e.camera.position.copy(e.controls.target).addScaledVector(direction.normalize(),distance);e.controls.update()}},reset(){engine.current?.reset()},focus(){engine.current?.focus()}}),[]);
  useEffect(()=>{
   const {vehicle}=props;const parts=vehicle.parts;
   const el=host.current!; let renderer:THREE.WebGLRenderer;
   try{renderer=new THREE.WebGLRenderer({antialias:true,alpha:true,powerPreference:'high-performance'})}catch{queueMicrotask(()=>setError('Your browser could not start the 3D view.'));return}
   renderer.setPixelRatio(Math.min(window.devicePixelRatio,window.matchMedia('(pointer: coarse)').matches?1.25:1.5));renderer.setClearColor(0x000000,0);renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=.95;renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;renderer.shadowMap.autoUpdate=false;el.appendChild(renderer.domElement);
   const scene=new THREE.Scene();scene.background=new THREE.Color('#050607');scene.fog=new THREE.Fog('#050607',16,55);const camera=new THREE.PerspectiveCamera(37,1,.05,500);camera.position.set(-5.7,2.9,6.3);
-  const controls=new OrbitControls(camera,renderer.domElement);controls.target.set(0,.8,0);controls.enableDamping=true;controls.dampingFactor=.065;controls.minDistance=5;controls.maxDistance=180;controls.maxPolarAngle=Math.PI*.49;controls.minPolarAngle=.18;controls.enablePan=true;controls.autoRotateSpeed=.65;engine.current={camera,controls,reset:()=>{fitView(true);invalidated=true},interrupt:()=>{framingTime=0}};
+  const controls=new OrbitControls(camera,renderer.domElement);controls.target.set(0,.8,0);controls.enableDamping=true;controls.dampingFactor=.065;controls.minDistance=.15;controls.maxDistance=180;controls.maxPolarAngle=Math.PI*.49;controls.minPolarAngle=.18;controls.enablePan=true;controls.autoRotateSpeed=.65;engine.current={camera,controls,reset:()=>{if(latest.current.isolated)focusSelection();else fitView(true);invalidated=true},focus:focusSelection,interrupt:()=>{framingTime=0}};
   const pmrem=new THREE.PMREMGenerator(renderer);const room=new RoomEnvironment();const env=pmrem.fromScene(room,.04);scene.environment=env.texture;
   scene.add(new THREE.HemisphereLight(0xd8e9ff,0x444448,.8));
   const key=new THREE.DirectionalLight(0xffffff,2.5);key.position.set(-4,8,4);scene.add(key);key.castShadow=true;key.shadow.mapSize.set(1024,1024);key.shadow.camera.left=-7;key.shadow.camera.right=7;key.shadow.camera.top=7;key.shadow.camera.bottom=-7;key.shadow.bias=-.001;
@@ -108,6 +108,18 @@ const VehicleScene=forwardRef<SceneHandle,Props>(function VehicleScene(props,ref
   let invalidated=true,previousProps:Props|null=null,lastLabels=0,lastShadow=0;
   let labelsPending=false;let lastHighlighted='';const cameraPosition=new THREE.Vector3(),cameraQuaternion=new THREE.Quaternion();
   const homeTarget=new THREE.Vector3(0,.8,0),framingDirection=overviewDirection.clone();
+  function focusSelection(){
+   if(!readyRef.current)return;
+   const p=latest.current,target=p.focusedMesh?pieces.find(x=>x.id===p.focusedMesh)?.node:groups[p.selected];
+   if(!target)return;
+   scene.updateMatrixWorld(true);const bounds=new THREE.Box3().setFromObject(target);
+   if(bounds.isEmpty())return;
+   const center=bounds.getCenter(new THREE.Vector3()),radius=bounds.getSize(new THREE.Vector3()).length()/2;
+   const vertical=THREE.MathUtils.degToRad(camera.fov/2),horizontal=Math.atan(Math.tan(vertical)*camera.aspect);
+   const distance=Math.max(.2,radius/Math.sin(Math.min(vertical,horizontal))*1.12);
+   const direction=camera.position.clone().sub(controls.target).normalize();framingTime=0;
+   controls.target.copy(center);camera.position.copy(center).addScaledVector(direction,distance);controls.update();invalidated=true;
+  }
   function fitView(immediate=false,dt=1/60){
    if(latest.current.isolated)return;
    const f=THREE.MathUtils.smoothstep(immediate?latest.current.explode/100:amount,.4,1);
@@ -124,7 +136,13 @@ const VehicleScene=forwardRef<SceneHandle,Props>(function VehicleScene(props,ref
   const stopFraming=()=>{framingTime=0};controls.addEventListener('start',stopFraming);
   const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   function frame(now:number){raf=requestAnimationFrame(frame);const dt=Math.min((now-last)/1000,.05);last=now;if(document.hidden)return;
-   const p=latest.current,propsChanged=!previousProps||p.selected!==previousProps.selected||p.focusedMesh!==previousProps.focusedMesh||p.isolated!==previousProps.isolated||p.labels!==previousProps.labels||p.autoRotate!==previousProps.autoRotate;
+   const p=latest.current,propsChanged=!previousProps||p.selected!==previousProps.selected||p.focusedMesh!==previousProps.focusedMesh||p.isolated!==previousProps.isolated||p.labels!==previousProps.labels||p.autoRotate!==previousProps.autoRotate||p.highQuality!==previousProps.highQuality;
+   if(!previousProps||p.highQuality!==previousProps.highQuality||invalidated){
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio,p.highQuality?2:window.matchMedia('(pointer: coarse)').matches?1.25:1.5));renderer.setSize(viewWidth,viewHeight);
+    const shadowSize=p.highQuality?2048:1024;key.shadow.mapSize.set(shadowSize,shadowSize);key.shadow.map?.dispose();key.shadow.map=null;renderer.shadowMap.needsUpdate=true;
+    const anisotropy=p.highQuality?Math.min(16,renderer.capabilities.getMaxAnisotropy()):1;
+    for(const piece of pieces)for(const material of piece.materials)for(const value of Object.values(material))if(value instanceof THREE.Texture&&value.anisotropy!==anisotropy){value.anisotropy=anisotropy;value.needsUpdate=true}
+   }
    if(p.explode!==previousExplosion){previousExplosion=p.explode;framingTime=1.5;framingDirection.copy(camera.position).sub(controls.target).normalize()}
    const oldAmount=amount;amount=reduced?p.explode/100:THREE.MathUtils.damp(amount,p.explode/100,7,dt);if(Math.abs(amount-p.explode/100)<.0001)amount=p.explode/100;
    const moving=oldAmount!==amount,geometryChanged=moving||invalidated||propsChanged;
@@ -163,8 +181,7 @@ const VehicleScene=forwardRef<SceneHandle,Props>(function VehicleScene(props,ref
    if(readyRef.current&&nextFocus!==focusKey){
     focusKey=nextFocus;
     if(nextFocus){
-     const target=p.focusedMesh?pieces.find(x=>x.id===p.focusedMesh)?.node:groups[p.selected];
-     if(target){scene.updateMatrixWorld(true);const bounds=new THREE.Box3().setFromObject(target);const center=bounds.getCenter(new THREE.Vector3());const extent=bounds.getSize(new THREE.Vector3()).length();const direction=camera.position.clone().sub(controls.target).normalize();controls.minDistance=.15;controls.target.copy(center);camera.position.copy(center).addScaledVector(direction,Math.max(.4,extent*1.8));}
+     focusSelection();
     }else{controls.minDistance=.15;fitView(true)}
     controls.update();
    }
