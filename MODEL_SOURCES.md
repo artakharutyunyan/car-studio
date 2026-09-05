@@ -13,7 +13,7 @@ These assets are embedded in an independent interactive study. The application d
 | Lamborghini Diablo SV | [anathlyst](https://sketchfab.com/3d-models/cf2efc656451443882d72418c1aa6d96) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 72 |
 | Range Rover | [VTX](https://sketchfab.com/3d-models/range-rover-f0702fae150f4cfd98065def645edbde) | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) | 707 |
 | Mercedes-Benz 300 SL Gullwing | [Lexyc16](https://sketchfab.com/3d-models/505241c829c540a4921533000736904e) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 115 |
-| Mercedes-AMG ONE stylized study | Car Studio, modeled for this project from [manufacturer reference](https://www.mercedes-amg.com/en/home/vehicles/amg-one/hypercar.html) | Original project asset | 39 |
+| Mercedes-AMG ONE | [srush651](https://sketchfab.com/3d-models/15690215e244466f9c4ae0f3acc20020) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 184 |
 | BMW M1 Procar | [Todor Malakchiev](https://sketchfab.com/3d-models/16e5bc3a62ab4b78a0ef95579a09a67c) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 186 |
 | BMW M3 E30 | [Martin Trafas](https://sketchfab.com/3d-models/free-bmw-m3-e30-ac3c7013434e403e8faff87948caf422) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 93 |
 | Ferrari SF-23 | [Redgrund](https://sketchfab.com/3d-models/scuderia-ferrari-f1-sf23-2023-ecb0f812bc454331bbe721655b0780ec) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 168 |
@@ -26,10 +26,6 @@ These assets are embedded in an independent interactive study. The application d
 Orientation and scale were normalized, presentation floors removed, physical materials adapted, and disconnected source geometry separated or clustered for browser interaction. Embedded textures were resized where needed. Card previews are renders of the exported meshes. The source detail level varies between models.
 
 The F40 has red paint and the Porsche 930 has yellow paint. The Porsche radio antenna was removed. The Phantom uses midnight-blue paint, and the Roma uses red paint. The Diablo retains its low-poly yellow SV appearance. The BMW M1 retains its Procar livery, and the M3 uses red paint. Formula 1 liveries are from the attributed source models.
-
-## Original Mercedes-AMG ONE study
-
-The AMG ONE asset was modeled directly in Blender for this project because the selected downloadable reference asset requires an authenticated account. It is a simplified visual interpretation built from original geometry, uses no extracted manufacturer geometry, and is labeled “Stylized study” in the collection. `scripts/create-amg-one.py` reproduces the source GLB used by the normal collection conversion pipeline.
 
 The Range Rover derivative and its rendered preview retain the CC BY-NC-SA 4.0 license: attribution, noncommercial use, and share-alike terms apply. BlendKit models remain subject to the linked asset license.
 
