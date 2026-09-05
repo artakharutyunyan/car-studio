@@ -1,0 +1,1926 @@
+{
+  "modifications": "Normalized orientation and scale; removed presentation floor; separated and clustered source geometry; adapted browser materials.",
+  "objects": [
+    {
+      "id": "cabin_0000",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "backseat_Dash_0",
+      "center": [
+        0.0,
+        1.072585105895996,
+        0.9915093183517456
+      ],
+      "size": [
+        1.5701472759246826,
+        1.095118761062622,
+        0.7753326892852783
+      ],
+      "faces": 258
+    },
+    {
+      "id": "cabin_0001",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "backseat_Dash_0",
+      "center": [
+        0.39294302463531494,
+        1.353942632675171,
+        1.4254240989685059
+      ],
+      "size": [
+        0.2850010097026825,
+        0.18851375579833984,
+        0.17732560634613037
+      ],
+      "faces": 20
+    },
+    {
+      "id": "cabin_0002",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "backseat_Dash_0",
+      "center": [
+        -0.39294302463531494,
+        1.353942632675171,
+        1.4254240989685059
+      ],
+      "size": [
+        0.2850010097026825,
+        0.18851375579833984,
+        0.17732560634613037
+      ],
+      "faces": 20
+    },
+    {
+      "id": "body_0003",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "dno_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.0,
+        0.07706177234649658,
+        0.29427576065063477
+      ],
+      "size": [
+        1.8259661197662354,
+        4.897768020629883,
+        0.07640209794044495
+      ],
+      "faces": 50
+    },
+    {
+      "id": "body_0004",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "dver_cr_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        -0.9167987704277039,
+        -0.03441745042800903,
+        0.4801163971424103
+      ],
+      "size": [
+        0.09187924861907959,
+        1.9814223051071167,
+        0.09854573011398315
+      ],
+      "faces": 34
+    },
+    {
+      "id": "body_0005",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "dver_cr_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.9167987108230591,
+        -0.03441745042800903,
+        0.4801163971424103
+      ],
+      "size": [
+        0.09187912940979004,
+        1.9814223051071167,
+        0.09854573011398315
+      ],
+      "faces": 34
+    },
+    {
+      "id": "body_0006",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "farp_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        -0.6649407148361206,
+        -2.4337387084960938,
+        0.8305915594100952
+      ],
+      "size": [
+        0.3917391896247864,
+        0.22605323791503906,
+        0.3257736563682556
+      ],
+      "faces": 9
+    },
+    {
+      "id": "body_0007",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "farp_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.6649407744407654,
+        -2.4337387084960938,
+        0.8305915594100952
+      ],
+      "size": [
+        0.391739159822464,
+        0.22605323791503906,
+        0.3257736563682556
+      ],
+      "faces": 9
+    },
+    {
+      "id": "body_0008",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "farz_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        -0.7276408672332764,
+        2.4439759254455566,
+        0.9976385831832886
+      ],
+      "size": [
+        0.15237891674041748,
+        0.09485912322998047,
+        0.28259843587875366
+      ],
+      "faces": 7
+    },
+    {
+      "id": "body_0009",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "farz_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.7276408672332764,
+        2.4439759254455566,
+        0.9976385831832886
+      ],
+      "size": [
+        0.15237891674041748,
+        0.09485912322998047,
+        0.28259843587875366
+      ],
+      "faces": 7
+    },
+    {
+      "id": "cabin_0010",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "froseat_Dash_0",
+      "center": [
+        0.39294305443763733,
+        -0.0111008882522583,
+        0.9670945405960083
+      ],
+      "size": [
+        0.5410321354866028,
+        0.9104227423667908,
+        0.788705050945282
+      ],
+      "faces": 112
+    },
+    {
+      "id": "cabin_0011",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "froseat_Dash_0",
+      "center": [
+        0.39294302463531494,
+        0.34482577443122864,
+        1.4717165231704712
+      ],
+      "size": [
+        0.2850010097026825,
+        0.18851369619369507,
+        0.17743158340454102
+      ],
+      "faces": 28
+    },
+    {
+      "id": "cabin_0012",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "froseat_Dash_0",
+      "center": [
+        -0.3929430842399597,
+        -0.0111008882522583,
+        0.9670945405960083
+      ],
+      "size": [
+        0.5410321950912476,
+        0.9104227423667908,
+        0.788705050945282
+      ],
+      "faces": 112
+    },
+    {
+      "id": "cabin_0013",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "froseat_Dash_0",
+      "center": [
+        -0.39294302463531494,
+        0.34482577443122864,
+        1.4717165231704712
+      ],
+      "size": [
+        0.2850010097026825,
+        0.18851369619369507,
+        0.17743158340454102
+      ],
+      "faces": 28
+    },
+    {
+      "id": "body_0014",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "glass_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.0,
+        2.1950488090515137,
+        1.4641265869140625
+      ],
+      "size": [
+        1.3177504539489746,
+        0.5683647394180298,
+        0.3359154462814331
+      ],
+      "faces": 18
+    },
+    {
+      "id": "body_0015",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "glass_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        -0.737484335899353,
+        1.34233558177948,
+        1.4555439949035645
+      ],
+      "size": [
+        0.18676328659057617,
+        0.646813154220581,
+        0.4454382658004761
+      ],
+      "faces": 7
+    },
+    {
+      "id": "body_0016",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "glass_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        -0.7469421029090881,
+        0.6316322088241577,
+        1.4622349739074707
+      ],
+      "size": [
+        0.18967413902282715,
+        0.6968898773193359,
+        0.47114574909210205
+      ],
+      "faces": 8
+    },
+    {
+      "id": "body_0017",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "glass_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        -5.960464477539063e-08,
+        -0.7975362539291382,
+        1.4663565158843994
+      ],
+      "size": [
+        1.5168036222457886,
+        0.7644050121307373,
+        0.46977365016937256
+      ],
+      "faces": 28
+    },
+    {
+      "id": "body_0018",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "glass_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        -0.7579814195632935,
+        -0.2738876938819885,
+        1.446216106414795
+      ],
+      "size": [
+        0.18332654237747192,
+        0.9497233629226685,
+        0.4897342920303345
+      ],
+      "faces": 8
+    },
+    {
+      "id": "body_0019",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "glass_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.737484335899353,
+        1.34233558177948,
+        1.4555439949035645
+      ],
+      "size": [
+        0.18676334619522095,
+        0.646813154220581,
+        0.4454382658004761
+      ],
+      "faces": 7
+    },
+    {
+      "id": "body_0020",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "glass_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.7469420433044434,
+        0.6316322088241577,
+        1.4622349739074707
+      ],
+      "size": [
+        0.18967413902282715,
+        0.6968898773193359,
+        0.47114574909210205
+      ],
+      "faces": 8
+    },
+    {
+      "id": "body_0021",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "glass_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.7579814195632935,
+        -0.2738876938819885,
+        1.446216106414795
+      ],
+      "size": [
+        0.18332654237747192,
+        0.9497233629226685,
+        0.4897342920303345
+      ],
+      "faces": 8
+    },
+    {
+      "id": "body_0022",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "inter_Dash_0",
+      "center": [
+        0.0,
+        0.6071947813034058,
+        1.074122667312622
+      ],
+      "size": [
+        1.6992894411087036,
+        3.744072675704956,
+        1.3429819345474243
+      ],
+      "faces": 728
+    },
+    {
+      "id": "wheels_0023",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "kuz_bl_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.6414363384246826,
+        -2.431766986846924,
+        0.4327422082424164
+      ],
+      "size": [
+        0.44451820850372314,
+        0.3515472412109375,
+        0.16134673357009888
+      ],
+      "faces": 11
+    },
+    {
+      "id": "wheels_0024",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "kuz_bl_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        -0.6414363384246826,
+        -2.431766986846924,
+        0.4327422082424164
+      ],
+      "size": [
+        0.44451820850372314,
+        0.3515472412109375,
+        0.16134673357009888
+      ],
+      "faces": 11
+    },
+    {
+      "id": "wheels_0025",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "kuz_bl_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.6414363384246826,
+        -2.4772098064422607,
+        0.48475033044815063
+      ],
+      "size": [
+        0.44451820850372314,
+        0.26520633697509766,
+        0.006853699684143066
+      ],
+      "faces": 10
+    },
+    {
+      "id": "wheels_0026",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "kuz_bl_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        -0.6414363384246826,
+        -2.4772098064422607,
+        0.48475033044815063
+      ],
+      "size": [
+        0.44451820850372314,
+        0.26520633697509766,
+        0.006853699684143066
+      ],
+      "faces": 10
+    },
+    {
+      "id": "body_0027",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "kuz_bl_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.0,
+        -2.5654468536376953,
+        0.42436593770980835
+      ],
+      "size": [
+        0.8816830515861511,
+        0.13484501838684082,
+        0.10640546679496765
+      ],
+      "faces": 52
+    },
+    {
+      "id": "body_0028",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "kuz_bl_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.0,
+        0.02882540225982666,
+        0.5677189230918884
+      ],
+      "size": [
+        1.9717780351638794,
+        5.2823486328125,
+        0.6232885122299194
+      ],
+      "faces": 458
+    },
+    {
+      "id": "wheels_0029",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "kuz_bl_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        -0.6909488439559937,
+        2.453587055206299,
+        0.4817095398902893
+      ],
+      "size": [
+        0.17343485355377197,
+        0.20261573791503906,
+        0.10613760352134705
+      ],
+      "faces": 31
+    },
+    {
+      "id": "wheels_0030",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "kuz_bl_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.6909488439559937,
+        2.453587055206299,
+        0.4817095398902893
+      ],
+      "size": [
+        0.17343485355377197,
+        0.20261573791503906,
+        0.10613760352134705
+      ],
+      "faces": 31
+    },
+    {
+      "id": "body_0031",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "kuz_bl_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.0,
+        -2.5790205001831055,
+        0.851733922958374
+      ],
+      "size": [
+        0.7526642084121704,
+        0.05606269836425781,
+        0.3176620602607727
+      ],
+      "faces": 14
+    },
+    {
+      "id": "body_0032",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "kuz_bl_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        -0.7332900762557983,
+        0.21619921922683716,
+        1.456678032875061
+      ],
+      "size": [
+        0.21790379285812378,
+        2.3547372817993164,
+        0.5243823528289795
+      ],
+      "faces": 35
+    },
+    {
+      "id": "body_0033",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "kuz_bl_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.0,
+        -0.8164860606193542,
+        1.4418574571609497
+      ],
+      "size": [
+        1.5312782526016235,
+        0.7919298410415649,
+        0.4207754135131836
+      ],
+      "faces": 26
+    },
+    {
+      "id": "body_0034",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "kuz_bl_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.7332900762557983,
+        0.21619921922683716,
+        1.456678032875061
+      ],
+      "size": [
+        0.21790379285812378,
+        2.3547372817993164,
+        0.5243823528289795
+      ],
+      "faces": 35
+    },
+    {
+      "id": "body_0035",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "kuz_cr_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        -1.4901161193847656e-08,
+        -2.4831128120422363,
+        0.3153698742389679
+      ],
+      "size": [
+        0.9733524322509766,
+        0.2896769046783447,
+        0.1185903549194336
+      ],
+      "faces": 20
+    },
+    {
+      "id": "body_0036",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "kuz_cr_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.0,
+        2.562849760055542,
+        0.43347787857055664
+      ],
+      "size": [
+        1.057534098625183,
+        0.2000713348388672,
+        0.2110525667667389
+      ],
+      "faces": 24
+    },
+    {
+      "id": "wheels_0037",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "kuz_cr_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        -0.6909488439559937,
+        2.4950551986694336,
+        0.4818463921546936
+      ],
+      "size": [
+        0.19356566667556763,
+        0.12238621711730957,
+        0.11845719814300537
+      ],
+      "faces": 22
+    },
+    {
+      "id": "wheels_0038",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "kuz_cr_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.6909488439559937,
+        2.4950551986694336,
+        0.4818463921546936
+      ],
+      "size": [
+        0.19356566667556763,
+        0.12238621711730957,
+        0.11845719814300537
+      ],
+      "faces": 22
+    },
+    {
+      "id": "body_0039",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "kuz_cr_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.0,
+        2.598642349243164,
+        1.1401612758636475
+      ],
+      "size": [
+        0.783435046672821,
+        0.05174756050109863,
+        0.02589571475982666
+      ],
+      "faces": 18
+    },
+    {
+      "id": "body_0040",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "kuz_cr_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        -0.7373560667037964,
+        0.40542668104171753,
+        1.4578702449798584
+      ],
+      "size": [
+        0.2523886561393738,
+        2.873142719268799,
+        0.5744761228561401
+      ],
+      "faces": 48
+    },
+    {
+      "id": "body_0041",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "kuz_cr_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.7373560667037964,
+        0.40542668104171753,
+        1.4578702449798584
+      ],
+      "size": [
+        0.25238853693008423,
+        2.873142719268799,
+        0.5744761228561401
+      ],
+      "faces": 48
+    },
+    {
+      "id": "wheels_0042",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "kuz_cr_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        -0.6383621096611023,
+        -2.4806737899780273,
+        0.47519099712371826
+      ],
+      "size": [
+        0.4506666958332062,
+        0.2749946117401123,
+        0.022831439971923828
+      ],
+      "faces": 20
+    },
+    {
+      "id": "wheels_0043",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "kuz_cr_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.6383621096611023,
+        -2.4806737899780273,
+        0.47519099712371826
+      ],
+      "size": [
+        0.4506666958332062,
+        0.2749946117401123,
+        0.022831439971923828
+      ],
+      "faces": 20
+    },
+    {
+      "id": "body_0044",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "kuz_cr_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        -1.4901161193847656e-08,
+        -2.624763250350952,
+        0.8451295495033264
+      ],
+      "size": [
+        0.6833679676055908,
+        0.054422855377197266,
+        0.3417767286300659
+      ],
+      "faces": 132
+    },
+    {
+      "id": "body_0045",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "kuz_cr_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.0,
+        -2.610494613647461,
+        0.8800044059753418
+      ],
+      "size": [
+        0.787983775138855,
+        0.11901068687438965,
+        0.45781904458999634
+      ],
+      "faces": 114
+    },
+    {
+      "id": "body_0046",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "lamp_l_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.9720461368560791,
+        -1.1449053287506104,
+        0.7292219400405884
+      ],
+      "size": [
+        0.023112952709197998,
+        0.06255090236663818,
+        0.1522873044013977
+      ],
+      "faces": 10
+    },
+    {
+      "id": "body_0047",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "lamp_r_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        -0.9720414876937866,
+        -1.1449053287506104,
+        0.7292219400405884
+      ],
+      "size": [
+        0.023116648197174072,
+        0.06255519390106201,
+        0.1522873044013977
+      ],
+      "faces": 10
+    },
+    {
+      "id": "wheels_0048",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "lamp_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        -0.6522349119186401,
+        -2.445521354675293,
+        0.5133310556411743
+      ],
+      "size": [
+        0.3975285589694977,
+        0.20895099639892578,
+        0.0661119818687439
+      ],
+      "faces": 12
+    },
+    {
+      "id": "wheels_0049",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "lamp_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.5550968647003174,
+        -2.5046839714050293,
+        0.5106592178344727
+      ],
+      "size": [
+        0.20325252413749695,
+        0.09062600135803223,
+        0.060768187046051025
+      ],
+      "faces": 4
+    },
+    {
+      "id": "body_0050",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "logo_trunk_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.0,
+        2.6116232872009277,
+        1.1936489343643188
+      ],
+      "size": [
+        0.042848724871873856,
+        0.013365030288696289,
+        0.07454061508178711
+      ],
+      "faces": 2
+    },
+    {
+      "id": "body_0051",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "main_col_colored_0",
+      "center": [
+        -5.960464477539063e-08,
+        -0.015269160270690918,
+        1.0726732015609741
+      ],
+      "size": [
+        1.9828581809997559,
+        5.30946159362793,
+        1.473203420639038
+      ],
+      "faces": 1340
+    },
+    {
+      "id": "wheels_0052",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "main_col_colored_0",
+      "center": [
+        0.6976685523986816,
+        -2.431758403778076,
+        0.5142579674720764
+      ],
+      "size": [
+        0.3066612482070923,
+        0.1814253330230713,
+        0.06425824761390686
+      ],
+      "faces": 8
+    },
+    {
+      "id": "body_0053",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "mirrors_colored_0",
+      "center": [
+        -0.969748854637146,
+        -0.6403335332870483,
+        1.2531218528747559
+      ],
+      "size": [
+        0.21519261598587036,
+        0.17487257719039917,
+        0.24305105209350586
+      ],
+      "faces": 96
+    },
+    {
+      "id": "body_0054",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "mirrors_colored_0",
+      "center": [
+        0.969748854637146,
+        -0.6403335332870483,
+        1.2531218528747559
+      ],
+      "size": [
+        0.21519261598587036,
+        0.17487257719039917,
+        0.24305105209350586
+      ],
+      "faces": 97
+    },
+    {
+      "id": "cabin_0055",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "podsteer_Dash_0",
+      "center": [
+        0.38965269923210144,
+        -0.6273819208145142,
+        1.1202869415283203
+      ],
+      "size": [
+        0.16736632585525513,
+        0.19351625442504883,
+        0.20160329341888428
+      ],
+      "faces": 75
+    },
+    {
+      "id": "body_0056",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "povor_Dash_0",
+      "center": [
+        0.24945326149463654,
+        -0.5737941861152649,
+        1.1394696235656738
+      ],
+      "size": [
+        0.14641693234443665,
+        0.11298692226409912,
+        0.030948758125305176
+      ],
+      "faces": 102
+    },
+    {
+      "id": "body_0057",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "povor_Dash_0",
+      "center": [
+        0.25451377034187317,
+        -0.6385634541511536,
+        1.1729025840759277
+      ],
+      "size": [
+        0.20762741565704346,
+        0.11163699626922607,
+        0.1675487756729126
+      ],
+      "faces": 70
+    },
+    {
+      "id": "body_0058",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "povor_Dash_0",
+      "center": [
+        0.5400639176368713,
+        -0.603955090045929,
+        1.1681127548217773
+      ],
+      "size": [
+        0.1488288938999176,
+        0.054462552070617676,
+        0.05208313465118408
+      ],
+      "faces": 54
+    },
+    {
+      "id": "body_0059",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "povor_Dash_0",
+      "center": [
+        0.00707312673330307,
+        -0.3552412688732147,
+        0.9467450380325317
+      ],
+      "size": [
+        0.07853832840919495,
+        0.0783953070640564,
+        0.05972647666931152
+      ],
+      "faces": 38
+    },
+    {
+      "id": "body_0060",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "reshet_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.0,
+        -2.5968310832977295,
+        0.4247162342071533
+      ],
+      "size": [
+        0.574458658695221,
+        0.03168058395385742,
+        0.09753647446632385
+      ],
+      "faces": 4
+    },
+    {
+      "id": "body_0061",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "ruk_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        -0.9562696814537048,
+        0.12312276661396027,
+        1.075246810913086
+      ],
+      "size": [
+        0.06886172294616699,
+        0.5793088674545288,
+        0.059033751487731934
+      ],
+      "faces": 76
+    },
+    {
+      "id": "body_0062",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "ruk_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.9562699198722839,
+        0.12312276661396027,
+        1.075247049331665
+      ],
+      "size": [
+        0.06886184215545654,
+        0.5793088674545288,
+        0.059033751487731934
+      ],
+      "faces": 76
+    },
+    {
+      "id": "body_0063",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "statue_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.0007118061184883118,
+        -2.5663981437683105,
+        1.126218557357788
+      ],
+      "size": [
+        0.05383719503879547,
+        0.17920660972595215,
+        0.2155897617340088
+      ],
+      "faces": 162
+    },
+    {
+      "id": "cabin_0064",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "steer_Dash_0",
+      "center": [
+        0.39651623368263245,
+        -0.5068262815475464,
+        1.1874148845672607
+      ],
+      "size": [
+        0.43083876371383667,
+        0.19265344738960266,
+        0.3935413360595703
+      ],
+      "faces": 541
+    },
+    {
+      "id": "wheels_0065",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fl_wheel_0",
+      "center": [
+        0.828157901763916,
+        -1.7640066146850586,
+        0.3910728096961975
+      ],
+      "size": [
+        0.2864411473274231,
+        0.7625354528427124,
+        0.782145619392395
+      ],
+      "faces": 224
+    },
+    {
+      "id": "wheels_0066",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fl_wheel_0",
+      "center": [
+        0.9408102035522461,
+        -1.7635865211486816,
+        0.3910728394985199
+      ],
+      "size": [
+        0.06091815233230591,
+        0.24214351177215576,
+        0.23710769414901733
+      ],
+      "faces": 52
+    },
+    {
+      "id": "wheels_0067",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fl_wheel_0",
+      "center": [
+        0.9365805387496948,
+        -1.6621897220611572,
+        0.20482280850410461
+      ],
+      "size": [
+        0.054540038108825684,
+        0.13772046566009521,
+        0.19973640143871307
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0068",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fl_wheel_0",
+      "center": [
+        0.9365781545639038,
+        -1.7642130851745605,
+        0.23838655650615692
+      ],
+      "size": [
+        0.05454486608505249,
+        0.4805769920349121,
+        0.17953595519065857
+      ],
+      "faces": 84
+    },
+    {
+      "id": "wheels_0069",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fl_wheel_0",
+      "center": [
+        0.9365804195404053,
+        -1.9518729448318481,
+        0.4974360167980194
+      ],
+      "size": [
+        0.054540157318115234,
+        0.20229029655456543,
+        0.12993425130844116
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0070",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fl_wheel_0",
+      "center": [
+        0.936578094959259,
+        -1.9645355939865112,
+        0.43325716257095337
+      ],
+      "size": [
+        0.054544806480407715,
+        0.2070024013519287,
+        0.08397084474563599
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0071",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fl_wheel_0",
+      "center": [
+        0.936578094959259,
+        -1.866546869277954,
+        0.20496481657028198
+      ],
+      "size": [
+        0.054544806480407715,
+        0.13835227489471436,
+        0.19989730417728424
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0072",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fl_wheel_0",
+      "center": [
+        0.9365805387496948,
+        -1.5635738372802734,
+        0.43244457244873047
+      ],
+      "size": [
+        0.05453997850418091,
+        0.20660293102264404,
+        0.08320555090904236
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0073",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fl_wheel_0",
+      "center": [
+        0.936578094959259,
+        -1.5757923126220703,
+        0.496881365776062
+      ],
+      "size": [
+        0.054544806480407715,
+        0.20248925685882568,
+        0.12959623336791992
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0074",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fl_wheel_0",
+      "center": [
+        0.9365804195404053,
+        -1.716133952140808,
+        0.594289243221283
+      ],
+      "size": [
+        0.054540157318115234,
+        0.0750436782836914,
+        0.2096872329711914
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0075",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fl_wheel_0",
+      "center": [
+        0.9365780353546143,
+        -1.811177134513855,
+        0.5943368077278137
+      ],
+      "size": [
+        0.054544687271118164,
+        0.07452106475830078,
+        0.2097310721874237
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0076",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fr_wheel_0",
+      "center": [
+        -0.828157901763916,
+        -1.7640066146850586,
+        0.3910728096961975
+      ],
+      "size": [
+        0.2864411473274231,
+        0.7625354528427124,
+        0.782145619392395
+      ],
+      "faces": 224
+    },
+    {
+      "id": "wheels_0077",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fr_wheel_0",
+      "center": [
+        -0.9408102035522461,
+        -1.7644269466400146,
+        0.3910728096961975
+      ],
+      "size": [
+        0.06091815233230591,
+        0.24214351177215576,
+        0.23710766434669495
+      ],
+      "faces": 52
+    },
+    {
+      "id": "wheels_0078",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fr_wheel_0",
+      "center": [
+        -0.9365804195404053,
+        -1.86582350730896,
+        0.20482276380062103
+      ],
+      "size": [
+        0.054540157318115234,
+        0.13772046566009521,
+        0.19973638653755188
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0079",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fr_wheel_0",
+      "center": [
+        -0.936578094959259,
+        -1.7638003826141357,
+        0.23838651180267334
+      ],
+      "size": [
+        0.054544806480407715,
+        0.48057711124420166,
+        0.17953597009181976
+      ],
+      "faces": 84
+    },
+    {
+      "id": "wheels_0080",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fr_wheel_0",
+      "center": [
+        -0.9365805387496948,
+        -1.5761404037475586,
+        0.497435986995697
+      ],
+      "size": [
+        0.054540038108825684,
+        0.20229029655456543,
+        0.12993422150611877
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0081",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fr_wheel_0",
+      "center": [
+        -0.936578094959259,
+        -1.5634777545928955,
+        0.4332571029663086
+      ],
+      "size": [
+        0.054544806480407715,
+        0.20700252056121826,
+        0.08397084474563599
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0082",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fr_wheel_0",
+      "center": [
+        -0.9365780353546143,
+        -1.6614664793014526,
+        0.2049647867679596
+      ],
+      "size": [
+        0.054544687271118164,
+        0.1383523941040039,
+        0.19989734888076782
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0083",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fr_wheel_0",
+      "center": [
+        -0.9365805387496948,
+        -1.9644395112991333,
+        0.4324445128440857
+      ],
+      "size": [
+        0.05453997850418091,
+        0.2066028118133545,
+        0.08320561051368713
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0084",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fr_wheel_0",
+      "center": [
+        -0.936578094959259,
+        -1.9522210359573364,
+        0.49688130617141724
+      ],
+      "size": [
+        0.054544806480407715,
+        0.20248913764953613,
+        0.12959620356559753
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0085",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fr_wheel_0",
+      "center": [
+        -0.9365805387496948,
+        -1.8118793964385986,
+        0.5942891836166382
+      ],
+      "size": [
+        0.054540038108825684,
+        0.07504355907440186,
+        0.2096872329711914
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0086",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_fr_wheel_0",
+      "center": [
+        -0.936578094959259,
+        -1.7168362140655518,
+        0.594336748123169
+      ],
+      "size": [
+        0.054544806480407715,
+        0.07452094554901123,
+        0.20973095297813416
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0087",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rl_wheel_0",
+      "center": [
+        0.828157901763916,
+        1.5092178583145142,
+        0.3910728096961975
+      ],
+      "size": [
+        0.2864411473274231,
+        0.7625353336334229,
+        0.782145619392395
+      ],
+      "faces": 224
+    },
+    {
+      "id": "wheels_0088",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rl_wheel_0",
+      "center": [
+        0.9408102035522461,
+        1.5096380710601807,
+        0.3910728394985199
+      ],
+      "size": [
+        0.06091815233230591,
+        0.24214351177215576,
+        0.23710769414901733
+      ],
+      "faces": 52
+    },
+    {
+      "id": "wheels_0089",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rl_wheel_0",
+      "center": [
+        0.9365805387496948,
+        1.6110347509384155,
+        0.20482280850410461
+      ],
+      "size": [
+        0.054540038108825684,
+        0.13772034645080566,
+        0.19973640143871307
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0090",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rl_wheel_0",
+      "center": [
+        0.936578094959259,
+        1.6626874208450317,
+        0.23821406066417694
+      ],
+      "size": [
+        0.054544806480407715,
+        0.17322492599487305,
+        0.1791909635066986
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0091",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rl_wheel_0",
+      "center": [
+        0.9365804195404053,
+        1.3213515281677246,
+        0.4974360167980194
+      ],
+      "size": [
+        0.054540157318115234,
+        0.20229041576385498,
+        0.12993425130844116
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0092",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rl_wheel_0",
+      "center": [
+        0.936578094959259,
+        1.308688998222351,
+        0.43325716257095337
+      ],
+      "size": [
+        0.054544806480407715,
+        0.2070024013519287,
+        0.08397084474563599
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0093",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rl_wheel_0",
+      "center": [
+        0.9365805387496948,
+        1.355381965637207,
+        0.23877736926078796
+      ],
+      "size": [
+        0.054540038108825684,
+        0.1733182668685913,
+        0.1787543147802353
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0094",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rl_wheel_0",
+      "center": [
+        0.936578094959259,
+        1.4066777229309082,
+        0.20496481657028198
+      ],
+      "size": [
+        0.054544806480407715,
+        0.13835227489471436,
+        0.19989730417728424
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0095",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rl_wheel_0",
+      "center": [
+        0.9365805387496948,
+        1.7096507549285889,
+        0.43244457244873047
+      ],
+      "size": [
+        0.05453997850418091,
+        0.20660293102264404,
+        0.08320555090904236
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0096",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rl_wheel_0",
+      "center": [
+        0.936578094959259,
+        1.697432279586792,
+        0.496881365776062
+      ],
+      "size": [
+        0.054544806480407715,
+        0.20248913764953613,
+        0.12959623336791992
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0097",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rl_wheel_0",
+      "center": [
+        0.9365804195404053,
+        1.5570906400680542,
+        0.594289243221283
+      ],
+      "size": [
+        0.054540157318115234,
+        0.0750436782836914,
+        0.2096872329711914
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0098",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rl_wheel_0",
+      "center": [
+        0.9365780353546143,
+        1.4620473384857178,
+        0.5943368077278137
+      ],
+      "size": [
+        0.054544687271118164,
+        0.07452094554901123,
+        0.2097310721874237
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0099",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rr_wheel_0",
+      "center": [
+        -0.828157901763916,
+        1.5092178583145142,
+        0.3910728096961975
+      ],
+      "size": [
+        0.2864411473274231,
+        0.7625353336334229,
+        0.782145619392395
+      ],
+      "faces": 224
+    },
+    {
+      "id": "wheels_0100",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rr_wheel_0",
+      "center": [
+        -0.9408102035522461,
+        1.5087976455688477,
+        0.3910728096961975
+      ],
+      "size": [
+        0.06091815233230591,
+        0.24214351177215576,
+        0.23710766434669495
+      ],
+      "faces": 52
+    },
+    {
+      "id": "wheels_0101",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rr_wheel_0",
+      "center": [
+        -0.9365804195404053,
+        1.4074009656906128,
+        0.20482276380062103
+      ],
+      "size": [
+        0.054540157318115234,
+        0.13772034645080566,
+        0.19973638653755188
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0102",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rr_wheel_0",
+      "center": [
+        -0.9365780353546143,
+        1.355748176574707,
+        0.23821401596069336
+      ],
+      "size": [
+        0.054544687271118164,
+        0.1732250452041626,
+        0.1791909784078598
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0103",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rr_wheel_0",
+      "center": [
+        -0.9365805387496948,
+        1.6970841884613037,
+        0.497435986995697
+      ],
+      "size": [
+        0.054540038108825684,
+        0.20229041576385498,
+        0.12993422150611877
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0104",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rr_wheel_0",
+      "center": [
+        -0.936578094959259,
+        1.7097468376159668,
+        0.4332571029663086
+      ],
+      "size": [
+        0.054544806480407715,
+        0.2070021629333496,
+        0.08397084474563599
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0105",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rr_wheel_0",
+      "center": [
+        -0.9365804195404053,
+        1.6630537509918213,
+        0.23877733945846558
+      ],
+      "size": [
+        0.054540157318115234,
+        0.17331790924072266,
+        0.17875432968139648
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0106",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rr_wheel_0",
+      "center": [
+        -0.9365780353546143,
+        1.6117579936981201,
+        0.2049647867679596
+      ],
+      "size": [
+        0.054544687271118164,
+        0.13835227489471436,
+        0.19989734888076782
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0107",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rr_wheel_0",
+      "center": [
+        -0.9365805387496948,
+        1.3087852001190186,
+        0.4324445128440857
+      ],
+      "size": [
+        0.05453997850418091,
+        0.2066030502319336,
+        0.08320561051368713
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0108",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rr_wheel_0",
+      "center": [
+        -0.936578094959259,
+        1.3210034370422363,
+        0.49688130617141724
+      ],
+      "size": [
+        0.054544806480407715,
+        0.20248913764953613,
+        0.12959620356559753
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0109",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rr_wheel_0",
+      "center": [
+        -0.9365805387496948,
+        1.4613450765609741,
+        0.5942891836166382
+      ],
+      "size": [
+        0.054540038108825684,
+        0.0750436782836914,
+        0.2096872329711914
+      ],
+      "faces": 42
+    },
+    {
+      "id": "wheels_0110",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "wheel_rr_wheel_0",
+      "center": [
+        -0.936578094959259,
+        1.5563883781433105,
+        0.594336748123169
+      ],
+      "size": [
+        0.054544806480407715,
+        0.07452094554901123,
+        0.20973095297813416
+      ],
+      "faces": 42
+    },
+    {
+      "id": "body_0111",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "zercalo_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        0.9697487354278564,
+        -0.5851436257362366,
+        1.3003969192504883
+      ],
+      "size": [
+        0.2151924967765808,
+        0.06449282169342041,
+        0.14850080013275146
+      ],
+      "faces": 9
+    },
+    {
+      "id": "body_0112",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "zercalo_\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_0",
+      "center": [
+        -0.9697487354278564,
+        -0.5851436257362366,
+        1.3000667095184326
+      ],
+      "size": [
+        0.2151924967765808,
+        0.06449282169342041,
+        0.1491609811782837
+      ],
+      "faces": 10
+    }
+  ]
+}
