@@ -1,8 +1,8 @@
 # Car Studio
 
-An interactive collection of twenty-seven road cars and five Formula 1 cars. Choose a card, orbit the model, isolate a component or mesh piece, and use the explosion slider to separate its geometry.
+An interactive collection of thirty-one road cars and five Formula 1 cars. Choose a card, orbit the model, isolate a component or mesh piece, and use the explosion slider to separate its geometry.
 
-Road cars: Ferrari F40, Porsche 911 Turbo (930), Rolls-Royce Phantom Extended Series II, Aston Martin DB5, Ferrari Roma, Lamborghini Diablo SV, Lamborghini Countach LP500S, Range Rover, Mercedes-Benz 300 SL Gullwing, Mercedes-AMG ONE, BMW M1 Procar, BMW M3 E30, Toyota Supra Mk4, Nissan Skyline GT-R R34, Audi Quattro S1, Bugatti Veyron Super Sport, Jaguar E-Type, McLaren F1 GTR Longtail, Rolls-Royce Cullinan, Kia Forte, Audi R8, Ferrari LaFerrari, Ferrari 250 GTO, Lamborghini Urus, Porsche 959, Porsche 918 Spyder, and Tesla Model X. Tesla appears last in the collection.
+Road cars: Ferrari F40, Porsche 911 Turbo (930), Rolls-Royce Phantom Extended Series II, Aston Martin DB5, Ferrari Roma, Lamborghini Diablo SV, Lamborghini Countach LP500S, Range Rover, Mercedes-Benz 300 SL Gullwing, Mercedes-AMG ONE, BMW M1 Procar, BMW M3 E30, Toyota Supra Mk4, Nissan Skyline GT-R R34, Audi Quattro S1, Bugatti Veyron Super Sport, Jaguar E-Type, McLaren F1 GTR Longtail, Rolls-Royce Cullinan, Kia Forte, Audi R8, Ferrari LaFerrari, Ferrari 250 GTO, Lamborghini Urus, Porsche 959, Porsche 918 Spyder, Ford Model T, Bugatti Type 57SC Atlantic, Volkswagen Beetle, Citroën 2CV, and Tesla Model X. Tesla appears last in the collection.
 
 The separate Formula 1 collection includes the 2023 Ferrari SF-23, Aston Martin AMR23, Mercedes-AMG W14, 1989 McLaren-Honda MP4/5, and 1992 Williams-Renault FW14B.
 

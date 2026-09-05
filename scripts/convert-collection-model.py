@@ -19,6 +19,7 @@ for o,data,world in snapshots:
  # Source presentation floors are not vehicle geometry.
  if car=='aston-martin-db5' and mats==['Material']:continue
  if car=='ferrari-roma' and mats==['Color_M08']:continue
+ if car=='vw-beetle' and o.name.startswith('Text'):continue
  matrix=rotation@world;o.data=data;o.modifiers.clear();o.parent=None;o.matrix_world=Matrix.Identity(4);o.data.transform(matrix);o['source_object']=o.name;meshes.append(o)
 for o in list(bpy.context.scene.objects):
  if o not in meshes:bpy.data.objects.remove(o,do_unlink=True)
