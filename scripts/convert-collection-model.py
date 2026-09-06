@@ -21,6 +21,8 @@ for o,data,world in snapshots:
  if car=='ferrari-roma' and mats==['Color_M08']:continue
  if car=='vw-beetle' and o.name.startswith('Text'):continue
  if car=='mercedes-amg-gt' and mats==['Material.035']:continue
+ if car=='corvette-c2' and mats==['Material.009']:continue
+ if car=='mini-cooper' and world.translation.y<-0.3:continue
  matrix=rotation@world;o.data=data;o.modifiers.clear();o.parent=None;o.matrix_world=Matrix.Identity(4);o.data.transform(matrix);o['source_object']=o.name;meshes.append(o)
 for o in list(bpy.context.scene.objects):
  if o not in meshes:bpy.data.objects.remove(o,do_unlink=True)
@@ -52,6 +54,9 @@ for m in bpy.data.materials:
   if car=='aston-martin-db5' and m.name=='Car_paint_coated':
    # Silver Birch, the shade driven in the Bond films, replacing the source's teal-green.
    p.inputs['Base Color'].default_value=(.52,.52,.49,1);p.inputs['Metallic'].default_value=.5;p.inputs['Roughness'].default_value=.22
+  if car=='lamborghini-miura' and m.name=='Scene_-_Root':
+   # Untextured source; the whole car shares one material, so this also colors glass and tires.
+   p.inputs['Base Color'].default_value=(.85,.32,.03,1);p.inputs['Metallic'].default_value=.35;p.inputs['Roughness'].default_value=.28
   if car=='lamborghini-countach' and m.name=='CARO':
    p.inputs['Base Color'].default_value=(.82,.84,.84,1);p.inputs['Metallic'].default_value=.3;p.inputs['Roughness'].default_value=.24
   if car=='toyota-supra-mk4' and m.name=='Primary1.001':
@@ -82,9 +87,11 @@ williams_materials={
 small={}
 for o in list(bpy.context.scene.objects):
  if o.type!='MESH' or not len(o.data.polygons):continue
- c,size=bounds(o);name=(o.get('source_object',o.name)+' '+' '.join(m.name for m in o.data.materials if m)).lower();group='body';label='Bodywork detail'
+ c,size=bounds(o);source_name=o.get('source_object',o.name)
+ # This source names nearly every material "brake_glass_N" regardless of what it's applied to.
+ name=(source_name if car=='shelby-cobra' else source_name+' '+' '.join(m.name for m in o.data.materials if m)).lower();group='body';label='Bodywork detail'
  if any(k in name for k in ['tire','tyre','wheel','rim','brake','hlfw','hrfw','hlrw','hrrw']):group='wheels';label='Wheel assembly detail'
- elif abs(c.x)>.52 and c.z<.65 and size.y<1.05 and size.z<1.05 and (abs(c.y)>length*.18):group='wheels';label='Wheel assembly detail'
+ elif car!='shelby-cobra' and abs(c.x)>.52 and c.z<.65 and size.y<1.05 and size.z<1.05 and (abs(c.y)>length*.18):group='wheels';label='Wheel assembly detail'
  elif (car=='rolls-royce-phantom' and 'material.001' in name):group='glass';label='Glazing'
  elif any(k in name for k in ['window','windshield','transparent_glass','glass_tint']) or name.endswith(' glass'):group='glass';label='Glazing'
  elif any(k in name for k in ['interior','_int_','leather','seat','wood','steer','cockpit']):group='cabin';label='Cockpit detail'
