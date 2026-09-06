@@ -148,9 +148,17 @@ for o in sorted(bpy.context.scene.objects,key=lambda o:o.name):
  for k in list(o.keys()):
   if k not in ['part','label','component']:del o[k]
  entries.append({'id':o.name,'part':group,'label':label,'source':source_name,'center':list(c),'size':list(size),'faces':len(o.data.polygons)})
+
+# Most sources' own textures never exceed 2048 anyway; raising the default cap
+# would only bloat every future export. A small allowlist of sources whose
+# native textures actually reach 4096 gets the higher cap, chosen so the
+# resulting glTF payload stays reasonable (a handful of large images, not
+# dozens of uncompressed 4K PNGs, which balloons page-load size for no
+# visible benefit in an orbiting studio view).
+texture_cap=4096 if car in ('f1-tyrrell-p34','f1-williams-fw07','lamborghini-urus','mercedes-sclass','shelby-cobra','rolls-royce-cullinan','kia-forte','mclaren-f1') else 2048
 for img in bpy.data.images:
- if max(img.size)>2048:
-  factor=2048/max(img.size);img.scale(max(1,int(img.size[0]*factor)),max(1,int(img.size[1]*factor)))
+ if max(img.size)>texture_cap:
+  factor=texture_cap/max(img.size);img.scale(max(1,int(img.size[0]*factor)),max(1,int(img.size[1]*factor)))
 bpy.ops.export_scene.gltf(filepath=os.path.abspath(f'public/models/{car}.glb'),export_format='GLB',export_extras=True,export_cameras=False,export_lights=False,export_yup=True)
 # The glTF exporter omits zero-area geometry. Catalog only exported pieces.
 blob=open(f'public/models/{car}.glb','rb').read();exported=json.loads(blob[20:20+struct.unpack_from('<I',blob,12)[0]])
