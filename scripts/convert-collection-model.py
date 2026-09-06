@@ -23,6 +23,8 @@ for o,data,world in snapshots:
  if car=='ford-model-t' and o.name.startswith('Text'):continue
  if car=='lamborghini-miura' and mats==['.019']:continue
  if car=='mclaren-f1-1993' and mats in (['floor'],['material']):continue
+ if car=='f1-mclaren-mp427' and (mats==['ground_shadow'] or o.name in ('Plane.024','Plane.018')):continue
+ if car=='lambo-svj-carbonado' and o.name in ('Object_9','Object_11'):continue
  # Two leftover default-primitive spheres sit well below the car's actual
  # lowest point, which the export catalog later drops (no material) but which
  # still got used to compute the floor offset, leaving the real car floating.
@@ -89,10 +91,12 @@ for m in bpy.data.materials:
    # Placeholder pink on the headlight bezel trim in the source; recolored to
    # match the surrounding chrome/black trim instead.
    p.inputs['Base Color'].default_value=(.08,.08,.09,1);p.inputs['Metallic'].default_value=.6;p.inputs['Roughness'].default_value=.35
-  if car in ('f1-lotus-72','f1-ferrari-f2004'):
+  if car in ('f1-lotus-72','f1-ferrari-f2004') or (car=='citroen-2cv' and m.name not in ('Windshield','glass')):
    # Every material on this source imported as alpha-blended (a packed spec
    # texture's G channel was read as an alpha mask), which risks WebGL
    # depth-sorting holes across separated pieces; none of it is meant to be transparent.
+   # (For the Citroën, this also fixed the folded canvas roof rendering as a
+   # solid black blob: the roof and body shared the same wrongly-blended material.)
    for link in list(p.inputs['Alpha'].links):m.node_tree.links.remove(link)
    p.inputs['Alpha'].default_value=1
    m.surface_render_method='DITHERED'
