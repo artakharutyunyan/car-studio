@@ -1,0 +1,5683 @@
+{
+  "modifications": "Normalized orientation and scale; removed presentation floor; separated and clustered source geometry; adapted browser materials.",
+  "objects": [
+    {
+      "id": "wheels_0000",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "CalliperParking Rear L_ASTON2:AstonMartin_One77Reward_2010CalliperGloss_Material1_0",
+      "center": [
+        0.8287418484687805,
+        1.5509473085403442,
+        0.4425011873245239
+      ],
+      "size": [
+        0.07650089263916016,
+        0.07305169105529785,
+        0.12784349918365479
+      ],
+      "faces": 134
+    },
+    {
+      "id": "wheels_0001",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "CalliperParking Rear R_ASTON2:AstonMartin_One77Reward_2010CalliperGloss_Material1_0",
+      "center": [
+        -0.8251610994338989,
+        1.550719141960144,
+        0.442349374294281
+      ],
+      "size": [
+        0.07639539241790771,
+        0.07210493087768555,
+        0.12720203399658203
+      ],
+      "faces": 134
+    },
+    {
+      "id": "wheels_0002",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_caliperlf_lod0_caliperLF_caliper_1383vertices1397faces_chassis_0",
+      "center": [
+        0.8488276600837708,
+        -1.2547330856323242,
+        0.3484523296356201
+      ],
+      "size": [
+        0.1109687089920044,
+        0.08048677444458008,
+        0.3125143051147461
+      ],
+      "faces": 476
+    },
+    {
+      "id": "wheels_0003",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_caliperlf_lod0_caliperLF_caliper_1383vertices1397faces_chassis_0",
+      "center": [
+        0.9139333963394165,
+        -1.2635563611984253,
+        0.3502682149410248
+      ],
+      "size": [
+        0.030686557292938232,
+        0.06246471405029297,
+        0.2054910659790039
+      ],
+      "faces": 208
+    },
+    {
+      "id": "wheels_0004",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_caliperlr_lod0_caliperLR_caliper_749vertices928faces_chassis_0",
+      "center": [
+        0.8309030532836914,
+        1.1994805335998535,
+        0.358181357383728
+      ],
+      "size": [
+        0.11249721050262451,
+        0.09218668937683105,
+        0.29583191871643066
+      ],
+      "faces": 440
+    },
+    {
+      "id": "wheels_0005",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_caliperrf_lod0_caliperRF_caliper_1383vertices1406faces_chassis_0",
+      "center": [
+        -0.8488236665725708,
+        -1.2546486854553223,
+        0.3484521508216858
+      ],
+      "size": [
+        0.11102133989334106,
+        0.08052492141723633,
+        0.31266236305236816
+      ],
+      "faces": 476
+    },
+    {
+      "id": "wheels_0006",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_caliperrf_lod0_caliperRF_caliper_1383vertices1406faces_chassis_0",
+      "center": [
+        -0.9139602184295654,
+        -1.2634761333465576,
+        0.3502689301967621
+      ],
+      "size": [
+        0.030701100826263428,
+        0.06249439716339111,
+        0.2055884152650833
+      ],
+      "faces": 208
+    },
+    {
+      "id": "wheels_0007",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_caliperrr_lod0_caliperRR_caliper_749vertices928faces_chassis_0",
+      "center": [
+        -0.8330031633377075,
+        1.1996376514434814,
+        0.3583994507789612
+      ],
+      "size": [
+        0.10803747177124023,
+        0.09210574626922607,
+        0.29455995559692383
+      ],
+      "faces": 440
+    },
+    {
+      "id": "cabin_0008",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_fuel_min_gauge_needle_153vertices137faces_int_Metal_0",
+      "center": [
+        0.6483416557312012,
+        -0.03779515624046326,
+        0.7774965763092041
+      ],
+      "size": [
+        0.3192012906074524,
+        0.8069450259208679,
+        0.5970186591148376
+      ],
+      "faces": 2408
+    },
+    {
+      "id": "glass_0009",
+      "part": "glass",
+      "label": "Glazing",
+      "source": "one77:ast_one77_10_cockpit_glassF_window_180vertices288faces_glass_0",
+      "center": [
+        0.0,
+        -0.3686526119709015,
+        1.0119059085845947
+      ],
+      "size": [
+        1.3289504051208496,
+        0.8447553515434265,
+        0.29967403411865234
+      ],
+      "faces": 284
+    },
+    {
+      "id": "glass_0010",
+      "part": "glass",
+      "label": "Glazing",
+      "source": "one77:ast_one77_10_cockpit_glassLM_window_63vertices90faces_glass_0",
+      "center": [
+        0.6888427138328552,
+        0.41016286611557007,
+        1.0185424089431763
+      ],
+      "size": [
+        0.17484557628631592,
+        1.018288254737854,
+        0.24993115663528442
+      ],
+      "faces": 61
+    },
+    {
+      "id": "glass_0011",
+      "part": "glass",
+      "label": "Glazing",
+      "source": "one77:ast_one77_10_cockpit_glassLM_window_63vertices90faces_glass_0",
+      "center": [
+        0.7402980327606201,
+        -0.17670762538909912,
+        0.9647605419158936
+      ],
+      "size": [
+        0.07473093271255493,
+        0.30236196517944336,
+        0.1327241063117981
+      ],
+      "faces": 10
+    },
+    {
+      "id": "glass_0012",
+      "part": "glass",
+      "label": "Glazing",
+      "source": "one77:ast_one77_10_cockpit_glassRM_window_63vertices90faces_glass_0",
+      "center": [
+        -0.6888427138328552,
+        0.4101625978946686,
+        1.018543004989624
+      ],
+      "size": [
+        0.17484557628631592,
+        1.018288254737854,
+        0.24993181228637695
+      ],
+      "faces": 61
+    },
+    {
+      "id": "glass_0013",
+      "part": "glass",
+      "label": "Glazing",
+      "source": "one77:ast_one77_10_cockpit_glassRM_window_63vertices90faces_glass_0",
+      "center": [
+        -0.7402980327606201,
+        -0.17670795321464539,
+        0.9647607803344727
+      ],
+      "size": [
+        0.07473093271255493,
+        0.30236202478408813,
+        0.13272404670715332
+      ],
+      "faces": 10
+    },
+    {
+      "id": "cabin_0014",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_hooda_body_1584vertices3360faces_caarpaint_0",
+      "center": [
+        0.0,
+        -1.4871246814727783,
+        0.7143921852111816
+      ],
+      "size": [
+        1.371244192123413,
+        1.6072139739990234,
+        0.34663963317871094
+      ],
+      "faces": 2924
+    },
+    {
+      "id": "cabin_0015",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_hooda_chrome_728vertices1191faces_chassis_0",
+      "center": [
+        4.470348358154297e-08,
+        -1.23193359375,
+        0.8502834439277649
+      ],
+      "size": [
+        0.678809642791748,
+        0.2818495035171509,
+        0.0441279411315918
+      ],
+      "faces": 504
+    },
+    {
+      "id": "cabin_0016",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_hooda_chrome_728vertices1191faces_chassis_0",
+      "center": [
+        0.2862158417701721,
+        -1.2188482284545898,
+        0.8536776304244995
+      ],
+      "size": [
+        0.11871591210365295,
+        0.34076011180877686,
+        0.05089038610458374
+      ],
+      "faces": 284
+    },
+    {
+      "id": "cabin_0017",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_hooda_chrome_728vertices1191faces_chassis_0",
+      "center": [
+        -0.28621572256088257,
+        -1.2188482284545898,
+        0.8536776304244995
+      ],
+      "size": [
+        0.11871591210365295,
+        0.34076011180877686,
+        0.05089038610458374
+      ],
+      "faces": 284
+    },
+    {
+      "id": "cabin_0018",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_hooda_emblem_272vertices282faces_chassis_0",
+      "center": [
+        -1.1507421731948853e-05,
+        -2.245852470397949,
+        0.6079531908035278
+      ],
+      "size": [
+        0.13923093676567078,
+        0.03460216522216797,
+        0.02526193857192993
+      ],
+      "faces": 256
+    },
+    {
+      "id": "cabin_0019",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_hooda_frame_279vertices478faces_chassis_0",
+      "center": [
+        0.0,
+        -1.4851078987121582,
+        0.7134737372398376
+      ],
+      "size": [
+        1.371244192123413,
+        1.6031804084777832,
+        0.34480273723602295
+      ],
+      "faces": 250
+    },
+    {
+      "id": "cabin_0020",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_hooda_frame_279vertices478faces_chassis_0",
+      "center": [
+        0.28656864166259766,
+        -1.219756841659546,
+        0.8424034118652344
+      ],
+      "size": [
+        0.07583309710025787,
+        0.279121994972229,
+        0.028342008590698242
+      ],
+      "faces": 50
+    },
+    {
+      "id": "cabin_0021",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_hooda_frame_279vertices478faces_chassis_0",
+      "center": [
+        -0.2865685820579529,
+        -1.219756841659546,
+        0.8424034118652344
+      ],
+      "size": [
+        0.07583318650722504,
+        0.279121994972229,
+        0.028342008590698242
+      ],
+      "faces": 50
+    },
+    {
+      "id": "cabin_0022",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_badge_242vertices130faces_int_icons_0",
+      "center": [
+        0.22225061058998108,
+        -0.040741920471191406,
+        0.6912368535995483
+      ],
+      "size": [
+        0.6754106879234314,
+        1.034279465675354,
+        0.3870752453804016
+      ],
+      "faces": 6873
+    },
+    {
+      "id": "cabin_0023",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_badge_242vertices130faces_int_icons_0",
+      "center": [
+        0.11159098148345947,
+        -0.03839936852455139,
+        0.42133551836013794
+      ],
+      "size": [
+        0.6114144325256348,
+        0.8934620022773743,
+        0.175054669380188
+      ],
+      "faces": 140
+    },
+    {
+      "id": "cabin_0024",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_bump_leather_2039vertices3700faces_leather_1_0",
+      "center": [
+        -1.7642974853515625e-05,
+        -0.3868419826030731,
+        0.6966041326522827
+      ],
+      "size": [
+        1.4400522708892822,
+        0.8083770871162415,
+        0.36031001806259155
+      ],
+      "faces": 2230
+    },
+    {
+      "id": "cabin_0025",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_bump_leather_2039vertices3700faces_leather_1_0",
+      "center": [
+        0.37636104226112366,
+        -0.19091357290744781,
+        0.8774787783622742
+      ],
+      "size": [
+        0.34164339303970337,
+        0.3798011243343353,
+        0.07844412326812744
+      ],
+      "faces": 856
+    },
+    {
+      "id": "cabin_0026",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_bump_plastic2_83vertices51faces_int_Metal_0",
+      "center": [
+        0.3775310516357422,
+        -0.6550662517547607,
+        0.8694612979888916
+      ],
+      "size": [
+        0.45229601860046387,
+        0.21542340517044067,
+        0.0068669915199279785
+      ],
+      "faces": 10
+    },
+    {
+      "id": "cabin_0027",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_bump_plastic2_83vertices51faces_int_Metal_0",
+      "center": [
+        -0.37753114104270935,
+        -0.6550662517547607,
+        0.8694612979888916
+      ],
+      "size": [
+        0.4522959589958191,
+        0.21542340517044067,
+        0.0068669915199279785
+      ],
+      "faces": 10
+    },
+    {
+      "id": "cabin_0028",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_bump_plastic2_83vertices51faces_int_Metal_0",
+      "center": [
+        0.3949108421802521,
+        -0.6588635444641113,
+        0.8693037629127502
+      ],
+      "size": [
+        0.40607088804244995,
+        0.20025098323822021,
+        0.006165504455566406
+      ],
+      "faces": 9
+    },
+    {
+      "id": "cabin_0029",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_bump_plastic2_83vertices51faces_int_Metal_0",
+      "center": [
+        -0.39491087198257446,
+        -0.6588635444641113,
+        0.8693037629127502
+      ],
+      "size": [
+        0.4060708284378052,
+        0.20025098323822021,
+        0.006165504455566406
+      ],
+      "faces": 10
+    },
+    {
+      "id": "cabin_0030",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_bump_plastic2_83vertices51faces_int_Metal_0",
+      "center": [
+        2.9802322387695312e-08,
+        -0.4600127339363098,
+        0.852597177028656
+      ],
+      "size": [
+        0.11387860774993896,
+        0.2091968059539795,
+        0.010136008262634277
+      ],
+      "faces": 12
+    },
+    {
+      "id": "cabin_0031",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_bump_stitching_559vertices657faces_int_icons_0",
+      "center": [
+        -0.661898136138916,
+        -0.05443757772445679,
+        0.7774965763092041
+      ],
+      "size": [
+        0.2920883297920227,
+        0.7736601829528809,
+        0.5970186591148376
+      ],
+      "faces": 1307
+    },
+    {
+      "id": "cabin_0032",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_bump_stitching_559vertices657faces_int_icons_0",
+      "center": [
+        0.44249677658081055,
+        -0.19248731434345245,
+        0.898277997970581
+      ],
+      "size": [
+        0.10243192315101624,
+        0.37585052847862244,
+        0.026019573211669922
+      ],
+      "faces": 41
+    },
+    {
+      "id": "cabin_0033",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_bump_stitching_559vertices657faces_int_icons_0",
+      "center": [
+        0.31025010347366333,
+        -0.19249780476093292,
+        0.8981119990348816
+      ],
+      "size": [
+        0.10244300961494446,
+        0.37584730982780457,
+        0.026024818420410156
+      ],
+      "faces": 41
+    },
+    {
+      "id": "cabin_0034",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_bump_stitching_559vertices657faces_int_icons_0",
+      "center": [
+        0.4372115731239319,
+        -0.19211798906326294,
+        0.8997169733047485
+      ],
+      "size": [
+        0.09896382689476013,
+        0.3775862455368042,
+        0.024382591247558594
+      ],
+      "faces": 41
+    },
+    {
+      "id": "cabin_0035",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_bump_stitching_559vertices657faces_int_icons_0",
+      "center": [
+        0.3155161738395691,
+        -0.19226834177970886,
+        0.9004155397415161
+      ],
+      "size": [
+        0.09894153475761414,
+        0.3778586983680725,
+        0.024113595485687256
+      ],
+      "faces": 41
+    },
+    {
+      "id": "cabin_0036",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_bump_stitching_559vertices657faces_int_icons_0",
+      "center": [
+        0.0,
+        -0.10772597789764404,
+        0.7224770784378052
+      ],
+      "size": [
+        0.2941296696662903,
+        1.0650837421417236,
+        0.32215195894241333
+      ],
+      "faces": 264
+    },
+    {
+      "id": "cabin_0037",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_carbon_fiber_1499vertices1955faces_phong1_0",
+      "center": [
+        -5.960464477539063e-08,
+        0.3102181553840637,
+        0.656833827495575
+      ],
+      "size": [
+        1.6106905937194824,
+        1.862176775932312,
+        0.8993066549301147
+      ],
+      "faces": 1352
+    },
+    {
+      "id": "cabin_0038",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_carbon_fiber_1499vertices1955faces_phong1_0",
+      "center": [
+        -0.12626011669635773,
+        0.2232162058353424,
+        0.3641364574432373
+      ],
+      "size": [
+        0.14052684605121613,
+        1.676363468170166,
+        0.30163678526878357
+      ],
+      "faces": 44
+    },
+    {
+      "id": "cabin_0039",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_carbon_fiber_1499vertices1955faces_phong1_0",
+      "center": [
+        0.12626241147518158,
+        0.2271861732006073,
+        0.36413323879241943
+      ],
+      "size": [
+        0.14052224159240723,
+        1.6843032836914062,
+        0.3016303479671478
+      ],
+      "faces": 43
+    },
+    {
+      "id": "cabin_0040",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_carbon_fiber_1499vertices1955faces_phong1_0",
+      "center": [
+        -0.00753137469291687,
+        0.9817447662353516,
+        0.7010596394538879
+      ],
+      "size": [
+        0.3414733111858368,
+        0.5359835624694824,
+        0.5211927890777588
+      ],
+      "faces": 57
+    },
+    {
+      "id": "cabin_0041",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_carbon_fiber_1499vertices1955faces_phong1_0",
+      "center": [
+        -0.23470360040664673,
+        1.4213688373565674,
+        0.9699092507362366
+      ],
+      "size": [
+        0.34286004304885864,
+        0.22025024890899658,
+        0.10406196117401123
+      ],
+      "faces": 40
+    },
+    {
+      "id": "cabin_0042",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_carbon_fiber_1499vertices1955faces_phong1_0",
+      "center": [
+        0.23470361530780792,
+        1.4213688373565674,
+        0.9699092507362366
+      ],
+      "size": [
+        0.3428601920604706,
+        0.22025024890899658,
+        0.10406196117401123
+      ],
+      "faces": 40
+    },
+    {
+      "id": "cabin_0043",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_carbon_fiber_1499vertices1955faces_phong1_0",
+      "center": [
+        0.0,
+        0.9233150482177734,
+        0.6181008815765381
+      ],
+      "size": [
+        0.046392034739255905,
+        0.1891777515411377,
+        0.12472701072692871
+      ],
+      "faces": 14
+    },
+    {
+      "id": "cabin_0044",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_glass_457vertices466faces_glass_light_0",
+      "center": [
+        0.37639784812927246,
+        -0.06087111681699753,
+        0.83583003282547
+      ],
+      "size": [
+        0.3395245373249054,
+        0.00589294359087944,
+        0.11548948287963867
+      ],
+      "faces": 52
+    },
+    {
+      "id": "cabin_0045",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_headliner_1074vertices1457faces_rf_0",
+      "center": [
+        0.0,
+        0.34551602602005005,
+        1.0258724689483643
+      ],
+      "size": [
+        1.5686054229736328,
+        1.929648995399475,
+        0.3611833453178406
+      ],
+      "faces": 1214
+    },
+    {
+      "id": "cabin_0046",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_leather_1354vertices1469faces_leather_1_0",
+      "center": [
+        -0.7263827919960022,
+        -0.24250243604183197,
+        0.853531002998352
+      ],
+      "size": [
+        0.10473883152008057,
+        0.22352483868598938,
+        0.09485417604446411
+      ],
+      "faces": 62
+    },
+    {
+      "id": "cabin_0047",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_leather_1354vertices1469faces_leather_1_0",
+      "center": [
+        0.7263773679733276,
+        -0.24451439082622528,
+        0.853531002998352
+      ],
+      "size": [
+        0.10474973917007446,
+        0.227548748254776,
+        0.09485417604446411
+      ],
+      "faces": 62
+    },
+    {
+      "id": "cabin_0048",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_leather_1354vertices1469faces_leather_1_0",
+      "center": [
+        0.735754132270813,
+        0.3814065456390381,
+        0.6375607252120972
+      ],
+      "size": [
+        0.14778459072113037,
+        0.5508474111557007,
+        0.21266776323318481
+      ],
+      "faces": 171
+    },
+    {
+      "id": "cabin_0049",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_leather_1354vertices1469faces_leather_1_0",
+      "center": [
+        0.00016677379608154297,
+        1.3114256858825684,
+        0.9170677661895752
+      ],
+      "size": [
+        0.40312331914901733,
+        0.14055216312408447,
+        0.029134392738342285
+      ],
+      "faces": 28
+    },
+    {
+      "id": "cabin_0050",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_leather_1354vertices1469faces_leather_1_0",
+      "center": [
+        0.00021874532103538513,
+        1.3059093952178955,
+        0.9259597063064575
+      ],
+      "size": [
+        0.016800837591290474,
+        0.10186874866485596,
+        0.011583268642425537
+      ],
+      "faces": 52
+    },
+    {
+      "id": "cabin_0051",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_leather_1354vertices1469faces_leather_1_0",
+      "center": [
+        -0.735754132270813,
+        0.3814065456390381,
+        0.6375607252120972
+      ],
+      "size": [
+        0.1477845311164856,
+        0.5508474111557007,
+        0.21266776323318481
+      ],
+      "faces": 159
+    },
+    {
+      "id": "cabin_0052",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_leather_1354vertices1469faces_leather_1_0",
+      "center": [
+        4.470348358154297e-08,
+        0.8501383662223816,
+        0.7724449634552002
+      ],
+      "size": [
+        0.9622515439987183,
+        0.23440194129943848,
+        0.41230905055999756
+      ],
+      "faces": 524
+    },
+    {
+      "id": "cabin_0053",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_leather_1354vertices1469faces_leather_1_0",
+      "center": [
+        -0.06258903443813324,
+        0.6231193542480469,
+        0.5688518285751343
+      ],
+      "size": [
+        0.06115271896123886,
+        0.3293357491493225,
+        0.007777750492095947
+      ],
+      "faces": 18
+    },
+    {
+      "id": "cabin_0054",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_leather_1354vertices1469faces_leather_1_0",
+      "center": [
+        0.06316440552473068,
+        0.6231193542480469,
+        0.5688464045524597
+      ],
+      "size": [
+        0.062303345650434494,
+        0.3293357491493225,
+        0.007788538932800293
+      ],
+      "faces": 20
+    },
+    {
+      "id": "cabin_0055",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_leather_1354vertices1469faces_leather_1_0",
+      "center": [
+        0.005742283537983894,
+        0.6057593822479248,
+        0.573354959487915
+      ],
+      "size": [
+        0.009196441620588303,
+        0.26548272371292114,
+        0.013714492321014404
+      ],
+      "faces": 10
+    },
+    {
+      "id": "cabin_0056",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_leather_1354vertices1469faces_leather_1_0",
+      "center": [
+        -0.005742254201322794,
+        0.6057593822479248,
+        0.573354959487915
+      ],
+      "size": [
+        0.009196500293910503,
+        0.26548272371292114,
+        0.013714492321014404
+      ],
+      "faces": 10
+    },
+    {
+      "id": "cabin_0057",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_leather_1354vertices1469faces_leather_1_0",
+      "center": [
+        -0.22978511452674866,
+        1.5469896793365479,
+        0.9494552612304688
+      ],
+      "size": [
+        0.23484647274017334,
+        0.20373141765594482,
+        0.06878560781478882
+      ],
+      "faces": 12
+    },
+    {
+      "id": "cabin_0058",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_leather_1354vertices1469faces_leather_1_0",
+      "center": [
+        0.22978511452674866,
+        1.5469896793365479,
+        0.9494552612304688
+      ],
+      "size": [
+        0.23484647274017334,
+        0.20373141765594482,
+        0.06878560781478882
+      ],
+      "faces": 12
+    },
+    {
+      "id": "cabin_0059",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_metal_7862vertices8780faces_int_Metal_0",
+      "center": [
+        -0.00047000497579574585,
+        0.14730829000473022,
+        0.6686724424362183
+      ],
+      "size": [
+        0.2146482914686203,
+        0.1697598248720169,
+        0.11103123426437378
+      ],
+      "faces": 1293
+    },
+    {
+      "id": "cabin_0060",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_metal_7862vertices8780faces_int_Metal_0",
+      "center": [
+        5.21540641784668e-08,
+        -0.104678213596344,
+        0.7152258157730103
+      ],
+      "size": [
+        0.2737286686897278,
+        1.0562891960144043,
+        0.32028859853744507
+      ],
+      "faces": 304
+    },
+    {
+      "id": "cabin_0061",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_metal_7862vertices8780faces_int_Metal_0",
+      "center": [
+        5.960464477539063e-08,
+        0.1424284130334854,
+        1.122856616973877
+      ],
+      "size": [
+        0.8022078275680542,
+        0.2376711070537567,
+        0.081199049949646
+      ],
+      "faces": 248
+    },
+    {
+      "id": "cabin_0062",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_metal_7862vertices8780faces_int_Metal_0",
+      "center": [
+        -2.60770320892334e-08,
+        0.8922117352485657,
+        0.6399297714233398
+      ],
+      "size": [
+        0.17370742559432983,
+        0.3022881746292114,
+        0.19451016187667847
+      ],
+      "faces": 160
+    },
+    {
+      "id": "cabin_0063",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_metal_7862vertices8780faces_int_Metal_0",
+      "center": [
+        0.0,
+        1.5937711000442505,
+        0.9006783962249756
+      ],
+      "size": [
+        0.5117582082748413,
+        0.20596957206726074,
+        0.10210978984832764
+      ],
+      "faces": 1041
+    },
+    {
+      "id": "cabin_0064",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_metal_7862vertices8780faces_int_Metal_0",
+      "center": [
+        -0.6883881092071533,
+        0.28704676032066345,
+        0.6039021015167236
+      ],
+      "size": [
+        0.04032045602798462,
+        0.3186660408973694,
+        0.06990295648574829
+      ],
+      "faces": 83
+    },
+    {
+      "id": "cabin_0065",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_metal_7862vertices8780faces_int_Metal_0",
+      "center": [
+        0.6883880496025085,
+        0.28704676032066345,
+        0.6039021015167236
+      ],
+      "size": [
+        0.040320396423339844,
+        0.3186660408973694,
+        0.06990295648574829
+      ],
+      "faces": 83
+    },
+    {
+      "id": "cabin_0066",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_metal_7862vertices8780faces_int_Metal_0",
+      "center": [
+        0.30093568563461304,
+        -0.509960412979126,
+        0.4052296280860901
+      ],
+      "size": [
+        0.1737395077943802,
+        0.11795037984848022,
+        0.09129995107650757
+      ],
+      "faces": 16
+    },
+    {
+      "id": "cabin_0067",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_metal_7862vertices8780faces_int_Metal_0",
+      "center": [
+        -0.10774089395999908,
+        0.42957741022109985,
+        0.5104231238365173
+      ],
+      "size": [
+        0.0391215980052948,
+        0.21866118907928467,
+        0.05843767523765564
+      ],
+      "faces": 78
+    },
+    {
+      "id": "cabin_0068",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_metal_7862vertices8780faces_int_Metal_0",
+      "center": [
+        0.10557959973812103,
+        0.4295726716518402,
+        0.510427713394165
+      ],
+      "size": [
+        0.03646015375852585,
+        0.21866470575332642,
+        0.058446794748306274
+      ],
+      "faces": 82
+    },
+    {
+      "id": "cabin_0069",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_metal_7862vertices8780faces_int_Metal_0",
+      "center": [
+        0.6121571660041809,
+        -0.3266344964504242,
+        0.38005945086479187
+      ],
+      "size": [
+        0.0712510347366333,
+        0.06551569700241089,
+        0.17078149318695068
+      ],
+      "faces": 30
+    },
+    {
+      "id": "cabin_0070",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_metal_7862vertices8780faces_int_Metal_0",
+      "center": [
+        -0.17601245641708374,
+        1.5740022659301758,
+        0.8963930606842041
+      ],
+      "size": [
+        0.2143058180809021,
+        0.06357443332672119,
+        0.025690019130706787
+      ],
+      "faces": 8
+    },
+    {
+      "id": "cabin_0071",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_metal_7862vertices8780faces_int_Metal_0",
+      "center": [
+        0.17601238191127777,
+        1.5740022659301758,
+        0.8963930606842041
+      ],
+      "size": [
+        0.2143055498600006,
+        0.06357443332672119,
+        0.025690019130706787
+      ],
+      "faces": 8
+    },
+    {
+      "id": "cabin_0072",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_metal_7862vertices8780faces_int_Metal_0",
+      "center": [
+        0.0,
+        1.3317503929138184,
+        1.006787896156311
+      ],
+      "size": [
+        0.8826491236686707,
+        0.12272906303405762,
+        0.15769857168197632
+      ],
+      "faces": 32
+    },
+    {
+      "id": "cabin_0073",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_mirrorMiddle_25vertices26faces_mirrors_0",
+      "center": [
+        -0.0014264434576034546,
+        0.2931936979293823,
+        1.0890023708343506
+      ],
+      "size": [
+        0.19164730608463287,
+        0.0007674694061279297,
+        0.051587700843811035
+      ],
+      "faces": 23
+    },
+    {
+      "id": "cabin_0074",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_mottled_26vertices25faces_rf_0",
+      "center": [
+        5.960464477539063e-08,
+        0.15612906217575073,
+        0.4006529450416565
+      ],
+      "size": [
+        1.4733777046203613,
+        1.5540980100631714,
+        0.31177154183387756
+      ],
+      "faces": 8
+    },
+    {
+      "id": "cabin_0075",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_mottled_26vertices25faces_rf_0",
+      "center": [
+        0.6121582984924316,
+        -0.44375476241111755,
+        0.36205220222473145
+      ],
+      "size": [
+        0.07124876976013184,
+        0.2903650403022766,
+        0.20153167843818665
+      ],
+      "faces": 14
+    },
+    {
+      "id": "cabin_0076",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_plastic_6962vertices9146faces_plastic_Int_0",
+      "center": [
+        -0.37684088945388794,
+        -0.6499353647232056,
+        0.8709644675254822
+      ],
+      "size": [
+        0.471492201089859,
+        0.22959476709365845,
+        0.009873270988464355
+      ],
+      "faces": 161
+    },
+    {
+      "id": "cabin_0077",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_plastic_6962vertices9146faces_plastic_Int_0",
+      "center": [
+        0.3763478398323059,
+        -0.23067721724510193,
+        0.8336248993873596
+      ],
+      "size": [
+        0.3552817404270172,
+        0.5070833563804626,
+        0.13612818717956543
+      ],
+      "faces": 1486
+    },
+    {
+      "id": "cabin_0078",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_plastic_6962vertices9146faces_plastic_Int_0",
+      "center": [
+        3.725290298461914e-08,
+        0.20954135060310364,
+        0.6525045037269592
+      ],
+      "size": [
+        0.42303138971328735,
+        1.7195930480957031,
+        0.4619106352329254
+      ],
+      "faces": 1835
+    },
+    {
+      "id": "cabin_0079",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_plastic_6962vertices9146faces_plastic_Int_0",
+      "center": [
+        0.3716488480567932,
+        -0.07916481792926788,
+        0.6566320657730103
+      ],
+      "size": [
+        0.19589725136756897,
+        0.19126012921333313,
+        0.13493162393569946
+      ],
+      "faces": 23
+    },
+    {
+      "id": "cabin_0080",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_plastic_6962vertices9146faces_plastic_Int_0",
+      "center": [
+        0.3769439458847046,
+        -0.013803757727146149,
+        0.7096949815750122
+      ],
+      "size": [
+        0.18154951930046082,
+        0.35408931970596313,
+        0.2986987829208374
+      ],
+      "faces": 410
+    },
+    {
+      "id": "cabin_0081",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_plastic_6962vertices9146faces_plastic_Int_0",
+      "center": [
+        0.0,
+        1.539463758468628,
+        0.9919078350067139
+      ],
+      "size": [
+        0.8698642253875732,
+        0.6074436902999878,
+        0.24141144752502441
+      ],
+      "faces": 203
+    },
+    {
+      "id": "cabin_0082",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_plastic_6962vertices9146faces_plastic_Int_0",
+      "center": [
+        0.0,
+        -0.1456996500492096,
+        0.717340350151062
+      ],
+      "size": [
+        0.2517252266407013,
+        0.9530416131019592,
+        0.30726897716522217
+      ],
+      "faces": 538
+    },
+    {
+      "id": "cabin_0083",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_plastic_6962vertices9146faces_plastic_Int_0",
+      "center": [
+        4.29786741733551e-05,
+        0.2765180170536041,
+        1.0900509357452393
+      ],
+      "size": [
+        0.19933325052261353,
+        0.03930395841598511,
+        0.06218445301055908
+      ],
+      "faces": 646
+    },
+    {
+      "id": "cabin_0084",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_plastic_6962vertices9146faces_plastic_Int_0",
+      "center": [
+        0.37684088945388794,
+        -0.6499353647232056,
+        0.8709644675254822
+      ],
+      "size": [
+        0.471492201089859,
+        0.22959476709365845,
+        0.009873270988464355
+      ],
+      "faces": 150
+    },
+    {
+      "id": "cabin_0085",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_plastic_6962vertices9146faces_plastic_Int_0",
+      "center": [
+        0.3771652579307556,
+        -0.08155906200408936,
+        0.8323419094085693
+      ],
+      "size": [
+        0.3266603648662567,
+        0.02608925849199295,
+        0.11705970764160156
+      ],
+      "faces": 332
+    },
+    {
+      "id": "cabin_0086",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_rubber_274vertices304faces_rubber_0",
+      "center": [
+        -0.7224054336547852,
+        0.43737390637397766,
+        0.6311300992965698
+      ],
+      "size": [
+        0.12108713388442993,
+        0.46043187379837036,
+        0.22552913427352905
+      ],
+      "faces": 39
+    },
+    {
+      "id": "cabin_0087",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_rubber_274vertices304faces_rubber_0",
+      "center": [
+        0.7224054336547852,
+        0.43737390637397766,
+        0.6335135698318481
+      ],
+      "size": [
+        0.12108719348907471,
+        0.46043187379837036,
+        0.23029619455337524
+      ],
+      "faces": 39
+    },
+    {
+      "id": "cabin_0088",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_rubber_274vertices304faces_rubber_0",
+      "center": [
+        -0.6875810623168945,
+        0.29719412326812744,
+        1.0103952884674072
+      ],
+      "size": [
+        0.17274445295333862,
+        1.2574177980422974,
+        0.26435500383377075
+      ],
+      "faces": 42
+    },
+    {
+      "id": "cabin_0089",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_rubber_274vertices304faces_rubber_0",
+      "center": [
+        0.6875810623168945,
+        0.29719412326812744,
+        1.0103952884674072
+      ],
+      "size": [
+        0.17274445295333862,
+        1.2574177980422974,
+        0.26435500383377075
+      ],
+      "faces": 42
+    },
+    {
+      "id": "cabin_0090",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_rubber_274vertices304faces_rubber_0",
+      "center": [
+        -3.6090612411499023e-05,
+        1.572908639907837,
+        1.052422046661377
+      ],
+      "size": [
+        0.7794188857078552,
+        0.5405540466308594,
+        0.13700616359710693
+      ],
+      "faces": 56
+    },
+    {
+      "id": "cabin_0091",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_solid_92vertices84faces_plastic_Int_0",
+      "center": [
+        -0.5580670833587646,
+        1.030885934829712,
+        0.9604156613349915
+      ],
+      "size": [
+        0.09133720397949219,
+        0.059927940368652344,
+        0.02239370346069336
+      ],
+      "faces": 2
+    },
+    {
+      "id": "cabin_0092",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_interior_solid_92vertices84faces_plastic_Int_0",
+      "center": [
+        0.5580669641494751,
+        1.030885934829712,
+        0.9604156613349915
+      ],
+      "size": [
+        0.09133714437484741,
+        0.059927940368652344,
+        0.02239370346069336
+      ],
+      "faces": 2
+    },
+    {
+      "id": "cabin_0093",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_mirrorL_body_1438vertices2897faces_caarpaint_0",
+      "center": [
+        0.9982599020004272,
+        -0.09859869629144669,
+        0.9387999773025513
+      ],
+      "size": [
+        0.20889276266098022,
+        0.18896876275539398,
+        0.13104939460754395
+      ],
+      "faces": 2132
+    },
+    {
+      "id": "cabin_0094",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_mirrorL_mirrorLeft_93vertices200faces_mirrors_0",
+      "center": [
+        0.9994149208068848,
+        -0.052235428243875504,
+        0.9390038251876831
+      ],
+      "size": [
+        0.19442540407180786,
+        0.0812901183962822,
+        0.12054866552352905
+      ],
+      "faces": 136
+    },
+    {
+      "id": "cabin_0095",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_mirrorR_body_1438vertices2910faces_caarpaint_0",
+      "center": [
+        -0.9982599020004272,
+        -0.09859869629144669,
+        0.9387999773025513
+      ],
+      "size": [
+        0.20889276266098022,
+        0.18896876275539398,
+        0.13104939460754395
+      ],
+      "faces": 2132
+    },
+    {
+      "id": "cabin_0096",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_mirrorR_mirrorRight_93vertices200faces_mirrors_0",
+      "center": [
+        -0.9994149208068848,
+        -0.052235428243875504,
+        0.9390038251876831
+      ],
+      "size": [
+        0.19442540407180786,
+        0.0812901183962822,
+        0.12054866552352905
+      ],
+      "faces": 136
+    },
+    {
+      "id": "cabin_0097",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_seatL_badge_4vertices2faces_int_icons_0",
+      "center": [
+        0.0,
+        0.876754879951477,
+        1.1218736171722412
+      ],
+      "size": [
+        0.7860420346260071,
+        0.030890941619873047,
+        0.10311746597290039
+      ],
+      "faces": 60
+    },
+    {
+      "id": "cabin_0098",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_seatL_carbon_fiber_78vertices102faces_phong1_0",
+      "center": [
+        0.3733289837837219,
+        0.8610801696777344,
+        0.7585301995277405
+      ],
+      "size": [
+        0.4543708562850952,
+        0.25640082359313965,
+        0.6514853239059448
+      ],
+      "faces": 75
+    },
+    {
+      "id": "cabin_0099",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_seatL_cloth_284vertices456faces_rf_0",
+      "center": [
+        0.37332749366760254,
+        0.8163172006607056,
+        0.7778018712997437
+      ],
+      "size": [
+        0.23652932047843933,
+        0.16000813245773315,
+        0.5218440890312195
+      ],
+      "faces": 224
+    },
+    {
+      "id": "cabin_0100",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_seatL_cloth_284vertices456faces_rf_0",
+      "center": [
+        0.5781025886535645,
+        0.8210824728012085,
+        0.6581127047538757
+      ],
+      "size": [
+        0.11783099174499512,
+        0.46397900581359863,
+        0.6065404415130615
+      ],
+      "faces": 50
+    },
+    {
+      "id": "cabin_0101",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_seatL_cloth_284vertices456faces_rf_0",
+      "center": [
+        0.3733339011669159,
+        0.48327791690826416,
+        0.4032576084136963
+      ],
+      "size": [
+        0.24600166082382202,
+        0.4239000082015991,
+        0.028611958026885986
+      ],
+      "faces": 30
+    },
+    {
+      "id": "cabin_0102",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_seatL_cloth_284vertices456faces_rf_0",
+      "center": [
+        0.21439900994300842,
+        0.740333080291748,
+        0.6024683713912964
+      ],
+      "size": [
+        0.07596580684185028,
+        0.13859844207763672,
+        0.19450652599334717
+      ],
+      "faces": 25
+    },
+    {
+      "id": "cabin_0103",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_seatL_cloth_284vertices456faces_rf_0",
+      "center": [
+        0.5322579145431519,
+        0.7403345108032227,
+        0.6023590564727783
+      ],
+      "size": [
+        0.0759577751159668,
+        0.13860386610031128,
+        0.19429081678390503
+      ],
+      "faces": 25
+    },
+    {
+      "id": "cabin_0104",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_seatL_leather_831vertices1142faces_leather_1_0",
+      "center": [
+        0.3733353018760681,
+        0.47136518359184265,
+        0.4134734272956848
+      ],
+      "size": [
+        0.4489692747592926,
+        0.48184484243392944,
+        0.15440908074378967
+      ],
+      "faces": 290
+    },
+    {
+      "id": "cabin_0105",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_seatL_leather_831vertices1142faces_leather_1_0",
+      "center": [
+        0.37332162261009216,
+        0.7912163138389587,
+        0.7684065103530884
+      ],
+      "size": [
+        0.4835183024406433,
+        0.2877689599990845,
+        0.6577630043029785
+      ],
+      "faces": 649
+    },
+    {
+      "id": "cabin_0106",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_seatL_metal_384vertices417faces_int_Metal_0",
+      "center": [
+        0.624857485294342,
+        0.6401888132095337,
+        0.7031213045120239
+      ],
+      "size": [
+        0.09269022941589355,
+        0.39360958337783813,
+        0.16116052865982056
+      ],
+      "faces": 118
+    },
+    {
+      "id": "cabin_0107",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_seatL_plastic_74vertices86faces_plastic_Int_0",
+      "center": [
+        0.0,
+        0.6242586374282837,
+        0.441225528717041
+      ],
+      "size": [
+        0.3453051447868347,
+        0.07528704404830933,
+        0.08970406651496887
+      ],
+      "faces": 132
+    },
+    {
+      "id": "cabin_0108",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_seatR_carbon_fiber_78vertices102faces_phong1_0",
+      "center": [
+        -0.3733289837837219,
+        0.8610801100730896,
+        0.7585302591323853
+      ],
+      "size": [
+        0.4543708562850952,
+        0.2564009428024292,
+        0.6514854431152344
+      ],
+      "faces": 75
+    },
+    {
+      "id": "cabin_0109",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_seatR_cloth_284vertices421faces_rf_0",
+      "center": [
+        -0.37332749366760254,
+        0.8163172006607056,
+        0.7778019905090332
+      ],
+      "size": [
+        0.23652932047843933,
+        0.1600080132484436,
+        0.521844208240509
+      ],
+      "faces": 224
+    },
+    {
+      "id": "cabin_0110",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_seatR_cloth_284vertices421faces_rf_0",
+      "center": [
+        -0.5781025886535645,
+        0.821082353591919,
+        0.6581127047538757
+      ],
+      "size": [
+        0.11783099174499512,
+        0.46397924423217773,
+        0.6065404415130615
+      ],
+      "faces": 50
+    },
+    {
+      "id": "cabin_0111",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_seatR_cloth_284vertices421faces_rf_0",
+      "center": [
+        -0.21439900994300842,
+        0.7403329610824585,
+        0.6024684906005859
+      ],
+      "size": [
+        0.07596580684185028,
+        0.1385982632637024,
+        0.1945067048072815
+      ],
+      "faces": 25
+    },
+    {
+      "id": "cabin_0112",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_seatR_cloth_284vertices421faces_rf_0",
+      "center": [
+        -0.5322579145431519,
+        0.7403343319892883,
+        0.6023590564727783
+      ],
+      "size": [
+        0.0759577751159668,
+        0.13860368728637695,
+        0.19429093599319458
+      ],
+      "faces": 25
+    },
+    {
+      "id": "cabin_0113",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_seatR_cloth_284vertices421faces_rf_0",
+      "center": [
+        -0.3733338713645935,
+        0.4832778871059418,
+        0.4032576084136963
+      ],
+      "size": [
+        0.24600163102149963,
+        0.42389994859695435,
+        0.028611958026885986
+      ],
+      "faces": 30
+    },
+    {
+      "id": "cabin_0114",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_seatR_leather_831vertices1089faces_leather_1_0",
+      "center": [
+        -0.3733353018760681,
+        0.4713651239871979,
+        0.4134734272956848
+      ],
+      "size": [
+        0.4489692747592926,
+        0.481844961643219,
+        0.15440908074378967
+      ],
+      "faces": 290
+    },
+    {
+      "id": "cabin_0115",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_seatR_leather_831vertices1089faces_leather_1_0",
+      "center": [
+        -0.37332162261009216,
+        0.791216254234314,
+        0.7684065699577332
+      ],
+      "size": [
+        0.4835183024406433,
+        0.2877688407897949,
+        0.6577631235122681
+      ],
+      "faces": 649
+    },
+    {
+      "id": "cabin_0116",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "one77:ast_one77_10_cockpit_seatR_metal_384vertices416faces_int_Metal_0",
+      "center": [
+        -0.6248574256896973,
+        0.6401888132095337,
+        0.7031214237213135
+      ],
+      "size": [
+        0.092690110206604,
+        0.3936094641685486,
+        0.16116070747375488
+      ],
+      "faces": 118
+    },
+    {
+      "id": "wheels_0117",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_cockpit_steering_wheel_badge_38vertices44faces_int_icons_0",
+      "center": [
+        0.37611132860183716,
+        0.17665618658065796,
+        0.799457311630249
+      ],
+      "size": [
+        0.3259934186935425,
+        0.1545020192861557,
+        0.33591383695602417
+      ],
+      "faces": 4414
+    },
+    {
+      "id": "wheels_0118",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_cockpit_steering_wheel_bump_leather_3323vertices6332faces_leather_1_0",
+      "center": [
+        0.37610867619514465,
+        0.181389719247818,
+        0.7992044687271118
+      ],
+      "size": [
+        0.35719066858291626,
+        0.1443360298871994,
+        0.3347848057746887
+      ],
+      "faces": 5520
+    },
+    {
+      "id": "wheels_0119",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_cockpit_steering_wheel_plastic_1006vertices1180faces_plastic_Int_0",
+      "center": [
+        0.3761165738105774,
+        0.137054905295372,
+        0.7761226892471313
+      ],
+      "size": [
+        0.1846209466457367,
+        0.05566638708114624,
+        0.16915875673294067
+      ],
+      "faces": 38
+    },
+    {
+      "id": "body_0120",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        0.7543480396270752,
+        -0.01525413990020752,
+        0.5441635251045227
+      ],
+      "size": [
+        0.4924652576446533,
+        3.6131057739257812,
+        0.8189907073974609
+      ],
+      "faces": 502
+    },
+    {
+      "id": "body_0121",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        -0.7543480396270752,
+        -0.01525413990020752,
+        0.5441635251045227
+      ],
+      "size": [
+        0.4924652576446533,
+        3.6131057739257812,
+        0.8189907073974609
+      ],
+      "faces": 502
+    },
+    {
+      "id": "body_0122",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        0.0,
+        1.8231909275054932,
+        0.19772939383983612
+      ],
+      "size": [
+        0.2250099927186966,
+        0.006563544273376465,
+        0.0050408244132995605
+      ],
+      "faces": 2
+    },
+    {
+      "id": "body_0123",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        0.5951224565505981,
+        2.0153355598449707,
+        0.7631922960281372
+      ],
+      "size": [
+        0.500067949295044,
+        0.4046745300292969,
+        0.24008220434188843
+      ],
+      "faces": 146
+    },
+    {
+      "id": "body_0124",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        -0.5951224565505981,
+        2.0153355598449707,
+        0.7631922960281372
+      ],
+      "size": [
+        0.500067949295044,
+        0.4046745300292969,
+        0.24008220434188843
+      ],
+      "faces": 146
+    },
+    {
+      "id": "body_0125",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        1.1920928955078125e-07,
+        -2.149127244949341,
+        0.31717967987060547
+      ],
+      "size": [
+        1.0776199102401733,
+        0.1859292984008789,
+        0.2798731327056885
+      ],
+      "faces": 52
+    },
+    {
+      "id": "body_0126",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        -0.7350093126296997,
+        -1.0288571119308472,
+        0.8380963802337646
+      ],
+      "size": [
+        0.06069761514663696,
+        0.27356475591659546,
+        0.010576188564300537
+      ],
+      "faces": 16
+    },
+    {
+      "id": "body_0127",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        0.7350090742111206,
+        -1.0288571119308472,
+        0.8380963802337646
+      ],
+      "size": [
+        0.06069755554199219,
+        0.27356475591659546,
+        0.010576188564300537
+      ],
+      "faces": 16
+    },
+    {
+      "id": "wheels_0128",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        0.9203213453292847,
+        -0.9469672441482544,
+        0.5848802328109741
+      ],
+      "size": [
+        0.06420677900314331,
+        7.420778274536133e-05,
+        0.14557433128356934
+      ],
+      "faces": 18
+    },
+    {
+      "id": "wheels_0129",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        -0.9203215837478638,
+        -0.9469672441482544,
+        0.5848802328109741
+      ],
+      "size": [
+        0.06420677900314331,
+        7.420778274536133e-05,
+        0.14557433128356934
+      ],
+      "faces": 18
+    },
+    {
+      "id": "body_0130",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        0.6895098090171814,
+        -1.8469116687774658,
+        0.6801745295524597
+      ],
+      "size": [
+        0.3866063058376312,
+        0.6111940145492554,
+        0.22230911254882812
+      ],
+      "faces": 70
+    },
+    {
+      "id": "body_0131",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        0.33775627613067627,
+        1.8514726161956787,
+        0.34026408195495605
+      ],
+      "size": [
+        0.0609319806098938,
+        0.43115365505218506,
+        0.06622111797332764
+      ],
+      "faces": 32
+    },
+    {
+      "id": "body_0132",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        0.4852156639099121,
+        1.8419170379638672,
+        0.3358347415924072
+      ],
+      "size": [
+        0.06093159317970276,
+        0.41928327083587646,
+        0.06623789668083191
+      ],
+      "faces": 32
+    },
+    {
+      "id": "body_0133",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        -0.3377562165260315,
+        1.8514726161956787,
+        0.34026408195495605
+      ],
+      "size": [
+        0.060932010412216187,
+        0.43115365505218506,
+        0.06622111797332764
+      ],
+      "faces": 32
+    },
+    {
+      "id": "body_0134",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        -0.4852156937122345,
+        1.8419170379638672,
+        0.3358347415924072
+      ],
+      "size": [
+        0.0609317421913147,
+        0.41928327083587646,
+        0.06623789668083191
+      ],
+      "faces": 32
+    },
+    {
+      "id": "body_0135",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        -0.6895098686218262,
+        -1.8469116687774658,
+        0.6801745295524597
+      ],
+      "size": [
+        0.3866064250469208,
+        0.6111940145492554,
+        0.22230911254882812
+      ],
+      "faces": 70
+    },
+    {
+      "id": "wheels_0136",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        0.8237355351448059,
+        -1.9085533618927002,
+        0.44795382022857666
+      ],
+      "size": [
+        0.14776206016540527,
+        0.1469898223876953,
+        0.29674577713012695
+      ],
+      "faces": 46
+    },
+    {
+      "id": "wheels_0137",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        0.9252853393554688,
+        -0.8688148260116577,
+        0.42446261644363403
+      ],
+      "size": [
+        0.05753237009048462,
+        0.01358705759048462,
+        0.13442549109458923
+      ],
+      "faces": 20
+    },
+    {
+      "id": "wheels_0138",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        -0.8237355947494507,
+        -1.9085533618927002,
+        0.44795382022857666
+      ],
+      "size": [
+        0.1477620005607605,
+        0.1469898223876953,
+        0.29674577713012695
+      ],
+      "faces": 46
+    },
+    {
+      "id": "wheels_0139",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        -0.9252853393554688,
+        -0.8688148260116577,
+        0.42446261644363403
+      ],
+      "size": [
+        0.05753248929977417,
+        0.01358705759048462,
+        0.13442549109458923
+      ],
+      "faces": 20
+    },
+    {
+      "id": "body_0140",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        0.919766366481781,
+        -0.0006683468818664551,
+        0.7133033275604248
+      ],
+      "size": [
+        0.0897364616394043,
+        0.9996024370193481,
+        0.3904275894165039
+      ],
+      "faces": 116
+    },
+    {
+      "id": "body_0141",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_2113vertices2838faces_Plastic_0",
+      "center": [
+        -0.919766366481781,
+        -0.0006683468818664551,
+        0.7133033275604248
+      ],
+      "size": [
+        0.0897364616394043,
+        0.9996024370193481,
+        0.3904275894165039
+      ],
+      "faces": 116
+    },
+    {
+      "id": "body_0142",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_glass_603vertices954faces_glass_surr_0",
+      "center": [
+        0.727453351020813,
+        -0.1872418075799942,
+        0.9773407578468323
+      ],
+      "size": [
+        0.08132725954055786,
+        0.3655737340450287,
+        0.15825212001800537
+      ],
+      "faces": 16
+    },
+    {
+      "id": "body_0143",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_glass_603vertices954faces_glass_surr_0",
+      "center": [
+        -0.7274534106254578,
+        -0.1872418075799942,
+        0.9773407578468323
+      ],
+      "size": [
+        0.08132731914520264,
+        0.3655737340450287,
+        0.15825212001800537
+      ],
+      "faces": 16
+    },
+    {
+      "id": "body_0144",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_glass_603vertices954faces_glass_surr_0",
+      "center": [
+        7.450580596923828e-08,
+        1.5657747983932495,
+        1.0659313201904297
+      ],
+      "size": [
+        0.914406418800354,
+        0.7316319942474365,
+        0.1977841854095459
+      ],
+      "faces": 594
+    },
+    {
+      "id": "body_0145",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_glass_603vertices954faces_glass_surr_0",
+      "center": [
+        -0.6592831611633301,
+        1.0151242017745972,
+        1.0256304740905762
+      ],
+      "size": [
+        0.12021076679229736,
+        0.29294246435165405,
+        0.1594398021697998
+      ],
+      "faces": 33
+    },
+    {
+      "id": "body_0146",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_glass_603vertices954faces_glass_surr_0",
+      "center": [
+        0.6592831611633301,
+        1.0151242017745972,
+        1.0256304740905762
+      ],
+      "size": [
+        0.12021082639694214,
+        0.29294246435165405,
+        0.1594398021697998
+      ],
+      "faces": 33
+    },
+    {
+      "id": "body_0147",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_black_glass_603vertices954faces_glass_surr_0",
+      "center": [
+        0.0,
+        -0.40402752161026,
+        1.0024354457855225
+      ],
+      "size": [
+        1.3996835947036743,
+        1.0446534156799316,
+        0.3693508505821228
+      ],
+      "faces": 138
+    },
+    {
+      "id": "body_0148",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_body_20050vertices41394faces_caarpaint_0",
+      "center": [
+        0.0,
+        0.0066994428634643555,
+        0.7000378966331482
+      ],
+      "size": [
+        2.020273208618164,
+        4.587601661682129,
+        1.1012924909591675
+      ],
+      "faces": 35808
+    },
+    {
+      "id": "body_0149",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_body_2_232vertices212faces_caarpaint_0",
+      "center": [
+        0.0,
+        2.0439047813415527,
+        0.9491263628005981
+      ],
+      "size": [
+        0.8039644956588745,
+        0.26248645782470703,
+        0.05120044946670532
+      ],
+      "faces": 162
+    },
+    {
+      "id": "body_0150",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_carbon_fiber_4450vertices9001faces_phong1_0",
+      "center": [
+        2.9802322387695312e-08,
+        0.04106855392456055,
+        0.3033416271209717
+      ],
+      "size": [
+        1.8004848957061768,
+        4.5009074211120605,
+        0.3373468518257141
+      ],
+      "faces": 6494
+    },
+    {
+      "id": "body_0151",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_carbon_fiber_4450vertices9001faces_phong1_0",
+      "center": [
+        -0.26284974813461304,
+        1.9111919403076172,
+        0.29988059401512146
+      ],
+      "size": [
+        0.010272055864334106,
+        0.6196222305297852,
+        0.3022603392601013
+      ],
+      "faces": 90
+    },
+    {
+      "id": "body_0152",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_carbon_fiber_4450vertices9001faces_phong1_0",
+      "center": [
+        0.26284971833229065,
+        1.9111919403076172,
+        0.29988059401512146
+      ],
+      "size": [
+        0.010271966457366943,
+        0.6196222305297852,
+        0.3022603392601013
+      ],
+      "faces": 90
+    },
+    {
+      "id": "body_0153",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_carbon_fiber_4450vertices9001faces_phong1_0",
+      "center": [
+        -0.48531198501586914,
+        -2.117730140686035,
+        0.37985366582870483
+      ],
+      "size": [
+        0.15697535872459412,
+        0.04488205909729004,
+        0.24229201674461365
+      ],
+      "faces": 63
+    },
+    {
+      "id": "body_0154",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_carbon_fiber_4450vertices9001faces_phong1_0",
+      "center": [
+        0.48531198501586914,
+        -2.117730140686035,
+        0.37985366582870483
+      ],
+      "size": [
+        0.15697535872459412,
+        0.04488205909729004,
+        0.24229201674461365
+      ],
+      "faces": 63
+    },
+    {
+      "id": "body_0155",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_carbon_fiber_4450vertices9001faces_phong1_0",
+      "center": [
+        -0.42332690954208374,
+        1.8900384902954102,
+        0.2955555021762848
+      ],
+      "size": [
+        0.03883984684944153,
+        0.5771912336349487,
+        0.29366111755371094
+      ],
+      "faces": 152
+    },
+    {
+      "id": "body_0156",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_carbon_fiber_4450vertices9001faces_phong1_0",
+      "center": [
+        0.4233270287513733,
+        1.8900384902954102,
+        0.2955555021762848
+      ],
+      "size": [
+        0.03884008526802063,
+        0.5771912336349487,
+        0.29366111755371094
+      ],
+      "faces": 152
+    },
+    {
+      "id": "wheels_0157",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_body_carbon_fiber_4450vertices9001faces_phong1_0",
+      "center": [
+        0.5596994757652283,
+        1.8656158447265625,
+        0.2862364947795868
+      ],
+      "size": [
+        0.03656613826751709,
+        0.5284057855606079,
+        0.27501797676086426
+      ],
+      "faces": 136
+    },
+    {
+      "id": "wheels_0158",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_body_carbon_fiber_4450vertices9001faces_phong1_0",
+      "center": [
+        -0.559699535369873,
+        1.8656158447265625,
+        0.2862364947795868
+      ],
+      "size": [
+        0.036566197872161865,
+        0.5284057855606079,
+        0.27501797676086426
+      ],
+      "faces": 136
+    },
+    {
+      "id": "body_0159",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_chrome_2806vertices5423faces_chassis_0",
+      "center": [
+        -0.9584632515907288,
+        -0.820965051651001,
+        0.5121192932128906
+      ],
+      "size": [
+        0.08036601543426514,
+        0.27224206924438477,
+        0.04582253098487854
+      ],
+      "faces": 208
+    },
+    {
+      "id": "body_0160",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_chrome_2806vertices5423faces_chassis_0",
+      "center": [
+        -0.6940162181854248,
+        0.4239272475242615,
+        1.015372633934021
+      ],
+      "size": [
+        0.20569723844528198,
+        1.7094594240188599,
+        0.27594685554504395
+      ],
+      "faces": 1264
+    },
+    {
+      "id": "body_0161",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_chrome_2806vertices5423faces_chassis_0",
+      "center": [
+        0.6940162181854248,
+        0.4239272475242615,
+        1.015372633934021
+      ],
+      "size": [
+        0.20569700002670288,
+        1.7094594240188599,
+        0.27594685554504395
+      ],
+      "faces": 1264
+    },
+    {
+      "id": "body_0162",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_chrome_2806vertices5423faces_chassis_0",
+      "center": [
+        0.7391034364700317,
+        -1.0182209014892578,
+        0.8491712212562561
+      ],
+      "size": [
+        0.09268540143966675,
+        0.33909857273101807,
+        0.03272593021392822
+      ],
+      "faces": 395
+    },
+    {
+      "id": "body_0163",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_chrome_2806vertices5423faces_chassis_0",
+      "center": [
+        -0.7391031980514526,
+        -1.0182209014892578,
+        0.8491712212562561
+      ],
+      "size": [
+        0.0926855206489563,
+        0.33909857273101807,
+        0.03272593021392822
+      ],
+      "faces": 395
+    },
+    {
+      "id": "body_0164",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_chrome_2806vertices5423faces_chassis_0",
+      "center": [
+        -0.6826837062835693,
+        -1.229512333869934,
+        0.7151287794113159
+      ],
+      "size": [
+        0.18960720300674438,
+        0.48657482862472534,
+        0.2910316586494446
+      ],
+      "faces": 416
+    },
+    {
+      "id": "body_0165",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_chrome_2806vertices5423faces_chassis_0",
+      "center": [
+        -0.7698243856430054,
+        -0.7788282632827759,
+        0.688054084777832
+      ],
+      "size": [
+        0.402171790599823,
+        0.49959897994995117,
+        0.3519737124443054
+      ],
+      "faces": 178
+    },
+    {
+      "id": "body_0166",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_chrome_2806vertices5423faces_chassis_0",
+      "center": [
+        0.9584632515907288,
+        -0.820965051651001,
+        0.5121192932128906
+      ],
+      "size": [
+        0.08036601543426514,
+        0.27224206924438477,
+        0.04582253098487854
+      ],
+      "faces": 208
+    },
+    {
+      "id": "body_0167",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_chrome_2806vertices5423faces_chassis_0",
+      "center": [
+        -0.9538969993591309,
+        -0.46874934434890747,
+        0.5277000665664673
+      ],
+      "size": [
+        0.0473293662071228,
+        0.4335884749889374,
+        0.05032140016555786
+      ],
+      "faces": 182
+    },
+    {
+      "id": "body_0168",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_chrome_2806vertices5423faces_chassis_0",
+      "center": [
+        0.770429253578186,
+        -0.7788282632827759,
+        0.688054084777832
+      ],
+      "size": [
+        0.40096205472946167,
+        0.49959897994995117,
+        0.3519737124443054
+      ],
+      "faces": 178
+    },
+    {
+      "id": "body_0169",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_chrome_2806vertices5423faces_chassis_0",
+      "center": [
+        0.9538971185684204,
+        -0.46874934434890747,
+        0.5277000665664673
+      ],
+      "size": [
+        0.04732900857925415,
+        0.4335884749889374,
+        0.05032140016555786
+      ],
+      "faces": 182
+    },
+    {
+      "id": "body_0170",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_detail_glass_red_160vertices307faces_glass_red_0",
+      "center": [
+        -4.470348358154297e-08,
+        2.1922411918640137,
+        0.871627688407898
+      ],
+      "size": [
+        0.7305065393447876,
+        0.060803890228271484,
+        0.03920656442642212
+      ],
+      "faces": 276
+    },
+    {
+      "id": "body_0171",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_emblem_380vertices391faces_chassis_0",
+      "center": [
+        0.0,
+        2.100620746612549,
+        0.8268263339996338
+      ],
+      "size": [
+        1.0006383657455444,
+        0.21802818775177002,
+        0.2318170666694641
+      ],
+      "faces": 1764
+    },
+    {
+      "id": "body_0172",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_glass_123vertices138faces_glass_light_0",
+      "center": [
+        -4.470348358154297e-08,
+        2.173830509185791,
+        0.3879172205924988
+      ],
+      "size": [
+        0.21108227968215942,
+        0.01552271842956543,
+        0.03732690215110779
+      ],
+      "faces": 32
+    },
+    {
+      "id": "wheels_0173",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_body_glass_123vertices138faces_glass_light_0",
+      "center": [
+        -0.6818163394927979,
+        2.0525667667388916,
+        0.3551761507987976
+      ],
+      "size": [
+        0.17791050672531128,
+        0.20230352878570557,
+        0.16476091742515564
+      ],
+      "faces": 229
+    },
+    {
+      "id": "body_0174",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_glass_123vertices138faces_glass_light_0",
+      "center": [
+        0.9674327373504639,
+        -0.5313873291015625,
+        0.5237077474594116
+      ],
+      "size": [
+        0.01425391435623169,
+        0.21273058652877808,
+        0.02693253755569458
+      ],
+      "faces": 18
+    },
+    {
+      "id": "body_0175",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_glass_123vertices138faces_glass_light_0",
+      "center": [
+        -0.9674328565597534,
+        -0.5313873291015625,
+        0.5237077474594116
+      ],
+      "size": [
+        0.014254152774810791,
+        0.21273058652877808,
+        0.02693253755569458
+      ],
+      "faces": 18
+    },
+    {
+      "id": "body_0176",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_grille1_42vertices54faces_grille_0",
+      "center": [
+        -4.470348358154297e-08,
+        2.0607001781463623,
+        0.3037782907485962
+      ],
+      "size": [
+        0.22501087188720703,
+        0.22267258167266846,
+        0.10009679198265076
+      ],
+      "faces": 40
+    },
+    {
+      "id": "body_0177",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_grille1_42vertices54faces_grille_0",
+      "center": [
+        0.0,
+        1.7068569660186768,
+        0.16616375744342804
+      ],
+      "size": [
+        0.2250099927186966,
+        0.24007785320281982,
+        0.0603579580783844
+      ],
+      "faces": 8
+    },
+    {
+      "id": "body_0178",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_matte_colors_292vertices246faces_Plastic_0",
+      "center": [
+        5.480647087097168e-05,
+        -0.8760530948638916,
+        0.8477591276168823
+      ],
+      "size": [
+        0.6733399629592896,
+        0.071810781955719,
+        0.02209240198135376
+      ],
+      "faces": 112
+    },
+    {
+      "id": "body_0179",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_misc_1578vertices2163faces_chassis_0",
+      "center": [
+        0.44128739833831787,
+        -2.219027042388916,
+        0.3838688135147095
+      ],
+      "size": [
+        0.06995546817779541,
+        0.01972508430480957,
+        0.25231215357780457
+      ],
+      "faces": 48
+    },
+    {
+      "id": "body_0180",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_misc_1578vertices2163faces_chassis_0",
+      "center": [
+        2.9802322387695312e-08,
+        -2.2422919273376465,
+        0.37978190183639526
+      ],
+      "size": [
+        1.120931625366211,
+        0.11319899559020996,
+        0.005084246397018433
+      ],
+      "faces": 120
+    },
+    {
+      "id": "body_0181",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_misc_1578vertices2163faces_chassis_0",
+      "center": [
+        -8.940696716308594e-08,
+        -2.2300891876220703,
+        0.28786700963974
+      ],
+      "size": [
+        1.0394585132598877,
+        0.09291386604309082,
+        0.004790753126144409
+      ],
+      "faces": 120
+    },
+    {
+      "id": "body_0182",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_misc_1578vertices2163faces_chassis_0",
+      "center": [
+        0.0,
+        -2.235184669494629,
+        0.3182189464569092
+      ],
+      "size": [
+        1.078978419303894,
+        0.10111260414123535,
+        0.004899084568023682
+      ],
+      "faces": 120
+    },
+    {
+      "id": "body_0183",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_misc_1578vertices2163faces_chassis_0",
+      "center": [
+        5.960464477539063e-08,
+        -2.2398252487182617,
+        0.3483424484729767
+      ],
+      "size": [
+        1.101102590560913,
+        0.11102175712585449,
+        0.0050414204597473145
+      ],
+      "faces": 120
+    },
+    {
+      "id": "body_0184",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_misc_1578vertices2163faces_chassis_0",
+      "center": [
+        0.0,
+        -2.2421605587005615,
+        0.4117528796195984
+      ],
+      "size": [
+        1.1347564458847046,
+        0.11467409133911133,
+        0.005128622055053711
+      ],
+      "faces": 120
+    },
+    {
+      "id": "body_0185",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_misc_1578vertices2163faces_chassis_0",
+      "center": [
+        0.0,
+        -2.2407760620117188,
+        0.44296586513519287
+      ],
+      "size": [
+        1.1341168880462646,
+        0.11944794654846191,
+        0.0051271021366119385
+      ],
+      "faces": 120
+    },
+    {
+      "id": "body_0186",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_misc_1578vertices2163faces_chassis_0",
+      "center": [
+        0.0,
+        -2.239853858947754,
+        0.4713365435600281
+      ],
+      "size": [
+        1.1186445951461792,
+        0.1133570671081543,
+        0.005074799060821533
+      ],
+      "faces": 120
+    },
+    {
+      "id": "body_0187",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_misc_1578vertices2163faces_chassis_0",
+      "center": [
+        -4.470348358154297e-08,
+        -2.2494592666625977,
+        0.5052638053894043
+      ],
+      "size": [
+        0.9387567043304443,
+        0.08313870429992676,
+        0.005094408988952637
+      ],
+      "faces": 96
+    },
+    {
+      "id": "body_0188",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_misc_1578vertices2163faces_chassis_0",
+      "center": [
+        4.470348358154297e-08,
+        -2.260657548904419,
+        0.5341055393218994
+      ],
+      "size": [
+        0.7726629972457886,
+        0.04796457290649414,
+        0.005009829998016357
+      ],
+      "faces": 96
+    },
+    {
+      "id": "body_0189",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_misc_1578vertices2163faces_chassis_0",
+      "center": [
+        0.7323672771453857,
+        -0.044192761182785034,
+        0.9872255325317383
+      ],
+      "size": [
+        0.11480319499969482,
+        0.18310284614562988,
+        0.17769914865493774
+      ],
+      "faces": 48
+    },
+    {
+      "id": "body_0190",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_misc_1578vertices2163faces_chassis_0",
+      "center": [
+        0.6684517860412598,
+        0.8930737376213074,
+        1.0250067710876465
+      ],
+      "size": [
+        0.1344820261001587,
+        0.06567180156707764,
+        0.1629936695098877
+      ],
+      "faces": 56
+    },
+    {
+      "id": "body_0191",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_misc_1578vertices2163faces_chassis_0",
+      "center": [
+        -0.6684518456459045,
+        0.8930737376213074,
+        1.0250067710876465
+      ],
+      "size": [
+        0.13448190689086914,
+        0.06567180156707764,
+        0.1629936695098877
+      ],
+      "faces": 56
+    },
+    {
+      "id": "body_0192",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_misc_1578vertices2163faces_chassis_0",
+      "center": [
+        -0.3183474540710449,
+        -2.2403178215026855,
+        0.3939674496650696
+      ],
+      "size": [
+        0.05379876494407654,
+        0.0319976806640625,
+        0.28419890999794006
+      ],
+      "faces": 54
+    },
+    {
+      "id": "body_0193",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_misc_1578vertices2163faces_chassis_0",
+      "center": [
+        -0.7323672771453857,
+        -0.044192761182785034,
+        0.9872255325317383
+      ],
+      "size": [
+        0.1148032546043396,
+        0.18310284614562988,
+        0.17769914865493774
+      ],
+      "faces": 48
+    },
+    {
+      "id": "body_0194",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_misc_1578vertices2163faces_chassis_0",
+      "center": [
+        -0.1923009753227234,
+        -2.2542924880981445,
+        0.4037455916404724
+      ],
+      "size": [
+        0.036969736218452454,
+        0.03247570991516113,
+        0.2991405427455902
+      ],
+      "faces": 60
+    },
+    {
+      "id": "body_0195",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_misc_1578vertices2163faces_chassis_0",
+      "center": [
+        0.19230088591575623,
+        -2.2542924880981445,
+        0.4037455916404724
+      ],
+      "size": [
+        0.03696952760219574,
+        0.03247570991516113,
+        0.2991405427455902
+      ],
+      "faces": 60
+    },
+    {
+      "id": "body_0196",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_misc_1578vertices2163faces_chassis_0",
+      "center": [
+        0.06285394728183746,
+        -2.2664222717285156,
+        0.405788779258728
+      ],
+      "size": [
+        0.014047384262084961,
+        0.04059576988220215,
+        0.30481818318367004
+      ],
+      "faces": 60
+    },
+    {
+      "id": "body_0197",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_misc_1578vertices2163faces_chassis_0",
+      "center": [
+        -0.06285391747951508,
+        -2.2664222717285156,
+        0.405788779258728
+      ],
+      "size": [
+        0.014047447592020035,
+        0.04059576988220215,
+        0.30481818318367004
+      ],
+      "faces": 60
+    },
+    {
+      "id": "body_0198",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_misc_1578vertices2163faces_chassis_0",
+      "center": [
+        -0.44128739833831787,
+        -2.219027042388916,
+        0.3838688135147095
+      ],
+      "size": [
+        0.06995546817779541,
+        0.01972508430480957,
+        0.25231215357780457
+      ],
+      "faces": 48
+    },
+    {
+      "id": "body_0199",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_misc_1578vertices2163faces_chassis_0",
+      "center": [
+        0.3183474540710449,
+        -2.2403178215026855,
+        0.3939674496650696
+      ],
+      "size": [
+        0.05379876494407654,
+        0.0319976806640625,
+        0.28419890999794006
+      ],
+      "faces": 54
+    },
+    {
+      "id": "body_0200",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_plastic2_4532vertices5259faces_Plastic_0",
+      "center": [
+        0.4412916302680969,
+        -2.2032840251922607,
+        0.3838784098625183
+      ],
+      "size": [
+        0.07004687190055847,
+        0.051210880279541016,
+        0.25233134627342224
+      ],
+      "faces": 92
+    },
+    {
+      "id": "body_0201",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_plastic2_4532vertices5259faces_Plastic_0",
+      "center": [
+        -0.4412917494773865,
+        -2.2032840251922607,
+        0.3838784098625183
+      ],
+      "size": [
+        0.0700470507144928,
+        0.051210880279541016,
+        0.25233134627342224
+      ],
+      "faces": 92
+    },
+    {
+      "id": "body_0202",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_plastic2_4532vertices5259faces_Plastic_0",
+      "center": [
+        0.3183876872062683,
+        -2.219480037689209,
+        0.394040048122406
+      ],
+      "size": [
+        0.05387917160987854,
+        0.07367324829101562,
+        0.2843441665172577
+      ],
+      "faces": 322
+    },
+    {
+      "id": "body_0203",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_plastic2_4532vertices5259faces_Plastic_0",
+      "center": [
+        -0.3183877468109131,
+        -2.219480037689209,
+        0.394040048122406
+      ],
+      "size": [
+        0.05387929081916809,
+        0.07367324829101562,
+        0.2843441665172577
+      ],
+      "faces": 322
+    },
+    {
+      "id": "body_0204",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_plastic2_4532vertices5259faces_Plastic_0",
+      "center": [
+        0.1927703320980072,
+        -2.2333831787109375,
+        0.4077504277229309
+      ],
+      "size": [
+        0.03792405128479004,
+        0.07427859306335449,
+        0.3071502149105072
+      ],
+      "faces": 342
+    },
+    {
+      "id": "wheels_0205",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_body_plastic2_4532vertices5259faces_Plastic_0",
+      "center": [
+        -0.5379840731620789,
+        -2.114955425262451,
+        0.40518510341644287
+      ],
+      "size": [
+        0.0029964447021484375,
+        0.010125160217285156,
+        0.10163798928260803
+      ],
+      "faces": 174
+    },
+    {
+      "id": "wheels_0206",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_body_plastic2_4532vertices5259faces_Plastic_0",
+      "center": [
+        0.5379593372344971,
+        -2.114955425262451,
+        0.40518510341644287
+      ],
+      "size": [
+        0.0029469728469848633,
+        0.010125160217285156,
+        0.10163798928260803
+      ],
+      "faces": 174
+    },
+    {
+      "id": "body_0207",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_plastic2_4532vertices5259faces_Plastic_0",
+      "center": [
+        0.06290193647146225,
+        -2.245692729949951,
+        0.407802939414978
+      ],
+      "size": [
+        0.014189261943101883,
+        0.08205437660217285,
+        0.30884650349617004
+      ],
+      "faces": 348
+    },
+    {
+      "id": "body_0208",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_plastic2_4532vertices5259faces_Plastic_0",
+      "center": [
+        -0.1927703320980072,
+        -2.2334132194519043,
+        0.4077504277229309
+      ],
+      "size": [
+        0.03792405128479004,
+        0.0742185115814209,
+        0.3071502149105072
+      ],
+      "faces": 342
+    },
+    {
+      "id": "body_0209",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_plastic2_4532vertices5259faces_Plastic_0",
+      "center": [
+        -0.06290191411972046,
+        -2.2456626892089844,
+        0.407802939414978
+      ],
+      "size": [
+        0.014189217239618301,
+        0.08211445808410645,
+        0.30884650349617004
+      ],
+      "faces": 348
+    },
+    {
+      "id": "body_0210",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_plastic2_4532vertices5259faces_Plastic_0",
+      "center": [
+        2.9802322387695312e-08,
+        -2.213428258895874,
+        0.37978410720825195
+      ],
+      "size": [
+        1.120931625366211,
+        0.17092657089233398,
+        0.005113124847412109
+      ],
+      "faces": 212
+    },
+    {
+      "id": "body_0211",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_plastic2_4532vertices5259faces_Plastic_0",
+      "center": [
+        -8.940696716308594e-08,
+        -2.1964144706726074,
+        0.28786909580230713
+      ],
+      "size": [
+        1.0394585132598877,
+        0.1602630615234375,
+        0.004847735166549683
+      ],
+      "faces": 212
+    },
+    {
+      "id": "body_0212",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_plastic2_4532vertices5259faces_Plastic_0",
+      "center": [
+        0.0,
+        -2.204408645629883,
+        0.3182118535041809
+      ],
+      "size": [
+        1.078978419303894,
+        0.16266465187072754,
+        0.004965066909790039
+      ],
+      "faces": 212
+    },
+    {
+      "id": "body_0213",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_plastic2_4532vertices5259faces_Plastic_0",
+      "center": [
+        5.960464477539063e-08,
+        -2.2088708877563477,
+        0.3483394682407379
+      ],
+      "size": [
+        1.101102590560913,
+        0.17293047904968262,
+        0.0050473809242248535
+      ],
+      "faces": 212
+    },
+    {
+      "id": "body_0214",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_plastic2_4532vertices5259faces_Plastic_0",
+      "center": [
+        -0.00033792853355407715,
+        -2.2147600650787354,
+        0.4117598533630371
+      ],
+      "size": [
+        1.1354386806488037,
+        0.16947507858276367,
+        0.005142539739608765
+      ],
+      "faces": 212
+    },
+    {
+      "id": "body_0215",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_plastic2_4532vertices5259faces_Plastic_0",
+      "center": [
+        0.0,
+        -2.212996244430542,
+        0.44295597076416016
+      ],
+      "size": [
+        1.1341168880462646,
+        0.17497873306274414,
+        0.005149871110916138
+      ],
+      "faces": 212
+    },
+    {
+      "id": "body_0216",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_plastic2_4532vertices5259faces_Plastic_0",
+      "center": [
+        0.0,
+        -2.2128381729125977,
+        0.47132739424705505
+      ],
+      "size": [
+        1.1186445951461792,
+        0.1673882007598877,
+        0.005124688148498535
+      ],
+      "faces": 212
+    },
+    {
+      "id": "body_0217",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_plastic2_4532vertices5259faces_Plastic_0",
+      "center": [
+        4.470348358154297e-08,
+        -2.2336626052856445,
+        0.5341015458106995
+      ],
+      "size": [
+        0.7726629972457886,
+        0.10195446014404297,
+        0.005017876625061035
+      ],
+      "faces": 172
+    },
+    {
+      "id": "body_0218",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_plastic2_4532vertices5259faces_Plastic_0",
+      "center": [
+        -4.470348358154297e-08,
+        -2.2225112915039062,
+        0.5052638053894043
+      ],
+      "size": [
+        0.9387567043304443,
+        0.13703465461730957,
+        0.005094408988952637
+      ],
+      "faces": 172
+    },
+    {
+      "id": "body_0219",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_plastic2_4532vertices5259faces_Plastic_0",
+      "center": [
+        -4.470348358154297e-08,
+        -2.2330329418182373,
+        0.2042001336812973
+      ],
+      "size": [
+        0.5389310121536255,
+        0.08692216873168945,
+        0.05006605386734009
+      ],
+      "faces": 228
+    },
+    {
+      "id": "wheels_0220",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_body_reflector_594vertices442faces_Light_Map_0",
+      "center": [
+        0.6818163394927979,
+        2.0525667667388916,
+        0.3551761507987976
+      ],
+      "size": [
+        0.17791050672531128,
+        0.20230352878570557,
+        0.16476091742515564
+      ],
+      "faces": 229
+    },
+    {
+      "id": "body_0221",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_reflector_594vertices442faces_Light_Map_0",
+      "center": [
+        0.9636163115501404,
+        -0.5314008593559265,
+        0.523713231086731
+      ],
+      "size": [
+        0.021886706352233887,
+        0.21275758743286133,
+        0.026943504810333252
+      ],
+      "faces": 58
+    },
+    {
+      "id": "body_0222",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_reflector_594vertices442faces_Light_Map_0",
+      "center": [
+        -0.9636164903640747,
+        -0.5314008593559265,
+        0.523713231086731
+      ],
+      "size": [
+        0.021886825561523438,
+        0.21275758743286133,
+        0.026943504810333252
+      ],
+      "faces": 58
+    },
+    {
+      "id": "body_0223",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_reverse_light_lod0_266vertices189faces_Light_Map_0",
+      "center": [
+        -5.21540641784668e-08,
+        2.2209482192993164,
+        0.4155479669570923
+      ],
+      "size": [
+        0.2058180868625641,
+        0.12070798873901367,
+        0.0915490984916687
+      ],
+      "faces": 148
+    },
+    {
+      "id": "body_0224",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_reverse_light_lod0_266vertices189faces_Light_Map_0",
+      "center": [
+        0.0,
+        2.171008825302124,
+        0.39007318019866943
+      ],
+      "size": [
+        0.21110737323760986,
+        0.0062656402587890625,
+        0.005349695682525635
+      ],
+      "faces": 12
+    },
+    {
+      "id": "body_0225",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_reverse_light_lod0_266vertices189faces_Light_Map_0",
+      "center": [
+        4.842877388000488e-08,
+        2.169656276702881,
+        0.3896878957748413
+      ],
+      "size": [
+        0.2111600935459137,
+        0.02387094497680664,
+        0.040868282318115234
+      ],
+      "faces": 66
+    },
+    {
+      "id": "wheels_0226",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_body_rubber_trim_212vertices250faces_rubber_0",
+      "center": [
+        0.01570822298526764,
+        -0.8633295297622681,
+        0.8378356695175171
+      ],
+      "size": [
+        0.7021766901016235,
+        0.04596430063247681,
+        0.023620009422302246
+      ],
+      "faces": 108
+    },
+    {
+      "id": "wheels_0227",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_body_rubber_trim_212vertices250faces_rubber_0",
+      "center": [
+        -0.015244990587234497,
+        -0.8936749696731567,
+        0.8378336429595947
+      ],
+      "size": [
+        0.7018985152244568,
+        0.05361074209213257,
+        0.023600995540618896
+      ],
+      "faces": 108
+    },
+    {
+      "id": "body_0228",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_tail_light_lod0_2198vertices2554faces_Light_Map_0",
+      "center": [
+        5.960464477539063e-08,
+        2.1727654933929443,
+        0.8724381923675537
+      ],
+      "size": [
+        0.6254105567932129,
+        0.09231233596801758,
+        0.04014229774475098
+      ],
+      "faces": 1358
+    },
+    {
+      "id": "body_0229",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_tail_light_lod0_2198vertices2554faces_Light_Map_0",
+      "center": [
+        -4.470348358154297e-08,
+        2.171722412109375,
+        0.8713973760604858
+      ],
+      "size": [
+        0.7305065393447876,
+        0.09813690185546875,
+        0.039779841899871826
+      ],
+      "faces": 190
+    },
+    {
+      "id": "body_0230",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_weatherstrip_828vertices992faces_Plastic_0",
+      "center": [
+        0.27324482798576355,
+        -0.8656206130981445,
+        0.8374356031417847
+      ],
+      "size": [
+        0.6248040795326233,
+        0.07367140054702759,
+        0.053204476833343506
+      ],
+      "faces": 412
+    },
+    {
+      "id": "body_0231",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_body_weatherstrip_828vertices992faces_Plastic_0",
+      "center": [
+        -0.27186453342437744,
+        -0.8868173360824585,
+        0.8374392986297607
+      ],
+      "size": [
+        0.6304628849029541,
+        0.0822678804397583,
+        0.05321413278579712
+      ],
+      "faces": 412
+    },
+    {
+      "id": "drive_0232",
+      "part": "drive",
+      "label": "Exhaust detail",
+      "source": "one77:ast_one77_10_lod0_exhaustLa_black_130vertices188faces_chassis_0",
+      "center": [
+        0.0,
+        1.8833918571472168,
+        0.3451003134250641
+      ],
+      "size": [
+        1.0080379247665405,
+        2.9802322387695312e-06,
+        0.046075403690338135
+      ],
+      "faces": 120
+    },
+    {
+      "id": "drive_0233",
+      "part": "drive",
+      "label": "Exhaust detail",
+      "source": "one77:ast_one77_10_lod0_exhaustLa_black_130vertices188faces_chassis_0",
+      "center": [
+        0.33774250745773315,
+        1.8514567613601685,
+        0.3441353738307953
+      ],
+      "size": [
+        0.06091222167015076,
+        0.43119359016418457,
+        0.05889517068862915
+      ],
+      "faces": 32
+    },
+    {
+      "id": "drive_0234",
+      "part": "drive",
+      "label": "Exhaust detail",
+      "source": "one77:ast_one77_10_lod0_exhaustLa_black_130vertices188faces_chassis_0",
+      "center": [
+        0.4852173626422882,
+        1.8419439792633057,
+        0.3401188850402832
+      ],
+      "size": [
+        0.060897767543792725,
+        0.4193834066390991,
+        0.058724433183670044
+      ],
+      "faces": 32
+    },
+    {
+      "id": "drive_0235",
+      "part": "drive",
+      "label": "Exhaust detail",
+      "source": "one77:ast_one77_10_lod0_exhaustLa_chrome_512vertices896faces_chassis_0",
+      "center": [
+        0.48521751165390015,
+        2.001117706298828,
+        0.3350866436958313
+      ],
+      "size": [
+        0.0608980655670166,
+        0.23545289039611816,
+        0.06878891587257385
+      ],
+      "faces": 448
+    },
+    {
+      "id": "drive_0236",
+      "part": "drive",
+      "label": "Exhaust detail",
+      "source": "one77:ast_one77_10_lod0_exhaustLa_chrome_512vertices896faces_chassis_0",
+      "center": [
+        0.33774006366729736,
+        2.010551929473877,
+        0.3392672538757324
+      ],
+      "size": [
+        0.06092235445976257,
+        0.2543233633041382,
+        0.06829318404197693
+      ],
+      "faces": 448
+    },
+    {
+      "id": "drive_0237",
+      "part": "drive",
+      "label": "Exhaust detail",
+      "source": "one77:ast_one77_10_lod0_exhaustRa_black_130vertices192faces_chassis_0",
+      "center": [
+        -0.33774250745773315,
+        1.8514567613601685,
+        0.3441355228424072
+      ],
+      "size": [
+        0.06091222167015076,
+        0.43119359016418457,
+        0.05889508128166199
+      ],
+      "faces": 32
+    },
+    {
+      "id": "drive_0238",
+      "part": "drive",
+      "label": "Exhaust detail",
+      "source": "one77:ast_one77_10_lod0_exhaustRa_black_130vertices192faces_chassis_0",
+      "center": [
+        -0.4852173626422882,
+        1.8419439792633057,
+        0.340118944644928
+      ],
+      "size": [
+        0.060897767543792725,
+        0.4193834066390991,
+        0.058724433183670044
+      ],
+      "faces": 32
+    },
+    {
+      "id": "drive_0239",
+      "part": "drive",
+      "label": "Exhaust detail",
+      "source": "one77:ast_one77_10_lod0_exhaustRa_chrome_512vertices896faces_chassis_0",
+      "center": [
+        -0.48521751165390015,
+        2.001117706298828,
+        0.3350867033004761
+      ],
+      "size": [
+        0.0608980655670166,
+        0.23545289039611816,
+        0.06878891587257385
+      ],
+      "faces": 448
+    },
+    {
+      "id": "drive_0240",
+      "part": "drive",
+      "label": "Exhaust detail",
+      "source": "one77:ast_one77_10_lod0_exhaustRa_chrome_512vertices896faces_chassis_0",
+      "center": [
+        -0.33774006366729736,
+        2.010551929473877,
+        0.33926746249198914
+      ],
+      "size": [
+        0.06092235445976257,
+        0.2543233633041382,
+        0.06829315423965454
+      ],
+      "faces": 448
+    },
+    {
+      "id": "body_0241",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_glassLHL_glass_631vertices1343faces_glass_light_0",
+      "center": [
+        0.6928919553756714,
+        -1.8908227682113647,
+        0.684974193572998
+      ],
+      "size": [
+        0.3785402178764343,
+        0.5328772068023682,
+        0.22704213857650757
+      ],
+      "faces": 1197
+    },
+    {
+      "id": "glass_0242",
+      "part": "glass",
+      "label": "Glazing",
+      "source": "one77:ast_one77_10_lod0_glassLR_window_15vertices18faces_glass_0",
+      "center": [
+        0.6554569005966187,
+        1.0152132511138916,
+        1.0274338722229004
+      ],
+      "size": [
+        0.08673840761184692,
+        0.23764020204544067,
+        0.11261069774627686
+      ],
+      "faces": 16
+    },
+    {
+      "id": "body_0243",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_glassLTL_detail_glass_red_361vertices704faces_glass_red_0",
+      "center": [
+        0.5959863662719727,
+        2.0404694080352783,
+        0.7945170402526855
+      ],
+      "size": [
+        0.5017499327659607,
+        0.3583012819290161,
+        0.17061877250671387
+      ],
+      "faces": 634
+    },
+    {
+      "id": "body_0244",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_glassRHL_glass_631vertices1357faces_glass_light_0",
+      "center": [
+        -0.6928919553756714,
+        -1.8908227682113647,
+        0.684974193572998
+      ],
+      "size": [
+        0.3785402178764343,
+        0.5328772068023682,
+        0.22704213857650757
+      ],
+      "faces": 1197
+    },
+    {
+      "id": "glass_0245",
+      "part": "glass",
+      "label": "Glazing",
+      "source": "one77:ast_one77_10_lod0_glassRR_window_15vertices20faces_glass_0",
+      "center": [
+        -0.6554569005966187,
+        1.0152125358581543,
+        1.0274341106414795
+      ],
+      "size": [
+        0.08673840761184692,
+        0.23763930797576904,
+        0.11261069774627686
+      ],
+      "faces": 16
+    },
+    {
+      "id": "body_0246",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_glassRTL_detail_glass_red_361vertices696faces_glass_red_0",
+      "center": [
+        -0.5959863662719727,
+        2.0404694080352783,
+        0.7945172786712646
+      ],
+      "size": [
+        0.5017499327659607,
+        0.3583012819290161,
+        0.1706187129020691
+      ],
+      "faces": 634
+    },
+    {
+      "id": "glass_0247",
+      "part": "glass",
+      "label": "Glazing",
+      "source": "one77:ast_one77_10_lod0_glassR_window_153vertices281faces_glass_0",
+      "center": [
+        0.0,
+        1.569587230682373,
+        1.071211576461792
+      ],
+      "size": [
+        0.7738630175590515,
+        0.5401521921157837,
+        0.14526045322418213
+      ],
+      "faces": 250
+    },
+    {
+      "id": "body_0248",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_headlightL_black_90vertices124faces_chassis_0",
+      "center": [
+        0.6913611888885498,
+        -1.850245714187622,
+        0.6813880205154419
+      ],
+      "size": [
+        0.37547868490219116,
+        0.6045564413070679,
+        0.2198696732521057
+      ],
+      "faces": 86
+    },
+    {
+      "id": "body_0249",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_headlightL_chrome_2_1120vertices2254faces_chassis_0",
+      "center": [
+        0.7530548572540283,
+        -1.8274691104888916,
+        0.7026833295822144
+      ],
+      "size": [
+        0.195112943649292,
+        0.36288464069366455,
+        0.1541714072227478
+      ],
+      "faces": 1962
+    },
+    {
+      "id": "body_0250",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_headlightL_head_light_835vertices1338faces_phong2_0",
+      "center": [
+        0.7549426555633545,
+        -1.8083082437515259,
+        0.6935056447982788
+      ],
+      "size": [
+        0.13841962814331055,
+        0.1877915859222412,
+        0.0910642147064209
+      ],
+      "faces": 624
+    },
+    {
+      "id": "wheels_0251",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_headlightL_head_light_835vertices1338faces_phong2_0",
+      "center": [
+        0.6085367798805237,
+        -2.0068206787109375,
+        0.6021428108215332
+      ],
+      "size": [
+        0.029405593872070312,
+        0.038083553314208984,
+        0.026018917560577393
+      ],
+      "faces": 60
+    },
+    {
+      "id": "wheels_0252",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_headlightL_head_light_835vertices1338faces_phong2_0",
+      "center": [
+        0.6904833316802979,
+        -1.9491521120071411,
+        0.6074862480163574
+      ],
+      "size": [
+        0.12574392557144165,
+        0.10651326179504395,
+        0.03266477584838867
+      ],
+      "faces": 240
+    },
+    {
+      "id": "body_0253",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_headlightL_misc_1138vertices2396faces_chromeLight_0",
+      "center": [
+        0.6925491094589233,
+        -1.8888155221939087,
+        0.6839266419410706
+      ],
+      "size": [
+        0.3778544068336487,
+        0.5288388729095459,
+        0.2249469757080078
+      ],
+      "faces": 2119
+    },
+    {
+      "id": "body_0254",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_headlightL_reflector_80vertices40faces_Light_Map_0",
+      "center": [
+        0.5959945917129517,
+        -1.9488264322280884,
+        0.6703251004219055
+      ],
+      "size": [
+        0.16213059425354004,
+        0.31898045539855957,
+        0.15556848049163818
+      ],
+      "faces": 40
+    },
+    {
+      "id": "body_0255",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_headlightR_black_90vertices122faces_chassis_0",
+      "center": [
+        -0.6913611888885498,
+        -1.850245714187622,
+        0.6813880205154419
+      ],
+      "size": [
+        0.37547868490219116,
+        0.6045564413070679,
+        0.2198696732521057
+      ],
+      "faces": 86
+    },
+    {
+      "id": "body_0256",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_headlightR_chrome_2_1120vertices2248faces_chassis_0",
+      "center": [
+        -0.7530548572540283,
+        -1.8274691104888916,
+        0.7026833295822144
+      ],
+      "size": [
+        0.195112943649292,
+        0.36288464069366455,
+        0.1541714072227478
+      ],
+      "faces": 1962
+    },
+    {
+      "id": "body_0257",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_headlightR_head_light_835vertices1332faces_phong2_0",
+      "center": [
+        -0.7549427151679993,
+        -1.8083082437515259,
+        0.6935056447982788
+      ],
+      "size": [
+        0.138419508934021,
+        0.1877915859222412,
+        0.0910642147064209
+      ],
+      "faces": 624
+    },
+    {
+      "id": "wheels_0258",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_headlightR_head_light_835vertices1332faces_phong2_0",
+      "center": [
+        -0.6085368394851685,
+        -2.0068206787109375,
+        0.6021428108215332
+      ],
+      "size": [
+        0.02940547466278076,
+        0.038083553314208984,
+        0.026018917560577393
+      ],
+      "faces": 60
+    },
+    {
+      "id": "wheels_0259",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_headlightR_head_light_835vertices1332faces_phong2_0",
+      "center": [
+        -0.6904833316802979,
+        -1.9491521120071411,
+        0.6074862480163574
+      ],
+      "size": [
+        0.12574392557144165,
+        0.10651326179504395,
+        0.03266477584838867
+      ],
+      "faces": 240
+    },
+    {
+      "id": "body_0260",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_headlightR_misc_1138vertices2402faces_chromeLight_0",
+      "center": [
+        -0.6925491094589233,
+        -1.8888155221939087,
+        0.6839266419410706
+      ],
+      "size": [
+        0.3778544068336487,
+        0.5288388729095459,
+        0.2249469757080078
+      ],
+      "faces": 2119
+    },
+    {
+      "id": "body_0261",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_headlightR_reflector_80vertices40faces_Light_Map_0",
+      "center": [
+        -0.5959945917129517,
+        -1.9488264322280884,
+        0.6703251004219055
+      ],
+      "size": [
+        0.16213059425354004,
+        0.31898045539855957,
+        0.15556848049163818
+      ],
+      "faces": 40
+    },
+    {
+      "id": "body_0262",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_skirtLa_black_125vertices157faces_chassis_0",
+      "center": [
+        0.874639093875885,
+        -0.013365387916564941,
+        0.3046525716781616
+      ],
+      "size": [
+        0.23892605304718018,
+        2.0471608638763428,
+        0.33992695808410645
+      ],
+      "faces": 110
+    },
+    {
+      "id": "body_0263",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_skirtLa_body_540vertices950faces_caarpaint_0",
+      "center": [
+        0.8951094150543213,
+        -0.013365387916564941,
+        0.3046421408653259
+      ],
+      "size": [
+        0.2044638991355896,
+        2.0471608638763428,
+        0.3399478495121002
+      ],
+      "faces": 949
+    },
+    {
+      "id": "body_0264",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_skirtLa_carbon_fiber_57vertices85faces_phong1_0",
+      "center": [
+        0.8326828479766846,
+        -0.02347099781036377,
+        0.1618666648864746
+      ],
+      "size": [
+        0.1550135612487793,
+        2.026949644088745,
+        0.05439691245555878
+      ],
+      "faces": 55
+    },
+    {
+      "id": "body_0265",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_skirtRa_black_127vertices154faces_chassis_0",
+      "center": [
+        -0.874639093875885,
+        -0.013365387916564941,
+        0.30465251207351685
+      ],
+      "size": [
+        0.23892605304718018,
+        2.0471608638763428,
+        0.3399270474910736
+      ],
+      "faces": 110
+    },
+    {
+      "id": "body_0266",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_skirtRa_body_540vertices1087faces_caarpaint_0",
+      "center": [
+        -0.8951094150543213,
+        -0.013365387916564941,
+        0.30464208126068115
+      ],
+      "size": [
+        0.2044638991355896,
+        2.0471608638763428,
+        0.3399479389190674
+      ],
+      "faces": 949
+    },
+    {
+      "id": "body_0267",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_skirtRa_carbon_fiber_57vertices84faces_phong1_0",
+      "center": [
+        -0.8326828479766846,
+        -0.02347397804260254,
+        0.16186657547950745
+      ],
+      "size": [
+        0.1550135612487793,
+        2.0269436836242676,
+        0.054396942257881165
+      ],
+      "faces": 55
+    },
+    {
+      "id": "body_0268",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_taillightL_black_157vertices206faces_chassis_0",
+      "center": [
+        0.5933328866958618,
+        2.0204782485961914,
+        0.78244549036026
+      ],
+      "size": [
+        0.5036227107048035,
+        0.39441704750061035,
+        0.23191618919372559
+      ],
+      "faces": 147
+    },
+    {
+      "id": "body_0269",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_taillightL_tail_light_lod0_2163vertices2788faces_Light_Map_0",
+      "center": [
+        0.7584692239761353,
+        1.9415515661239624,
+        0.7742220759391785
+      ],
+      "size": [
+        0.15358364582061768,
+        0.143357515335083,
+        0.1275033950805664
+      ],
+      "faces": 453
+    },
+    {
+      "id": "body_0270",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_taillightL_tail_light_lod0_2163vertices2788faces_Light_Map_0",
+      "center": [
+        0.6308678388595581,
+        2.0721681118011475,
+        0.7881969213485718
+      ],
+      "size": [
+        0.2757149040699005,
+        0.20734989643096924,
+        0.15843617916107178
+      ],
+      "faces": 1091
+    },
+    {
+      "id": "body_0271",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_taillightL_tail_light_lod0_2163vertices2788faces_Light_Map_0",
+      "center": [
+        0.5837945342063904,
+        2.0614547729492188,
+        0.8038316369056702
+      ],
+      "size": [
+        0.4380618631839752,
+        0.289211630821228,
+        0.14911866188049316
+      ],
+      "faces": 588
+    },
+    {
+      "id": "body_0272",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_taillightL_textured_reflector_575vertices387faces_Light_Map_0",
+      "center": [
+        0.633516788482666,
+        2.0366933345794678,
+        0.7624635100364685
+      ],
+      "size": [
+        0.42325496673583984,
+        0.36198651790618896,
+        0.10651981830596924
+      ],
+      "faces": 135
+    },
+    {
+      "id": "body_0273",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_taillightR_black_157vertices206faces_chassis_0",
+      "center": [
+        -0.5933328866958618,
+        2.0204782485961914,
+        0.7824456691741943
+      ],
+      "size": [
+        0.5036227107048035,
+        0.39441704750061035,
+        0.23191618919372559
+      ],
+      "faces": 147
+    },
+    {
+      "id": "body_0274",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_taillightR_tail_light_lod0_2163vertices2789faces_Light_Map_0",
+      "center": [
+        -0.7584692239761353,
+        1.9415539503097534,
+        0.7742200493812561
+      ],
+      "size": [
+        0.15358364582061768,
+        0.14336037635803223,
+        0.12749886512756348
+      ],
+      "faces": 453
+    },
+    {
+      "id": "body_0275",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_taillightR_tail_light_lod0_2163vertices2789faces_Light_Map_0",
+      "center": [
+        -0.6308677792549133,
+        2.0721731185913086,
+        0.7881971001625061
+      ],
+      "size": [
+        0.27571478486061096,
+        0.20735383033752441,
+        0.15843605995178223
+      ],
+      "faces": 1091
+    },
+    {
+      "id": "body_0276",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_taillightR_tail_light_lod0_2163vertices2789faces_Light_Map_0",
+      "center": [
+        -0.5837945342063904,
+        2.06145977973938,
+        0.8038318157196045
+      ],
+      "size": [
+        0.4380618631839752,
+        0.28921735286712646,
+        0.14911872148513794
+      ],
+      "faces": 588
+    },
+    {
+      "id": "body_0277",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_taillightR_textured_reflector_575vertices383faces_Light_Map_0",
+      "center": [
+        -0.633516788482666,
+        2.0366933345794678,
+        0.7624637484550476
+      ],
+      "size": [
+        0.42325496673583984,
+        0.36198651790618896,
+        0.10651969909667969
+      ],
+      "faces": 135
+    },
+    {
+      "id": "body_0278",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_undercarriagea_undercarriage_3004vertices2263faces_under_0",
+      "center": [
+        0.6862704753875732,
+        -1.229512333869934,
+        0.7151364088058472
+      ],
+      "size": [
+        0.1824336051940918,
+        0.48657482862472534,
+        0.29101651906967163
+      ],
+      "faces": 416
+    },
+    {
+      "id": "wheels_0279",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_undercarriagea_undercarriage_3004vertices2263faces_under_0",
+      "center": [
+        0.582531750202179,
+        1.381239652633667,
+        0.6454269289970398
+      ],
+      "size": [
+        0.1600855588912964,
+        0.10912251472473145,
+        0.2726351022720337
+      ],
+      "faces": 290
+    },
+    {
+      "id": "wheels_0280",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_undercarriagea_undercarriage_3004vertices2263faces_under_0",
+      "center": [
+        -0.5824710130691528,
+        1.381237268447876,
+        0.64542555809021
+      ],
+      "size": [
+        0.16006356477737427,
+        0.10912549495697021,
+        0.27256685495376587
+      ],
+      "faces": 290
+    },
+    {
+      "id": "wheels_0281",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_undercarriagea_undercarriage_3004vertices2263faces_under_0",
+      "center": [
+        0.6158128976821899,
+        1.381170630455017,
+        0.46176111698150635
+      ],
+      "size": [
+        0.1372649073600769,
+        0.1177976131439209,
+        0.6404372453689575
+      ],
+      "faces": 76
+    },
+    {
+      "id": "wheels_0282",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_undercarriagea_undercarriage_3004vertices2263faces_under_0",
+      "center": [
+        -0.6391777992248535,
+        -1.4267715215682983,
+        0.5937060117721558
+      ],
+      "size": [
+        0.11039388179779053,
+        0.0995173454284668,
+        0.2690325379371643
+      ],
+      "faces": 76
+    },
+    {
+      "id": "wheels_0283",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_undercarriagea_undercarriage_3004vertices2263faces_under_0",
+      "center": [
+        -0.6177148818969727,
+        1.3811571598052979,
+        0.46176010370254517
+      ],
+      "size": [
+        0.1412065029144287,
+        0.11778450012207031,
+        0.6404342651367188
+      ],
+      "faces": 76
+    },
+    {
+      "id": "wheels_0284",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_undercarriagea_undercarriage_3004vertices2263faces_under_0",
+      "center": [
+        0.6463255882263184,
+        -1.4267655611038208,
+        0.593705415725708
+      ],
+      "size": [
+        0.11039263010025024,
+        0.09953141212463379,
+        0.26903197169303894
+      ],
+      "faces": 76
+    },
+    {
+      "id": "body_0285",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_undercarriagea_undercarriage_3004vertices2263faces_under_0",
+      "center": [
+        0.4731637239456177,
+        1.3587746620178223,
+        0.20019641518592834
+      ],
+      "size": [
+        0.515241265296936,
+        0.3684793710708618,
+        0.08269056677818298
+      ],
+      "faces": 68
+    },
+    {
+      "id": "body_0286",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_undercarriagea_undercarriage_3004vertices2263faces_under_0",
+      "center": [
+        -0.480184406042099,
+        1.3587745428085327,
+        0.20020145177841187
+      ],
+      "size": [
+        0.508972704410553,
+        0.36850523948669434,
+        0.08266009390354156
+      ],
+      "faces": 68
+    },
+    {
+      "id": "body_0287",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_undercarriagea_undercarriage_3004vertices2263faces_under_0",
+      "center": [
+        -0.515680193901062,
+        -1.3757327795028687,
+        0.19895139336585999
+      ],
+      "size": [
+        0.5165199637413025,
+        0.35733699798583984,
+        0.044214412569999695
+      ],
+      "faces": 44
+    },
+    {
+      "id": "wheels_0288",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_undercarriagea_undercarriage_3004vertices2263faces_under_0",
+      "center": [
+        -0.7123737335205078,
+        1.4142669439315796,
+        0.30912306904792786
+      ],
+      "size": [
+        0.06773525476455688,
+        0.23129558563232422,
+        0.23498688638210297
+      ],
+      "faces": 44
+    },
+    {
+      "id": "wheels_0289",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_undercarriagea_undercarriage_3004vertices2263faces_under_0",
+      "center": [
+        0.7084857821464539,
+        1.4142775535583496,
+        0.3091078996658325
+      ],
+      "size": [
+        0.06774652004241943,
+        0.231284499168396,
+        0.2349971979856491
+      ],
+      "faces": 44
+    },
+    {
+      "id": "wheels_0290",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_undercarriagea_undercarriage_3004vertices2263faces_under_0",
+      "center": [
+        0.7019093036651611,
+        -1.3996353149414062,
+        0.32387372851371765
+      ],
+      "size": [
+        0.1771671175956726,
+        0.2402135133743286,
+        0.30193930864334106
+      ],
+      "faces": 76
+    },
+    {
+      "id": "wheels_0291",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_lod0_undercarriagea_undercarriage_3004vertices2263faces_under_0",
+      "center": [
+        -0.6947492957115173,
+        -1.3996384143829346,
+        0.3238663375377655
+      ],
+      "size": [
+        0.177099347114563,
+        0.24024748802185059,
+        0.30195045471191406
+      ],
+      "faces": 76
+    },
+    {
+      "id": "body_0292",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_undercarriagea_undercarriage_3004vertices2263faces_under_0",
+      "center": [
+        -0.015728086233139038,
+        1.3870242834091187,
+        0.338643878698349
+      ],
+      "size": [
+        1.4302046298980713,
+        0.05751657485961914,
+        0.03261464834213257
+      ],
+      "faces": 12
+    },
+    {
+      "id": "body_0293",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_undercarriagea_undercarriage_3004vertices2263faces_under_0",
+      "center": [
+        0.5192492604255676,
+        -1.3757426738739014,
+        0.19928355515003204
+      ],
+      "size": [
+        0.5236912965774536,
+        0.3573470115661621,
+        0.04420071840286255
+      ],
+      "faces": 44
+    },
+    {
+      "id": "body_0294",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_undercarriagea_undercarriage_3004vertices2263faces_under_0",
+      "center": [
+        -0.3713047206401825,
+        -1.273789405822754,
+        0.26282989978790283
+      ],
+      "size": [
+        0.5665131211280823,
+        0.015648722648620605,
+        0.015615493059158325
+      ],
+      "faces": 12
+    },
+    {
+      "id": "body_0295",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_undercarriagea_undercarriage_3004vertices2263faces_under_0",
+      "center": [
+        0.37488797307014465,
+        -1.273785948753357,
+        0.2628306746482849
+      ],
+      "size": [
+        0.5736562609672546,
+        0.015639781951904297,
+        0.01563248038291931
+      ],
+      "faces": 12
+    },
+    {
+      "id": "body_0296",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_winga_black_74vertices102faces_chassis_0",
+      "center": [
+        0.0,
+        2.043639659881592,
+        0.9596343040466309
+      ],
+      "size": [
+        0.8003054857254028,
+        0.2575916051864624,
+        0.030878007411956787
+      ],
+      "faces": 72
+    },
+    {
+      "id": "body_0297",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_winga_body_2_762vertices1505faces_caarpaint_0",
+      "center": [
+        0.0,
+        2.043639659881592,
+        0.9609735012054443
+      ],
+      "size": [
+        0.8003054857254028,
+        0.2575916051864624,
+        0.03355640172958374
+      ],
+      "faces": 888
+    },
+    {
+      "id": "body_0298",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_winga_body_2_762vertices1505faces_caarpaint_0",
+      "center": [
+        0.09390696883201599,
+        2.024092435836792,
+        0.874657392501831
+      ],
+      "size": [
+        0.025027237832546234,
+        0.20390355587005615,
+        0.1792646050453186
+      ],
+      "faces": 192
+    },
+    {
+      "id": "body_0299",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one77:ast_one77_10_lod0_winga_body_2_762vertices1505faces_caarpaint_0",
+      "center": [
+        -0.09390696883201599,
+        2.024092435836792,
+        0.874657392501831
+      ],
+      "size": [
+        0.025027237832546234,
+        0.20390355587005615,
+        0.1792646050453186
+      ],
+      "faces": 192
+    },
+    {
+      "id": "wheels_0300",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_rotorlf_lod0_rotorLF_hub_815vertices669faces_chassis_0",
+      "center": [
+        0.8660621047019958,
+        -1.5181221961975098,
+        0.3629223108291626
+      ],
+      "size": [
+        0.020929455757141113,
+        0.04899275302886963,
+        0.14571723341941833
+      ],
+      "faces": 162
+    },
+    {
+      "id": "wheels_0301",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_rotorlf_lod0_rotorLF_hub_815vertices669faces_chassis_0",
+      "center": [
+        0.8658620715141296,
+        -1.432836651802063,
+        0.34904569387435913
+      ],
+      "size": [
+        0.010701775550842285,
+        0.21900320053100586,
+        0.21904966235160828
+      ],
+      "faces": 96
+    },
+    {
+      "id": "wheels_0302",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_rotorlf_lod0_rotorLF_rotor_160vertices163faces_chassis_0",
+      "center": [
+        0.8534685373306274,
+        -1.432841181755066,
+        0.3487178683280945
+      ],
+      "size": [
+        0.04000532627105713,
+        0.41796445846557617,
+        0.418572336435318
+      ],
+      "faces": 158
+    },
+    {
+      "id": "wheels_0303",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_rotorlr_lod0_rotorLR_hub_815vertices669faces_chassis_0",
+      "center": [
+        0.8267492055892944,
+        1.3786284923553467,
+        0.3574332892894745
+      ],
+      "size": [
+        0.008374989032745361,
+        0.20862996578216553,
+        0.2086782455444336
+      ],
+      "faces": 96
+    },
+    {
+      "id": "wheels_0304",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_rotorlr_lod0_rotorLR_rotor_160vertices163faces_chassis_0",
+      "center": [
+        0.8166371583938599,
+        1.3786284923553467,
+        0.35725611448287964
+      ],
+      "size": [
+        0.031252264976501465,
+        0.3981689214706421,
+        0.3985278308391571
+      ],
+      "faces": 158
+    },
+    {
+      "id": "wheels_0305",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_rotorrf_lod0_rotorRF_hub_815vertices679faces_chassis_0",
+      "center": [
+        -0.8660662174224854,
+        -1.518162727355957,
+        0.36292898654937744
+      ],
+      "size": [
+        0.020939409732818604,
+        0.04901587963104248,
+        0.14578628540039062
+      ],
+      "faces": 162
+    },
+    {
+      "id": "wheels_0306",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_rotorrf_lod0_rotorRF_hub_815vertices679faces_chassis_0",
+      "center": [
+        -0.8658661246299744,
+        -1.4328365325927734,
+        0.3490457534790039
+      ],
+      "size": [
+        0.010706901550292969,
+        0.2191070318222046,
+        0.21915343403816223
+      ],
+      "faces": 96
+    },
+    {
+      "id": "wheels_0307",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_rotorrf_lod0_rotorRF_rotor_160vertices161faces_chassis_0",
+      "center": [
+        -0.8534666299819946,
+        -1.4328410625457764,
+        0.3487177789211273
+      ],
+      "size": [
+        0.04002434015274048,
+        0.4181627035140991,
+        0.41877061128616333
+      ],
+      "faces": 158
+    },
+    {
+      "id": "wheels_0308",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_rotorrr_lod0_rotorRR_hub_817vertices679faces_chassis_0",
+      "center": [
+        -0.8285726308822632,
+        1.3786296844482422,
+        0.35731691122055054
+      ],
+      "size": [
+        0.004734814167022705,
+        0.20845139026641846,
+        0.2084520161151886
+      ],
+      "faces": 96
+    },
+    {
+      "id": "wheels_0309",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "one77:ast_one77_10_rotorrr_lod0_rotorRR_rotor_160vertices161faces_chassis_0",
+      "center": [
+        -0.8166390657424927,
+        1.3786284923553467,
+        0.3573169410228729
+      ],
+      "size": [
+        0.0279427170753479,
+        0.3978193998336792,
+        0.39781564474105835
+      ],
+      "faces": 158
+    },
+    {
+      "id": "body_0310",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one78:ast_one77_10_lod0_body_frame_345vertices383faces_chassis_0",
+      "center": [
+        0.0,
+        -1.4840457439422607,
+        0.7052720189094543
+      ],
+      "size": [
+        1.3754229545593262,
+        1.6061110496520996,
+        0.32737016677856445
+      ],
+      "faces": 234
+    },
+    {
+      "id": "body_0311",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "one78:ast_one77_10_lod0_body_frame_345vertices383faces_chassis_0",
+      "center": [
+        0.0,
+        -2.1484758853912354,
+        0.4041905403137207
+      ],
+      "size": [
+        0.816631555557251,
+        0.0674128532409668,
+        0.30568361282348633
+      ],
+      "faces": 56
+    },
+    {
+      "id": "wheels_0312",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface166_ASTON2:AstonMartin_One77RewardRecycled_2010_Wheel1A_3D_3DWheel_2f4b409_0",
+      "center": [
+        -0.85821932554245,
+        -1.4328415393829346,
+        0.34868910908699036
+      ],
+      "size": [
+        0.2931405305862427,
+        0.6890190839767456,
+        0.6919507384300232
+      ],
+      "faces": 1140
+    },
+    {
+      "id": "wheels_0313",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface166_ASTON2:AstonMartin_One77RewardRecycled_2010_Wheel1A_3D_3DWheel_2f4b409_0",
+      "center": [
+        -0.9583349823951721,
+        -1.4328415393829346,
+        0.3522372543811798
+      ],
+      "size": [
+        0.08855688571929932,
+        0.5632506608963013,
+        0.5630576014518738
+      ],
+      "faces": 4241
+    },
+    {
+      "id": "wheels_0314",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface166_ASTON2:AstonMartin_One77RewardRecycled_2010_Wheel1A_3D_3DWheel_2f4b409_0",
+      "center": [
+        -0.8334869146347046,
+        -1.4329174757003784,
+        0.34581446647644043
+      ],
+      "size": [
+        0.23705053329467773,
+        0.5088462829589844,
+        0.5108969211578369
+      ],
+      "faces": 45
+    },
+    {
+      "id": "wheels_0315",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface166_ASTON2:AstonMartin_One77RewardRecycled_2010_Wheel1A_3D_3DWheel_2f4b409_0",
+      "center": [
+        -0.7257736921310425,
+        -1.432841420173645,
+        0.34548628330230713
+      ],
+      "size": [
+        0.022996068000793457,
+        0.5598480701446533,
+        0.5596563816070557
+      ],
+      "faces": 80
+    },
+    {
+      "id": "wheels_0316",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface1_ASTON2:AstonMartin_One77RewardRecycled_2010_Wheel1A_3D_3DWheel_2f4b409_0",
+      "center": [
+        0.8582195043563843,
+        -1.4328413009643555,
+        0.34868907928466797
+      ],
+      "size": [
+        0.29314035177230835,
+        0.689018964767456,
+        0.6919506788253784
+      ],
+      "faces": 1140
+    },
+    {
+      "id": "wheels_0317",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface1_ASTON2:AstonMartin_One77RewardRecycled_2010_Wheel1A_3D_3DWheel_2f4b409_0",
+      "center": [
+        0.9583352208137512,
+        -1.4328413009643555,
+        0.3522372245788574
+      ],
+      "size": [
+        0.08855664730072021,
+        0.5632506608963013,
+        0.5630576610565186
+      ],
+      "faces": 4241
+    },
+    {
+      "id": "wheels_0318",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface1_ASTON2:AstonMartin_One77RewardRecycled_2010_Wheel1A_3D_3DWheel_2f4b409_0",
+      "center": [
+        0.8334870934486389,
+        -1.4327654838562012,
+        0.34581443667411804
+      ],
+      "size": [
+        0.23705041408538818,
+        0.5088464021682739,
+        0.5108968615531921
+      ],
+      "faces": 45
+    },
+    {
+      "id": "wheels_0319",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface1_ASTON2:AstonMartin_One77RewardRecycled_2010_Wheel1A_3D_3DWheel_2f4b409_0",
+      "center": [
+        0.7257739305496216,
+        -1.4328413009643555,
+        0.3454863131046295
+      ],
+      "size": [
+        0.02299588918685913,
+        0.5598481893539429,
+        0.5596564412117004
+      ],
+      "faces": 80
+    },
+    {
+      "id": "wheels_0320",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface331_ASTON2:AstonMartin_One77RewardRecycled_2010_Wheel1A_3D_3DWheel_2f4b409_0",
+      "center": [
+        0.8971008062362671,
+        1.3218610286712646,
+        0.34195855259895325
+      ],
+      "size": [
+        0.1598713994026184,
+        0.32270002365112305,
+        0.2674902081489563
+      ],
+      "faces": 1597
+    },
+    {
+      "id": "wheels_0321",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface331_ASTON2:AstonMartin_One77RewardRecycled_2010_Wheel1A_3D_3DWheel_2f4b409_0",
+      "center": [
+        0.9545315504074097,
+        1.3786287307739258,
+        0.3601698875427246
+      ],
+      "size": [
+        0.08629673719406128,
+        0.5614966154098511,
+        0.5614099502563477
+      ],
+      "faces": 4200
+    },
+    {
+      "id": "wheels_0322",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface331_ASTON2:AstonMartin_One77RewardRecycled_2010_Wheel1A_3D_3DWheel_2f4b409_0",
+      "center": [
+        0.6555713415145874,
+        1.3786307573318481,
+        0.35449060797691345
+      ],
+      "size": [
+        0.014790594577789307,
+        0.5562319755554199,
+        0.5561471581459045
+      ],
+      "faces": 80
+    },
+    {
+      "id": "wheels_0323",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface331_ASTON2:AstonMartin_One77RewardRecycled_2010_Wheel1A_3D_3DWheel_2f4b409_0",
+      "center": [
+        0.7972331047058105,
+        1.3807594776153564,
+        0.35960960388183594
+      ],
+      "size": [
+        0.29724621772766113,
+        0.5322760343551636,
+        0.5301401615142822
+      ],
+      "faces": 45
+    },
+    {
+      "id": "wheels_0324",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface331_ASTON2:AstonMartin_One77RewardRecycled_2010_Wheel1A_3D_3DWheel_2f4b409_0",
+      "center": [
+        0.9413454532623291,
+        1.3797639608383179,
+        0.361027330160141
+      ],
+      "size": [
+        0.009712040424346924,
+        0.5688333511352539,
+        0.5564040541648865
+      ],
+      "faces": 32
+    },
+    {
+      "id": "wheels_0325",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface331_ASTON2:AstonMartin_One77RewardRecycled_2010_Wheel1A_3D_3DWheel_2f4b409_0",
+      "center": [
+        0.8210299015045166,
+        1.3786287307739258,
+        0.3571767508983612
+      ],
+      "size": [
+        0.35477644205093384,
+        0.7112475633621216,
+        0.7143533825874329
+      ],
+      "faces": 1140
+    },
+    {
+      "id": "wheels_0326",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface485_ASTON2:AstonMartin_One77RewardRecycled_2010_Wheel1A_3D_3DWheel_2f4b409_0",
+      "center": [
+        -0.8989192247390747,
+        1.3219122886657715,
+        0.34136343002319336
+      ],
+      "size": [
+        0.15623503923416138,
+        0.32241976261138916,
+        0.2669362425804138
+      ],
+      "faces": 1597
+    },
+    {
+      "id": "wheels_0327",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface485_ASTON2:AstonMartin_One77RewardRecycled_2010_Wheel1A_3D_3DWheel_2f4b409_0",
+      "center": [
+        -0.9545317888259888,
+        1.3786287307739258,
+        0.3601699769496918
+      ],
+      "size": [
+        0.08629685640335083,
+        0.5614966154098511,
+        0.5614098906517029
+      ],
+      "faces": 4200
+    },
+    {
+      "id": "wheels_0328",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface485_ASTON2:AstonMartin_One77RewardRecycled_2010_Wheel1A_3D_3DWheel_2f4b409_0",
+      "center": [
+        -0.6555715799331665,
+        1.3786265850067139,
+        0.35449057817459106
+      ],
+      "size": [
+        0.014790832996368408,
+        0.5562318563461304,
+        0.5561470985412598
+      ],
+      "faces": 80
+    },
+    {
+      "id": "wheels_0329",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface485_ASTON2:AstonMartin_One77RewardRecycled_2010_Wheel1A_3D_3DWheel_2f4b409_0",
+      "center": [
+        -0.7972333431243896,
+        1.3764978647232056,
+        0.3596096932888031
+      ],
+      "size": [
+        0.297246515750885,
+        0.5322761535644531,
+        0.530140221118927
+      ],
+      "faces": 45
+    },
+    {
+      "id": "wheels_0330",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface485_ASTON2:AstonMartin_One77RewardRecycled_2010_Wheel1A_3D_3DWheel_2f4b409_0",
+      "center": [
+        -0.9413456916809082,
+        1.3774935007095337,
+        0.36102741956710815
+      ],
+      "size": [
+        0.009712159633636475,
+        0.5688333511352539,
+        0.5564041137695312
+      ],
+      "faces": 32
+    },
+    {
+      "id": "wheels_0331",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface485_ASTON2:AstonMartin_One77RewardRecycled_2010_Wheel1A_3D_3DWheel_2f4b409_0",
+      "center": [
+        -0.8210301399230957,
+        1.3786287307739258,
+        0.3571767508983612
+      ],
+      "size": [
+        0.3547767996788025,
+        0.7112478017807007,
+        0.7143535017967224
+      ],
+      "faces": 1140
+    },
+    {
+      "id": "wheels_0332",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface582_ASTON2:AstonMartin_One77Reward_2010CalliperBadgeA_Material1_0",
+      "center": [
+        0.816531777381897,
+        -1.3590575456619263,
+        0.3327033519744873
+      ],
+      "size": [
+        0.32825684547424316,
+        0.30348944664001465,
+        0.2736007571220398
+      ],
+      "faces": 1729
+    },
+    {
+      "id": "wheels_0333",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "polySurface583_ASTON2:AstonMartin_One77Reward_2010CalliperBadgeA_Material1_0",
+      "center": [
+        -0.812955379486084,
+        -1.359004020690918,
+        0.33269572257995605
+      ],
+      "size": [
+        0.3354092240333557,
+        0.3035966157913208,
+        0.27373039722442627
+      ],
+      "faces": 1729
+    }
+  ]
+}

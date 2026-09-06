@@ -26,7 +26,10 @@ for o,data,world in snapshots:
  # Two leftover default-primitive spheres sit well below the car's actual
  # lowest point, which the export catalog later drops (no material) but which
  # still got used to compute the floor offset, leaving the real car floating.
- if car=='ford-gt40' and o.name.startswith('Icosphere'):continue
+ # A leftover default-primitive sphere with no material has turned up in
+ # multiple unrelated sources (reference/measurement objects artists forget
+ # to delete); it is never real vehicle geometry, so it is dropped everywhere.
+ if o.name.startswith('Icosphere') and not len(o.data.materials):continue
  if car=='mercedes-amg-gt' and mats==['Material.035']:continue
  # The source scene bundles several small decorative props scattered far to
  # either side of the car (not the vehicle itself), which blew out the
@@ -99,7 +102,7 @@ bpy.context.view_layer.update()
 # unused ones, which pollutes the keyword classification below with unrelated
 # part names (e.g. every piece of a single-mesh source inheriting a wheel material).
 for o in list(bpy.context.scene.objects):
- if o.type!='MESH' or not len(o.data.polygons):continue
+ if o.type!='MESH' or not len(o.data.polygons) or not len(o.data.materials):continue
  bpy.ops.object.select_all(action='DESELECT');o.select_set(True);bpy.context.view_layer.objects.active=o
  bpy.ops.object.material_slot_remove_unused()
 def bounds(o):
