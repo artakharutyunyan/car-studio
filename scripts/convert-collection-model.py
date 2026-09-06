@@ -20,7 +20,19 @@ for o,data,world in snapshots:
  if car=='aston-martin-db5' and mats==['Material']:continue
  if car=='ferrari-roma' and mats==['Color_M08']:continue
  if car=='vw-beetle' and o.name.startswith('Text'):continue
+ if car=='ford-model-t' and o.name.startswith('Text'):continue
+ if car=='lamborghini-miura' and mats==['.019']:continue
+ if car=='mclaren-f1-1993' and mats in (['floor'],['material']):continue
+ # Two leftover default-primitive spheres sit well below the car's actual
+ # lowest point, which the export catalog later drops (no material) but which
+ # still got used to compute the floor offset, leaving the real car floating.
+ if car=='ford-gt40' and o.name.startswith('Icosphere'):continue
  if car=='mercedes-amg-gt' and mats==['Material.035']:continue
+ # The source scene bundles several small decorative props scattered far to
+ # either side of the car (not the vehicle itself), which blew out the
+ # bounding box used to normalize scale — the car ended up roughly 4x too
+ # wide once these were included.
+ if car=='mercedes-amg-gt' and mats and mats[0] in ('Material.016','Material.018','Material.019','Material.026','Material.027','Material.003','Material.013','Material.014','Material.015','Material.021','Material.022','Material.025','Material.033','Material.034'):continue
  if car=='corvette-c2' and mats==['Material.009']:continue
  if car=='mini-cooper' and world.translation.y<-0.3:continue
  matrix=rotation@world;o.data=data;o.modifiers.clear();o.parent=None;o.matrix_world=Matrix.Identity(4);o.data.transform(matrix);o['source_object']=o.name;meshes.append(o)
@@ -58,7 +70,7 @@ for m in bpy.data.materials:
    # Untextured source; the whole car shares one material, so this also colors glass and tires.
    p.inputs['Base Color'].default_value=(.85,.32,.03,1);p.inputs['Metallic'].default_value=.35;p.inputs['Roughness'].default_value=.28
   if car=='lamborghini-countach' and m.name=='CARO':
-   p.inputs['Base Color'].default_value=(.82,.84,.84,1);p.inputs['Metallic'].default_value=.3;p.inputs['Roughness'].default_value=.24
+   p.inputs['Base Color'].default_value=(.02,.16,.92,1);p.inputs['Metallic'].default_value=.35;p.inputs['Roughness'].default_value=.2
   if car=='toyota-supra-mk4' and m.name=='Primary1.001':
    p.inputs['Base Color'].default_value=(.88,.18,.025,1);p.inputs['Metallic'].default_value=.22;p.inputs['Roughness'].default_value=.27
   if car=='lamborghini-diablo' and m.name=='Default':
@@ -67,6 +79,10 @@ for m in bpy.data.materials:
    for link in list(p.inputs['Alpha'].links):m.node_tree.links.remove(link)
    p.inputs['Alpha'].default_value=1
    m.surface_render_method='DITHERED'
+  if car=='lamborghini-miura' and m.name=='.015':
+   # Placeholder pink on the headlight bezel trim in the source; recolored to
+   # match the surrounding chrome/black trim instead.
+   p.inputs['Base Color'].default_value=(.08,.08,.09,1);p.inputs['Metallic'].default_value=.6;p.inputs['Roughness'].default_value=.35
   if car in ('f1-lotus-72','f1-ferrari-f2004'):
    # Every material on this source imported as alpha-blended (a packed spec
    # texture's G channel was read as an alpha mask), which risks WebGL
@@ -107,6 +123,7 @@ for o in list(bpy.context.scene.objects):
  if any(k in name for k in ['tire','tyre','wheel','rim','brake','hlfw','hrfw','hlrw','hrrw']):group='wheels';label='Wheel assembly detail'
  elif car!='shelby-cobra' and abs(c.x)>.52 and c.z<.65 and size.y<1.05 and size.z<1.05 and (abs(c.y)>length*.18):group='wheels';label='Wheel assembly detail'
  elif (car=='rolls-royce-phantom' and 'material.001' in name):group='glass';label='Glazing'
+ elif car=='mercedes-amg-gt' and 'green_house_glass' in name:group='glass';label='Glazing'
  elif any(k in name for k in ['window','windshield','transparent_glass','glass_tint']) or name.endswith(' glass'):group='glass';label='Glazing'
  elif any(k in name for k in ['interior','_int_','leather','seat','wood','steer','cockpit']):group='cabin';label='Cockpit detail'
  elif 'exhaust' in name:group='drive';label='Exhaust detail'

@@ -8,8 +8,13 @@ for car in sys.argv[1:] or ['model-x','ferrari-f40','porsche-930']:
  bpy.ops.wm.read_factory_settings(use_empty=True)
  bpy.ops.import_scene.gltf(filepath=os.path.abspath(f'public/models/{car}.glb'))
  # Normalize only the card composition; exported studio scale stays physical.
+ # Normalize every car to the same apparent length in frame. Real-world length
+ # varies from ~3m (2CV) to ~5.3m (S-Class/Cullinan); without this, only cars
+ # near the old one-sided 4.9m cap filled the frame like the reference Tesla
+ # card, while shorter cars looked small and any car with a corrupted bounding
+ # box (wrong axis, stray geometry) rendered at the wrong apparent scale too.
  meshes=[o for o in bpy.context.scene.objects if o.type=='MESH'];points=[o.matrix_world@Vector(v) for o in meshes for v in o.bound_box];span=max(v.y for v in points)-min(v.y for v in points)
- if span>4.9:
+ if span>0:
   for o in meshes:o.scale*=4.9/span;o.location*=4.9/span
  scene=bpy.context.scene;scene.render.engine='CYCLES';scene.cycles.device='CPU';scene.cycles.samples=96;scene.cycles.use_denoising=False
  scene.render.resolution_x=960;scene.render.resolution_y=720;scene.render.resolution_percentage=100
