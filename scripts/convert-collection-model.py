@@ -67,11 +67,25 @@ for m in bpy.data.materials:
    for link in list(p.inputs['Alpha'].links):m.node_tree.links.remove(link)
    p.inputs['Alpha'].default_value=1
    m.surface_render_method='DITHERED'
+  if car in ('f1-lotus-72','f1-ferrari-f2004'):
+   # Every material on this source imported as alpha-blended (a packed spec
+   # texture's G channel was read as an alpha mask), which risks WebGL
+   # depth-sorting holes across separated pieces; none of it is meant to be transparent.
+   for link in list(p.inputs['Alpha'].links):m.node_tree.links.remove(link)
+   p.inputs['Alpha'].default_value=1
+   m.surface_render_method='DITHERED'
 # Weld UV-seam duplicate vertices, then separate actual disconnected islands.
 for o in list(meshes):
  bpy.ops.object.select_all(action='DESELECT');o.select_set(True);bpy.context.view_layer.objects.active=o
  bpy.ops.object.mode_set(mode='EDIT');bpy.ops.mesh.select_all(action='SELECT');bpy.ops.mesh.remove_doubles(threshold=.00001);bpy.ops.mesh.normals_make_consistent(inside=False);bpy.ops.mesh.separate(type='LOOSE');bpy.ops.object.mode_set(mode='OBJECT')
 bpy.context.view_layer.update()
+# Loose-part separation keeps every material slot from the source object, even
+# unused ones, which pollutes the keyword classification below with unrelated
+# part names (e.g. every piece of a single-mesh source inheriting a wheel material).
+for o in list(bpy.context.scene.objects):
+ if o.type!='MESH' or not len(o.data.polygons):continue
+ bpy.ops.object.select_all(action='DESELECT');o.select_set(True);bpy.context.view_layer.objects.active=o
+ bpy.ops.object.material_slot_remove_unused()
 def bounds(o):
  points=[v.co for v in o.data.vertices];lo=Vector([min(v[a] for v in points) for a in range(3)]);hi=Vector([max(v[a] for v in points) for a in range(3)]);return (lo+hi)/2,hi-lo
 def solid_material(name,color,metallic=0,roughness=.38):
