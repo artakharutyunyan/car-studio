@@ -1,0 +1,2317 @@
+{
+  "modifications": "Normalized orientation and scale; removed presentation floor; separated and clustered source geometry; adapted browser materials.",
+  "objects": [
+    {
+      "id": "wheels_0000",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:BASE_A_GEOMETRY:BRAKELIGHT_BRAKELIGHT_RIGHT1_0",
+      "center": [
+        -0.0002435147762298584,
+        0.9269301891326904,
+        1.0264524221420288
+      ],
+      "size": [
+        0.3839583992958069,
+        0.011986196041107178,
+        0.02567315101623535
+      ],
+      "faces": 8
+    },
+    {
+      "id": "body_0001",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:BASE_A_GEOMETRY:CARSKIN_SKIN2_0",
+      "center": [
+        -0.0002434849739074707,
+        1.4167420864105225,
+        0.882179856300354
+      ],
+      "size": [
+        1.2137550115585327,
+        1.3250384330749512,
+        0.3534965515136719
+      ],
+      "faces": 602
+    },
+    {
+      "id": "body_0002",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:BASE_A_GEOMETRY:CARSKIN_SKIN2_0",
+      "center": [
+        -0.00024349987506866455,
+        0.8969753980636597,
+        1.0290874242782593
+      ],
+      "size": [
+        0.57057785987854,
+        0.06799793243408203,
+        0.03986692428588867
+      ],
+      "faces": 32
+    },
+    {
+      "id": "body_0003",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:BASE_A_GEOMETRY:DECALDULL_BADGING1_0",
+      "center": [
+        -0.00024346262216567993,
+        2.046602487564087,
+        0.6723994612693787
+      ],
+      "size": [
+        0.4989505410194397,
+        0.17078542709350586,
+        0.1986154317855835
+      ],
+      "faces": 8
+    },
+    {
+      "id": "body_0004",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_BODY_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        0.6034672260284424,
+        1.1010570526123047,
+        0.884888768196106
+      ],
+      "size": [
+        0.0847826600074768,
+        0.07452511787414551,
+        0.053560853004455566
+      ],
+      "faces": 30
+    },
+    {
+      "id": "body_0005",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_BODY_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        0.8440498113632202,
+        0.7482004165649414,
+        0.22323893010616302
+      ],
+      "size": [
+        0.09964436292648315,
+        0.2911248803138733,
+        0.17578354477882385
+      ],
+      "faces": 48
+    },
+    {
+      "id": "body_0006",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_BODY_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        -0.6039541959762573,
+        1.1010570526123047,
+        0.8848885893821716
+      ],
+      "size": [
+        0.0847826600074768,
+        0.07452511787414551,
+        0.053560853004455566
+      ],
+      "faces": 30
+    },
+    {
+      "id": "body_0007",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_BODY_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        -0.8445370197296143,
+        0.7482004165649414,
+        0.22323870658874512
+      ],
+      "size": [
+        0.09964340925216675,
+        0.2911248803138733,
+        0.17578351497650146
+      ],
+      "faces": 48
+    },
+    {
+      "id": "body_0008",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_BODY_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        0.4655737578868866,
+        -0.7709917426109314,
+        0.8698872327804565
+      ],
+      "size": [
+        0.22121471166610718,
+        0.04845130443572998,
+        0.06412583589553833
+      ],
+      "faces": 18
+    },
+    {
+      "id": "body_0009",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_BODY_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        0.16201268136501312,
+        -0.7363219857215881,
+        0.8979597091674805
+      ],
+      "size": [
+        0.5218514800071716,
+        0.06593739986419678,
+        0.04363054037094116
+      ],
+      "faces": 16
+    },
+    {
+      "id": "body_0010",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_BODY_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        -0.09099501371383667,
+        -0.8193410634994507,
+        0.8843812942504883
+      ],
+      "size": [
+        0.2068401575088501,
+        0.09092801809310913,
+        0.05323988199234009
+      ],
+      "faces": 20
+    },
+    {
+      "id": "body_0011",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_BODY_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        -0.3811562955379486,
+        -0.7073741555213928,
+        0.8913867473602295
+      ],
+      "size": [
+        0.5323283076286316,
+        0.1432194709777832,
+        0.053305625915527344
+      ],
+      "faces": 16
+    },
+    {
+      "id": "body_0012",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_BODY_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        2.9802322387695312e-08,
+        -0.7062652111053467,
+        0.8585262298583984
+      ],
+      "size": [
+        1.4944148063659668,
+        0.4089091420173645,
+        0.05617481470108032
+      ],
+      "faces": 66
+    },
+    {
+      "id": "body_0013",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_BODY_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        0.23363927006721497,
+        -0.7534347772598267,
+        0.9024528861045837
+      ],
+      "size": [
+        0.3098948001861572,
+        0.025060951709747314,
+        0.04251396656036377
+      ],
+      "faces": 10
+    },
+    {
+      "id": "body_0014",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_BODY_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        -0.31172236800193787,
+        -0.7526352405548096,
+        0.9077996015548706
+      ],
+      "size": [
+        0.30185508728027344,
+        0.09462976455688477,
+        0.034796297550201416
+      ],
+      "faces": 10
+    },
+    {
+      "id": "body_0015",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_BODY_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        0.6954363584518433,
+        0.6694192886352539,
+        0.5177320837974548
+      ],
+      "size": [
+        0.33937400579452515,
+        0.3136475086212158,
+        0.2575218379497528
+      ],
+      "faces": 60
+    },
+    {
+      "id": "body_0016",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_BODY_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        -0.6959242224693298,
+        0.6694192886352539,
+        0.5177319049835205
+      ],
+      "size": [
+        0.3393741846084595,
+        0.3136475086212158,
+        0.2575218081474304
+      ],
+      "faces": 60
+    },
+    {
+      "id": "body_0017",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_BODY_A_GEOMETRY:CARSKIN_SKIN2_0",
+      "center": [
+        -0.0002434849739074707,
+        0.005022227764129639,
+        0.6916987895965576
+      ],
+      "size": [
+        1.796026349067688,
+        3.7466230392456055,
+        1.069328784942627
+      ],
+      "faces": 1760
+    },
+    {
+      "id": "body_0018",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_BODY_A_GEOMETRY:DECALDULL_BADGING1_0",
+      "center": [
+        -0.8028767704963684,
+        -0.9245910048484802,
+        0.7955177426338196
+      ],
+      "size": [
+        0.08502614498138428,
+        0.22786939144134521,
+        0.0931471586227417
+      ],
+      "faces": 4
+    },
+    {
+      "id": "body_0019",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_BODY_A_GEOMETRY:PLAINNOTHING_BLACK1_0",
+      "center": [
+        -0.000243455171585083,
+        1.2508584260940552,
+        0.4418635666370392
+      ],
+      "size": [
+        1.7945654392242432,
+        0.9609594941139221,
+        0.6130332350730896
+      ],
+      "faces": 66
+    },
+    {
+      "id": "body_0020",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_BODY_A_GEOMETRY:PLAINNOTHING_BLACK1_0",
+      "center": [
+        2.9802322387695312e-08,
+        -1.1561555862426758,
+        0.42818358540534973
+      ],
+      "size": [
+        1.732196569442749,
+        0.90303635597229,
+        0.6057105660438538
+      ],
+      "faces": 68
+    },
+    {
+      "id": "body_0021",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_DOORLINE_A_GEOMETRY:DOORLINE_DOORLINE1_0",
+      "center": [
+        -0.000243455171585083,
+        1.6870205402374268,
+        0.8051667213439941
+      ],
+      "size": [
+        1.2264244556427002,
+        0.8000496625900269,
+        0.19740170240402222
+      ],
+      "faces": 54
+    },
+    {
+      "id": "body_0022",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_DOORLINE_A_GEOMETRY:DOORLINE_DOORLINE1_0",
+      "center": [
+        0.7814373970031738,
+        -0.05719318985939026,
+        0.5669187307357788
+      ],
+      "size": [
+        0.15470463037490845,
+        1.4140446186065674,
+        0.6194098591804504
+      ],
+      "faces": 38
+    },
+    {
+      "id": "body_0023",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_DOORLINE_A_GEOMETRY:DOORLINE_DOORLINE1_0",
+      "center": [
+        0.7378281354904175,
+        -0.3806253671646118,
+        0.6974961161613464
+      ],
+      "size": [
+        0.22827988862991333,
+        0.5422794818878174,
+        0.8493560552597046
+      ],
+      "faces": 28
+    },
+    {
+      "id": "wheels_0024",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_DOORLINE_A_GEOMETRY:DOORLINE_DOORLINE1_0",
+      "center": [
+        0.8028768301010132,
+        -1.5655920505523682,
+        0.5730224251747131
+      ],
+      "size": [
+        0.11231273412704468,
+        0.32567155361175537,
+        0.07982766628265381
+      ],
+      "faces": 22
+    },
+    {
+      "id": "body_0025",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_DOORLINE_A_GEOMETRY:DOORLINE_DOORLINE1_0",
+      "center": [
+        2.9802322387695312e-08,
+        -1.3672667741775513,
+        0.7233363389968872
+      ],
+      "size": [
+        1.3453145027160645,
+        1.2979142665863037,
+        0.28108346462249756
+      ],
+      "faces": 44
+    },
+    {
+      "id": "body_0026",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_DOORLINE_A_GEOMETRY:DOORLINE_DOORLINE1_0",
+      "center": [
+        0.6139432191848755,
+        1.0697585344314575,
+        0.9172499179840088
+      ],
+      "size": [
+        0.18808144330978394,
+        0.37472057342529297,
+        0.06352376937866211
+      ],
+      "faces": 30
+    },
+    {
+      "id": "body_0027",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_DOORLINE_A_GEOMETRY:DOORLINE_DOORLINE1_0",
+      "center": [
+        0.8652456402778625,
+        1.5166304111480713,
+        0.7097206115722656
+      ],
+      "size": [
+        0.05627858638763428,
+        0.16876578330993652,
+        0.08735209703445435
+      ],
+      "faces": 6
+    },
+    {
+      "id": "body_0028",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_DOORLINE_A_GEOMETRY:DOORLINE_DOORLINE1_0",
+      "center": [
+        0.6208865642547607,
+        0.9644368886947632,
+        0.9119530916213989
+      ],
+      "size": [
+        0.2648240327835083,
+        0.6638423800468445,
+        0.11947900056838989
+      ],
+      "faces": 38
+    },
+    {
+      "id": "body_0029",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_DOORLINE_A_GEOMETRY:DOORLINE_DOORLINE1_0",
+      "center": [
+        -0.781924843788147,
+        -0.05719318985939026,
+        0.5669184923171997
+      ],
+      "size": [
+        0.15470367670059204,
+        1.4140446186065674,
+        0.6194099187850952
+      ],
+      "faces": 38
+    },
+    {
+      "id": "body_0030",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_DOORLINE_A_GEOMETRY:DOORLINE_DOORLINE1_0",
+      "center": [
+        -0.7378281354904175,
+        -0.3806253671646118,
+        0.6974958777427673
+      ],
+      "size": [
+        0.22827976942062378,
+        0.5422794818878174,
+        0.8493560552597046
+      ],
+      "faces": 28
+    },
+    {
+      "id": "wheels_0031",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_DOORLINE_A_GEOMETRY:DOORLINE_DOORLINE1_0",
+      "center": [
+        -0.8028767108917236,
+        -1.5655920505523682,
+        0.5730222463607788
+      ],
+      "size": [
+        0.11231285333633423,
+        0.32567155361175537,
+        0.07982772588729858
+      ],
+      "faces": 22
+    },
+    {
+      "id": "body_0032",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_DOORLINE_A_GEOMETRY:DOORLINE_DOORLINE1_0",
+      "center": [
+        -0.6144301295280457,
+        1.0697585344314575,
+        0.9172497987747192
+      ],
+      "size": [
+        0.18808138370513916,
+        0.37472057342529297,
+        0.06352382898330688
+      ],
+      "faces": 30
+    },
+    {
+      "id": "body_0033",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_DOORLINE_A_GEOMETRY:DOORLINE_DOORLINE1_0",
+      "center": [
+        -0.8657325506210327,
+        1.5166304111480713,
+        0.7097203731536865
+      ],
+      "size": [
+        0.05627870559692383,
+        0.16876578330993652,
+        0.08735209703445435
+      ],
+      "faces": 6
+    },
+    {
+      "id": "body_0034",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_DOORLINE_A_GEOMETRY:DOORLINE_DOORLINE1_0",
+      "center": [
+        -0.6213735342025757,
+        0.9644368886947632,
+        0.9119528532028198
+      ],
+      "size": [
+        0.26482394337654114,
+        0.6638423800468445,
+        0.11947894096374512
+      ],
+      "faces": 38
+    },
+    {
+      "id": "body_0035",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_DOORLINE_A_GEOMETRY:DOORLINE_DOORLINE1_0",
+      "center": [
+        -0.000243455171585083,
+        1.869624137878418,
+        0.7774522304534912
+      ],
+      "size": [
+        1.0115444660186768,
+        0.03445315361022949,
+        0.01240628957748413
+      ],
+      "faces": 4
+    },
+    {
+      "id": "body_0036",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_DOOR_LEFT_A_GEOMETRY:CARSKIN_SKIN2_0",
+      "center": [
+        0.8613477945327759,
+        0.48186299204826355,
+        0.6936275362968445
+      ],
+      "size": [
+        0.029965996742248535,
+        0.226412832736969,
+        0.09555816650390625
+      ],
+      "faces": 70
+    },
+    {
+      "id": "body_0037",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_DOOR_LEFT_A_GEOMETRY:CARSKIN_SKIN2_0",
+      "center": [
+        0.7381938695907593,
+        -0.0010832250118255615,
+        0.6924078464508057
+      ],
+      "size": [
+        0.23047226667404175,
+        1.2901649475097656,
+        0.8464062213897705
+      ],
+      "faces": 51
+    },
+    {
+      "id": "body_0038",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_DOOR_LEFT_A_GEOMETRY:DECALDULL_BADGING1_0",
+      "center": [
+        0.8307721614837646,
+        0.6744977831840515,
+        0.5406224727630615
+      ],
+      "size": [
+        0.06383061408996582,
+        0.35639944672584534,
+        0.3376208245754242
+      ],
+      "faces": 4
+    },
+    {
+      "id": "body_0039",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_DOOR_LEFT_A_GEOMETRY:DECALDULL_BADGING1_0",
+      "center": [
+        0.8497751951217651,
+        0.4828908443450928,
+        0.6924561262130737
+      ],
+      "size": [
+        0.008770525455474854,
+        0.23957312107086182,
+        0.10682016611099243
+      ],
+      "faces": 4
+    },
+    {
+      "id": "body_0040",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_DOOR_RIGHT_A_GEOMETRY:CARSKIN_SKIN2_0",
+      "center": [
+        -0.8618347644805908,
+        0.48186299204826355,
+        0.6936272978782654
+      ],
+      "size": [
+        0.02996593713760376,
+        0.226412832736969,
+        0.09555816650390625
+      ],
+      "faces": 70
+    },
+    {
+      "id": "body_0041",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_DOOR_RIGHT_A_GEOMETRY:CARSKIN_SKIN2_0",
+      "center": [
+        -0.738437294960022,
+        -0.0010832250118255615,
+        0.6924076676368713
+      ],
+      "size": [
+        0.23095917701721191,
+        1.2901649475097656,
+        0.8464063405990601
+      ],
+      "faces": 51
+    },
+    {
+      "id": "body_0042",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_DOOR_RIGHT_A_GEOMETRY:DECALDULL_BADGING1_0",
+      "center": [
+        -0.83125901222229,
+        0.6744977831840515,
+        0.5406222343444824
+      ],
+      "size": [
+        0.06383085250854492,
+        0.35639944672584534,
+        0.3376207947731018
+      ],
+      "faces": 4
+    },
+    {
+      "id": "body_0043",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_DOOR_RIGHT_A_GEOMETRY:DECALDULL_BADGING1_0",
+      "center": [
+        -0.8502621054649353,
+        0.4828908443450928,
+        0.6924558877944946
+      ],
+      "size": [
+        0.008770585060119629,
+        0.23957312107086182,
+        0.10682016611099243
+      ],
+      "faces": 4
+    },
+    {
+      "id": "drive_0044",
+      "part": "drive",
+      "label": "Exhaust detail",
+      "source": "GEOMETRY:KIT00_EXHAUST_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        0.05043111369013786,
+        1.9201316833496094,
+        0.28763115406036377
+      ],
+      "size": [
+        0.08965518325567245,
+        0.4691888093948364,
+        0.10251398384571075
+      ],
+      "faces": 80
+    },
+    {
+      "id": "drive_0045",
+      "part": "drive",
+      "label": "Exhaust detail",
+      "source": "GEOMETRY:KIT00_EXHAUST_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        -0.05091823637485504,
+        1.9201316833496094,
+        0.2876311242580414
+      ],
+      "size": [
+        0.08965520560741425,
+        0.4691888093948364,
+        0.10251396894454956
+      ],
+      "faces": 80
+    },
+    {
+      "id": "drive_0046",
+      "part": "drive",
+      "label": "Exhaust detail",
+      "source": "GEOMETRY:KIT00_EXHAUST_A_GEOMETRY:PLAINNOTHING_BLACK1_0",
+      "center": [
+        -0.0002435147762298584,
+        2.088338851928711,
+        0.2922133207321167
+      ],
+      "size": [
+        0.17638680338859558,
+        0.12413239479064941,
+        0.07769015431404114
+      ],
+      "faces": 20
+    },
+    {
+      "id": "wheels_0047",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_BRAKE_A_GEOMETRY:BRAKEDISC_ROTOR3_0",
+      "center": [
+        -0.7269641160964966,
+        -1.1492215394973755,
+        0.3196397125720978
+      ],
+      "size": [
+        0.016220450401306152,
+        0.3488762378692627,
+        0.3435155749320984
+      ],
+      "faces": 36
+    },
+    {
+      "id": "wheels_0048",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_BRAKE_A_GEOMETRY:BRAKEDISC_ROTOR3_0",
+      "center": [
+        -0.7693964242935181,
+        -1.1492215394973755,
+        0.3196396827697754
+      ],
+      "size": [
+        0.135339617729187,
+        0.3493632674217224,
+        0.34936320781707764
+      ],
+      "faces": 52
+    },
+    {
+      "id": "wheels_0049",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_BRAKE_A_GEOMETRY:BRAKEDISC_ROTOR3_0",
+      "center": [
+        -0.7558568716049194,
+        -1.1494650840759277,
+        0.31927430629730225
+      ],
+      "size": [
+        0.03142714500427246,
+        0.18905532360076904,
+        0.18637564778327942
+      ],
+      "faces": 18
+    },
+    {
+      "id": "wheels_0050",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_BRAKE_A_GEOMETRY:BRAKEDISC_ROTOR3_0",
+      "center": [
+        0.7269644141197205,
+        -1.1492215394973755,
+        0.3196399211883545
+      ],
+      "size": [
+        0.016220450401306152,
+        0.3488762378692627,
+        0.343515545129776
+      ],
+      "faces": 36
+    },
+    {
+      "id": "wheels_0051",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_BRAKE_A_GEOMETRY:BRAKEDISC_ROTOR3_0",
+      "center": [
+        0.7689988613128662,
+        -1.1492215394973755,
+        0.3196398615837097
+      ],
+      "size": [
+        0.1353396773338318,
+        0.3493632674217224,
+        0.34936317801475525
+      ],
+      "faces": 52
+    },
+    {
+      "id": "wheels_0052",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_BRAKE_A_GEOMETRY:BRAKEDISC_ROTOR3_0",
+      "center": [
+        0.7558571696281433,
+        -1.1494650840759277,
+        0.3192744851112366
+      ],
+      "size": [
+        0.03142714500427246,
+        0.18905532360076904,
+        0.18637561798095703
+      ],
+      "faces": 18
+    },
+    {
+      "id": "wheels_0053",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_BRAKE_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        -0.7308927178382874,
+        -1.0199768543243408,
+        0.3374248147010803
+      ],
+      "size": [
+        0.15079915523529053,
+        0.11328691244125366,
+        0.3025866150856018
+      ],
+      "faces": 107
+    },
+    {
+      "id": "wheels_0054",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_BRAKE_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        0.7308928966522217,
+        -1.0199768543243408,
+        0.33742502331733704
+      ],
+      "size": [
+        0.15079903602600098,
+        0.11328691244125366,
+        0.3025866746902466
+      ],
+      "faces": 107
+    },
+    {
+      "id": "wheels_0055",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_BUMPER_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        0.5375654101371765,
+        -1.952237606048584,
+        0.3495137691497803
+      ],
+      "size": [
+        0.3807910978794098,
+        0.27261877059936523,
+        0.2198762595653534
+      ],
+      "faces": 146
+    },
+    {
+      "id": "wheels_0056",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_BUMPER_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        0.842710018157959,
+        -1.5079705715179443,
+        0.5589293241500854
+      ],
+      "size": [
+        0.03410738706588745,
+        0.19297528266906738,
+        0.04108476638793945
+      ],
+      "faces": 22
+    },
+    {
+      "id": "wheels_0057",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_BUMPER_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        0.5414636731147766,
+        -1.93381929397583,
+        0.32500171661376953
+      ],
+      "size": [
+        0.320371150970459,
+        0.21683311462402344,
+        0.032895177602767944
+      ],
+      "faces": 33
+    },
+    {
+      "id": "wheels_0058",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_BUMPER_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        -0.5375652313232422,
+        -1.952237606048584,
+        0.3495136499404907
+      ],
+      "size": [
+        0.3807911276817322,
+        0.27261877059936523,
+        0.21987619996070862
+      ],
+      "faces": 146
+    },
+    {
+      "id": "wheels_0059",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_BUMPER_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        -0.8427099585533142,
+        -1.5079705715179443,
+        0.5589290857315063
+      ],
+      "size": [
+        0.034107327461242676,
+        0.19297528266906738,
+        0.04108476638793945
+      ],
+      "faces": 22
+    },
+    {
+      "id": "wheels_0060",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_BUMPER_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        -0.5414634943008423,
+        -1.93381929397583,
+        0.3250015377998352
+      ],
+      "size": [
+        0.3203710913658142,
+        0.21683311462402344,
+        0.03289508819580078
+      ],
+      "faces": 33
+    },
+    {
+      "id": "body_0061",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_FRONT_BUMPER_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        7.450580596923828e-08,
+        -2.1014437675476074,
+        0.2714506983757019
+      ],
+      "size": [
+        0.6441531181335449,
+        0.0621798038482666,
+        0.07539305090904236
+      ],
+      "faces": 8
+    },
+    {
+      "id": "wheels_0062",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_BUMPER_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        0.5984728336334229,
+        -1.8046016693115234,
+        0.181554913520813
+      ],
+      "size": [
+        0.49383434653282166,
+        0.5893206596374512,
+        0.09152354300022125
+      ],
+      "faces": 114
+    },
+    {
+      "id": "wheels_0063",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_BUMPER_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        0.5821496248245239,
+        -1.7677745819091797,
+        0.5990965962409973
+      ],
+      "size": [
+        0.12157028913497925,
+        0.19497883319854736,
+        0.10651266574859619
+      ],
+      "faces": 36
+    },
+    {
+      "id": "wheels_0064",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_BUMPER_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        0.5509651899337769,
+        -1.9226181507110596,
+        0.3694724440574646
+      ],
+      "size": [
+        0.34716975688934326,
+        0.19601619243621826,
+        0.24402892589569092
+      ],
+      "faces": 6
+    },
+    {
+      "id": "wheels_0065",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_BUMPER_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        -0.5984726548194885,
+        -1.8046016693115234,
+        0.1815546751022339
+      ],
+      "size": [
+        0.4938342869281769,
+        0.5893206596374512,
+        0.09152352809906006
+      ],
+      "faces": 114
+    },
+    {
+      "id": "wheels_0066",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_BUMPER_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        -0.5509650707244873,
+        -1.9226181507110596,
+        0.36947229504585266
+      ],
+      "size": [
+        0.34716975688934326,
+        0.19601619243621826,
+        0.24402886629104614
+      ],
+      "faces": 6
+    },
+    {
+      "id": "body_0067",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_FRONT_BUMPER_A_GEOMETRY:CARSKIN_SKIN2_0",
+      "center": [
+        2.9802322387695312e-08,
+        -1.8063557147979736,
+        0.4068410396575928
+      ],
+      "size": [
+        1.710270881652832,
+        0.7162884473800659,
+        0.41067636013031006
+      ],
+      "faces": 664
+    },
+    {
+      "id": "body_0068",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_FRONT_BUMPER_A_GEOMETRY:DECALDULL_BADGING1_0",
+      "center": [
+        4.470348358154297e-08,
+        -2.0608880519866943,
+        0.39737313985824585
+      ],
+      "size": [
+        0.9335823059082031,
+        0.15299856662750244,
+        0.08338555693626404
+      ],
+      "faces": 32
+    },
+    {
+      "id": "body_0069",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_FRONT_BUMPER_A_GEOMETRY:PLAINNOTHING_BLACK1_0",
+      "center": [
+        1.1920928955078125e-07,
+        -1.8300485610961914,
+        0.16371336579322815
+      ],
+      "size": [
+        1.6357195377349854,
+        0.6432876586914062,
+        0.07677008211612701
+      ],
+      "faces": 44
+    },
+    {
+      "id": "wheels_0070",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_BUMPER_A_GEOMETRY:PLAINNOTHING_BLACK1_0",
+      "center": [
+        0.5535233020782471,
+        -1.9009101390838623,
+        0.32916656136512756
+      ],
+      "size": [
+        0.32207560539245605,
+        0.26728975772857666,
+        0.14028143882751465
+      ],
+      "faces": 26
+    },
+    {
+      "id": "wheels_0071",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_BUMPER_A_GEOMETRY:PLAINNOTHING_BLACK1_0",
+      "center": [
+        -0.5535231828689575,
+        -1.9009101390838623,
+        0.3291664123535156
+      ],
+      "size": [
+        0.3220754861831665,
+        0.26728975772857666,
+        0.14028146862983704
+      ],
+      "faces": 26
+    },
+    {
+      "id": "wheels_0072",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_TIRE_A_GEOMETRY:MAGSILVER_TIRE1_0",
+      "center": [
+        -0.8332645893096924,
+        -1.1492215394973755,
+        0.3212233781814575
+      ],
+      "size": [
+        0.05677151679992676,
+        0.48287051916122437,
+        0.46070098876953125
+      ],
+      "faces": 685
+    },
+    {
+      "id": "wheels_0073",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_TIRE_A_GEOMETRY:MAGSILVER_TIRE1_0",
+      "center": [
+        -0.8284491300582886,
+        -1.149221420288086,
+        0.32134512066841125
+      ],
+      "size": [
+        0.03396153450012207,
+        0.4979766607284546,
+        0.5004114508628845
+      ],
+      "faces": 180
+    },
+    {
+      "id": "wheels_0074",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_TIRE_A_GEOMETRY:MAGSILVER_TIRE1_0",
+      "center": [
+        -0.7297325134277344,
+        -1.1515361070632935,
+        0.32134512066841125
+      ],
+      "size": [
+        0.1573893427848816,
+        0.4270806312561035,
+        0.4292730987071991
+      ],
+      "faces": 30
+    },
+    {
+      "id": "wheels_0075",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_FRONT_TIRE_A_GEOMETRY:RUBBER_TIRE_STYLE02_0",
+      "center": [
+        -0.7326472997665405,
+        -1.1492215394973755,
+        0.32134512066841125
+      ],
+      "size": [
+        0.2225239872932434,
+        0.6465900540351868,
+        0.6426902413368225
+      ],
+      "faces": 298
+    },
+    {
+      "id": "body_0076",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_HOOD_A_GEOMETRY:CARSKIN_SKIN2_0",
+      "center": [
+        2.9802322387695312e-08,
+        -1.366521954536438,
+        0.7343400716781616
+      ],
+      "size": [
+        1.3341078758239746,
+        1.2862632274627686,
+        0.30454719066619873
+      ],
+      "faces": 68
+    },
+    {
+      "id": "body_0077",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_HOOD_A_GEOMETRY:DECALDULL_BADGING1_0",
+      "center": [
+        4.470348358154297e-08,
+        -1.8886609077453613,
+        0.625663161277771
+      ],
+      "size": [
+        0.9618449211120605,
+        0.124503493309021,
+        0.03499436378479004
+      ],
+      "faces": 10
+    },
+    {
+      "id": "cabin_0078",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "GEOMETRY:KIT00_INTERIOR_A_GEOMETRY:INTERIOR_INTERIOR1_0",
+      "center": [
+        6.332993507385254e-08,
+        -0.35696282982826233,
+        0.42160850763320923
+      ],
+      "size": [
+        0.19246616959571838,
+        0.5349861979484558,
+        0.1551654040813446
+      ],
+      "faces": 47
+    },
+    {
+      "id": "cabin_0079",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "GEOMETRY:KIT00_INTERIOR_A_GEOMETRY:INTERIOR_INTERIOR1_0",
+      "center": [
+        -0.339617520570755,
+        0.28735366463661194,
+        0.6776585578918457
+      ],
+      "size": [
+        0.4892052114009857,
+        0.7550286650657654,
+        0.8927481174468994
+      ],
+      "faces": 215
+    },
+    {
+      "id": "cabin_0080",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "GEOMETRY:KIT00_INTERIOR_A_GEOMETRY:INTERIOR_INTERIOR1_0",
+      "center": [
+        0.0,
+        -0.018646240234375,
+        0.7117149829864502
+      ],
+      "size": [
+        1.4603065252304077,
+        1.5323987007141113,
+        1.0186495780944824
+      ],
+      "faces": 1266
+    },
+    {
+      "id": "cabin_0081",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "GEOMETRY:KIT00_INTERIOR_A_GEOMETRY:INTERIOR_INTERIOR1_0",
+      "center": [
+        3.725290298461914e-08,
+        -0.1849709451198578,
+        0.49099913239479065
+      ],
+      "size": [
+        0.05700908973813057,
+        0.054761290550231934,
+        0.23345142602920532
+      ],
+      "faces": 36
+    },
+    {
+      "id": "cabin_0082",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "GEOMETRY:KIT00_INTERIOR_A_GEOMETRY:INTERIOR_INTERIOR1_0",
+      "center": [
+        0.037518832832574844,
+        0.23549601435661316,
+        0.49286115169525146
+      ],
+      "size": [
+        0.02874813973903656,
+        0.6060944199562073,
+        0.05236995220184326
+      ],
+      "faces": 12
+    },
+    {
+      "id": "cabin_0083",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "GEOMETRY:KIT00_INTERIOR_A_GEOMETRY:INTERIOR_INTERIOR1_0",
+      "center": [
+        -3.725290298461914e-08,
+        -0.2385818362236023,
+        1.115714192390442
+      ],
+      "size": [
+        0.24119266867637634,
+        0.04046930372714996,
+        0.0813608169555664
+      ],
+      "faces": 110
+    },
+    {
+      "id": "cabin_0084",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "GEOMETRY:KIT00_INTERIOR_A_GEOMETRY:INTERIOR_INTERIOR1_0",
+      "center": [
+        0.0,
+        -0.18861550092697144,
+        1.1354143619537354
+      ],
+      "size": [
+        1.0266486406326294,
+        0.2638883590698242,
+        0.08048522472381592
+      ],
+      "faces": 82
+    },
+    {
+      "id": "cabin_0085",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "GEOMETRY:KIT00_INTERIOR_A_GEOMETRY:INTERIOR_INTERIOR1_0",
+      "center": [
+        0.33498844504356384,
+        -0.14594817161560059,
+        0.7805320620536804
+      ],
+      "size": [
+        0.37421292066574097,
+        0.18133507668972015,
+        0.35380589962005615
+      ],
+      "faces": 452
+    },
+    {
+      "id": "cabin_0086",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "GEOMETRY:KIT00_INTERIOR_A_GEOMETRY:INTERIOR_INTERIOR1_0",
+      "center": [
+        0.3319433331489563,
+        -0.43453219532966614,
+        0.6518301963806152
+      ],
+      "size": [
+        0.14642104506492615,
+        0.4751599431037903,
+        0.2688223719596863
+      ],
+      "faces": 18
+    },
+    {
+      "id": "cabin_0087",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "GEOMETRY:KIT00_INTERIOR_A_GEOMETRY:INTERIOR_INTERIOR1_0",
+      "center": [
+        0.3243906497955322,
+        -0.043733224272727966,
+        1.180387020111084
+      ],
+      "size": [
+        0.39102351665496826,
+        0.12733778357505798,
+        0.0845407247543335
+      ],
+      "faces": 82
+    },
+    {
+      "id": "cabin_0088",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "GEOMETRY:KIT00_INTERIOR_A_GEOMETRY:INTERIOR_INTERIOR1_0",
+      "center": [
+        -0.3248782157897949,
+        -0.043733224272727966,
+        1.1803867816925049
+      ],
+      "size": [
+        0.39102256298065186,
+        0.12733778357505798,
+        0.0845407247543335
+      ],
+      "faces": 82
+    },
+    {
+      "id": "cabin_0089",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "GEOMETRY:KIT00_INTERIOR_A_GEOMETRY:INTERIOR_INTERIOR1_0",
+      "center": [
+        -5.587935447692871e-09,
+        -0.4833357334136963,
+        0.8754222989082336
+      ],
+      "size": [
+        0.10670915246009827,
+        0.17056354880332947,
+        0.07165873050689697
+      ],
+      "faces": 80
+    },
+    {
+      "id": "cabin_0090",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "GEOMETRY:KIT00_INTERIOR_A_GEOMETRY:INTERIOR_INTERIOR1_0",
+      "center": [
+        0.33913058042526245,
+        0.28735366463661194,
+        0.6776586174964905
+      ],
+      "size": [
+        0.4892055094242096,
+        0.7550286650657654,
+        0.8927479982376099
+      ],
+      "faces": 215
+    },
+    {
+      "id": "cabin_0091",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "GEOMETRY:KIT00_INTERIOR_A_GEOMETRY:INTERIOR_INTERIOR1_0",
+      "center": [
+        -0.00024390220642089844,
+        0.6023932099342346,
+        0.6258758306503296
+      ],
+      "size": [
+        1.1177659034729004,
+        0.30552342534065247,
+        0.8572368025779724
+      ],
+      "faces": 43
+    },
+    {
+      "id": "wheels_0092",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_LEFT_BRAKELIGHT_A_GEOMETRY:BRAKELIGHT_BRAKELIGHT_RIGHT1_0",
+      "center": [
+        0.6497563123703003,
+        1.8034286499023438,
+        0.7389353513717651
+      ],
+      "size": [
+        0.3566717803478241,
+        0.4175370931625366,
+        0.1529737114906311
+      ],
+      "faces": 37
+    },
+    {
+      "id": "body_0093",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_LEFT_HEADLIGHT_A_GEOMETRY:HEADLIGHTREFLECTOR_HEADLIGHT_LEFT1_0",
+      "center": [
+        0.6858130693435669,
+        -1.5085248947143555,
+        0.7064574956893921
+      ],
+      "size": [
+        0.13302117586135864,
+        0.12364006042480469,
+        0.12165302038192749
+      ],
+      "faces": 221
+    },
+    {
+      "id": "body_0094",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_LEFT_HEADLIGHT_A_GEOMETRY:HLCHROME_HEADLIGHT_LEFT1_0",
+      "center": [
+        0.6305098533630371,
+        -1.5669829845428467,
+        0.669988751411438
+      ],
+      "size": [
+        0.30404844880104065,
+        0.6078106164932251,
+        0.2193499207496643
+      ],
+      "faces": 436
+    },
+    {
+      "id": "body_0095",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_LEFT_HEADLIGHT_GLASS_A_GEOMETRY:HEADLIGHTGLASS_HEADLIGHT_GLASS_LEFT1_0",
+      "center": [
+        0.6273429989814758,
+        -1.7112385034561157,
+        0.6696739792823792
+      ],
+      "size": [
+        0.2894302308559418,
+        0.3179168701171875,
+        0.20710694789886475
+      ],
+      "faces": 37
+    },
+    {
+      "id": "body_0096",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_LEFT_SIDE_MIRROR_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        0.7081056237220764,
+        -0.34072452783584595,
+        0.9351572394371033
+      ],
+      "size": [
+        0.08600115776062012,
+        0.2404075413942337,
+        0.1716080904006958
+      ],
+      "faces": 58
+    },
+    {
+      "id": "body_0097",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_LEFT_SIDE_MIRROR_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        0.8803503513336182,
+        -0.22123593091964722,
+        0.9232078790664673
+      ],
+      "size": [
+        0.20001935958862305,
+        0.06105361878871918,
+        0.12272578477859497
+      ],
+      "faces": 8
+    },
+    {
+      "id": "body_0098",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_LEFT_SIDE_MIRROR_A_GEOMETRY:CARSKIN_SKIN2_0",
+      "center": [
+        0.8572059869766235,
+        -0.28419333696365356,
+        0.9222334027290344
+      ],
+      "size": [
+        0.2565404176712036,
+        0.20868946611881256,
+        0.13925063610076904
+      ],
+      "faces": 298
+    },
+    {
+      "id": "wheels_0099",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_REAR_BRAKE_A_GEOMETRY:BRAKEDISC_ROTOR3_0",
+      "center": [
+        -0.7660415172576904,
+        1.2659327983856201,
+        0.337833046913147
+      ],
+      "size": [
+        0.015966951847076416,
+        0.36293303966522217,
+        0.3573561906814575
+      ],
+      "faces": 36
+    },
+    {
+      "id": "wheels_0100",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_REAR_BRAKE_A_GEOMETRY:BRAKEDISC_ROTOR3_0",
+      "center": [
+        -0.8043347597122192,
+        1.2659327983856201,
+        0.3378330171108246
+      ],
+      "size": [
+        0.1353396773338318,
+        0.3634399175643921,
+        0.36343950033187866
+      ],
+      "faces": 52
+    },
+    {
+      "id": "wheels_0101",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_REAR_BRAKE_A_GEOMETRY:BRAKEDISC_ROTOR3_0",
+      "center": [
+        -0.795060932636261,
+        1.266186237335205,
+        0.33745288848876953
+      ],
+      "size": [
+        0.03142702579498291,
+        0.19667279720306396,
+        0.193884938955307
+      ],
+      "faces": 18
+    },
+    {
+      "id": "wheels_0102",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_REAR_BRAKE_A_GEOMETRY:BRAKEDISC_ROTOR3_0",
+      "center": [
+        0.7660417556762695,
+        1.2659327983856201,
+        0.3378332555294037
+      ],
+      "size": [
+        0.015966951847076416,
+        0.36293303966522217,
+        0.3573562502861023
+      ],
+      "faces": 36
+    },
+    {
+      "id": "wheels_0103",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_REAR_BRAKE_A_GEOMETRY:BRAKEDISC_ROTOR3_0",
+      "center": [
+        0.8039254546165466,
+        1.2659327983856201,
+        0.3378332555294037
+      ],
+      "size": [
+        0.135339617729187,
+        0.3634399175643921,
+        0.36343950033187866
+      ],
+      "faces": 52
+    },
+    {
+      "id": "wheels_0104",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_REAR_BRAKE_A_GEOMETRY:BRAKEDISC_ROTOR3_0",
+      "center": [
+        0.7950612306594849,
+        1.266186237335205,
+        0.33745309710502625
+      ],
+      "size": [
+        0.031426966190338135,
+        0.19667279720306396,
+        0.19388490915298462
+      ],
+      "faces": 18
+    },
+    {
+      "id": "wheels_0105",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_REAR_BRAKE_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        -0.7695898413658142,
+        1.1314806938171387,
+        0.35633474588394165
+      ],
+      "size": [
+        0.15079915523529053,
+        0.1178513765335083,
+        0.31477823853492737
+      ],
+      "faces": 107
+    },
+    {
+      "id": "wheels_0106",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_REAR_BRAKE_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        0.7695901989936829,
+        1.1314806938171387,
+        0.356334924697876
+      ],
+      "size": [
+        0.15079903602600098,
+        0.1178513765335083,
+        0.314778208732605
+      ],
+      "faces": 107
+    },
+    {
+      "id": "body_0107",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_REAR_BUMPER_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        0.39796650409698486,
+        2.0307960510253906,
+        0.27988141775131226
+      ],
+      "size": [
+        0.4723953902721405,
+        0.21049773693084717,
+        0.1151721179485321
+      ],
+      "faces": 161
+    },
+    {
+      "id": "body_0108",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_REAR_BUMPER_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        -0.39845383167266846,
+        2.0307960510253906,
+        0.2798812985420227
+      ],
+      "size": [
+        0.47239434719085693,
+        0.21049773693084717,
+        0.11517217755317688
+      ],
+      "faces": 161
+    },
+    {
+      "id": "body_0109",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_REAR_BUMPER_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        -0.00024341046810150146,
+        2.045957088470459,
+        0.30038759112358093
+      ],
+      "size": [
+        0.2558099329471588,
+        0.2226170301437378,
+        0.1208573579788208
+      ],
+      "faces": 138
+    },
+    {
+      "id": "body_0110",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_REAR_BUMPER_A_GEOMETRY:CARSKIN_SKIN2_0",
+      "center": [
+        -0.000243455171585083,
+        1.8015540838241577,
+        0.48515835404396057
+      ],
+      "size": [
+        1.7765374183654785,
+        0.7258918285369873,
+        0.5872154831886292
+      ],
+      "faces": 762
+    },
+    {
+      "id": "body_0111",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_REAR_BUMPER_A_GEOMETRY:DECALDULL_BADGING1_0",
+      "center": [
+        -0.2398519515991211,
+        2.100757598876953,
+        0.4835614562034607
+      ],
+      "size": [
+        0.06456118822097778,
+        0.010127782821655273,
+        0.050890445709228516
+      ],
+      "faces": 2
+    },
+    {
+      "id": "body_0112",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_REAR_BUMPER_A_GEOMETRY:PLAINNOTHING_BLACK1_0",
+      "center": [
+        -0.0002434179186820984,
+        1.9363579750061035,
+        0.3029932379722595
+      ],
+      "size": [
+        0.26311856508255005,
+        0.0018892288208007812,
+        0.10794422030448914
+      ],
+      "faces": 4
+    },
+    {
+      "id": "wheels_0113",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_RIGHT_BRAKELIGHT_A_GEOMETRY:BRAKELIGHT_BRAKELIGHT_RIGHT1_0",
+      "center": [
+        -0.65024334192276,
+        1.8034286499023438,
+        0.738935112953186
+      ],
+      "size": [
+        0.3566718101501465,
+        0.4175370931625366,
+        0.1529737114906311
+      ],
+      "faces": 37
+    },
+    {
+      "id": "body_0114",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_RIGHT_HEADLIGHT_A_GEOMETRY:HEADLIGHTREFLECTOR_HEADLIGHT_LEFT1_0",
+      "center": [
+        -0.6858129501342773,
+        -1.5085248947143555,
+        0.7064573168754578
+      ],
+      "size": [
+        0.13302117586135864,
+        0.12364006042480469,
+        0.12165296077728271
+      ],
+      "faces": 221
+    },
+    {
+      "id": "body_0115",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_RIGHT_HEADLIGHT_A_GEOMETRY:HLCHROME_HEADLIGHT_LEFT1_0",
+      "center": [
+        -0.6305097341537476,
+        -1.5669829845428467,
+        0.6699885725975037
+      ],
+      "size": [
+        0.30404847860336304,
+        0.6078106164932251,
+        0.21934986114501953
+      ],
+      "faces": 436
+    },
+    {
+      "id": "wheels_0116",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "GEOMETRY:KIT00_RIGHT_HEADLIGHT_A_GEOMETRY:HLCHROME_HEADLIGHT_LEFT1_0",
+      "center": [
+        -0.5821495056152344,
+        -1.7677745819091797,
+        0.599096417427063
+      ],
+      "size": [
+        0.12157028913497925,
+        0.19497883319854736,
+        0.10651272535324097
+      ],
+      "faces": 36
+    },
+    {
+      "id": "body_0117",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_RIGHT_HEADLIGHT_GLASS_A_GEOMETRY:HEADLIGHTGLASS_HEADLIGHT_GLASS_LEFT1_0",
+      "center": [
+        -0.627342939376831,
+        -1.7112385034561157,
+        0.6696738004684448
+      ],
+      "size": [
+        0.28943026065826416,
+        0.3179168701171875,
+        0.20710688829421997
+      ],
+      "faces": 37
+    },
+    {
+      "id": "body_0118",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_RIGHT_SIDE_MIRROR_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        -0.7081056237220764,
+        -0.34072452783584595,
+        0.935157060623169
+      ],
+      "size": [
+        0.08600103855133057,
+        0.2404075413942337,
+        0.17160815000534058
+      ],
+      "faces": 58
+    },
+    {
+      "id": "body_0119",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_RIGHT_SIDE_MIRROR_A_GEOMETRY:CALIPER_MISC1_0",
+      "center": [
+        -0.8803502917289734,
+        -0.22123593091964722,
+        0.923207700252533
+      ],
+      "size": [
+        0.20001935958862305,
+        0.06105361878871918,
+        0.12272584438323975
+      ],
+      "faces": 8
+    },
+    {
+      "id": "body_0120",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_RIGHT_SIDE_MIRROR_A_GEOMETRY:CARSKIN_SKIN2_0",
+      "center": [
+        -0.8572059869766235,
+        -0.28419333696365356,
+        0.9222332239151001
+      ],
+      "size": [
+        0.25654035806655884,
+        0.20868946611881256,
+        0.13925069570541382
+      ],
+      "faces": 298
+    },
+    {
+      "id": "body_0121",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_SKIRT_A_GEOMETRY:BOTTOM_CARBOTTOM1_0",
+      "center": [
+        -0.00024387240409851074,
+        0.07221412658691406,
+        0.19476792216300964
+      ],
+      "size": [
+        1.64400315284729,
+        3.9701786041259766,
+        0.13887919485569
+      ],
+      "faces": 111
+    },
+    {
+      "id": "body_0122",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "GEOMETRY:KIT00_SKIRT_B_GEOMETRY:BOTTOM_CARBOTTOM1_0",
+      "center": [
+        -0.00024387240409851074,
+        0.0720895528793335,
+        0.19476792216300964
+      ],
+      "size": [
+        1.64400315284729,
+        3.9699294567108154,
+        0.13887919485569
+      ],
+      "faces": 97
+    },
+    {
+      "id": "glass_0123",
+      "part": "glass",
+      "label": "Glazing",
+      "source": "GEOMETRY:KIT00_WINDOW_CARSKINUV_A_GEOMETRY:HEADLIGHTGLASS_HEADLIGHT_GLASS_LEFT1_0",
+      "center": [
+        0.0,
+        -0.47829824686050415,
+        1.0208660364151
+      ],
+      "size": [
+        1.4642062187194824,
+        0.660131573677063,
+        0.38085436820983887
+      ],
+      "faces": 82
+    },
+    {
+      "id": "wheels_0124",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "KIT00_FRONT_TIRE_A1_GEOMETRY:MAGSILVER_TIRE1_0",
+      "center": [
+        0.8328670263290405,
+        -1.1492215394973755,
+        0.3212236166000366
+      ],
+      "size": [
+        0.05677157640457153,
+        0.48287051916122437,
+        0.46070098876953125
+      ],
+      "faces": 685
+    },
+    {
+      "id": "wheels_0125",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "KIT00_FRONT_TIRE_A1_GEOMETRY:MAGSILVER_TIRE1_0",
+      "center": [
+        0.8280516266822815,
+        -1.149221420288086,
+        0.32134532928466797
+      ],
+      "size": [
+        0.03396153450012207,
+        0.4979766607284546,
+        0.5004113912582397
+      ],
+      "faces": 180
+    },
+    {
+      "id": "wheels_0126",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "KIT00_FRONT_TIRE_A1_GEOMETRY:MAGSILVER_TIRE1_0",
+      "center": [
+        0.7293349504470825,
+        -1.146906852722168,
+        0.32134532928466797
+      ],
+      "size": [
+        0.15738928318023682,
+        0.4270806908607483,
+        0.4292730987071991
+      ],
+      "faces": 30
+    },
+    {
+      "id": "wheels_0127",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "KIT00_FRONT_TIRE_A1_GEOMETRY:RUBBER_TIRE_STYLE02_0",
+      "center": [
+        0.7322497367858887,
+        -1.1492215394973755,
+        0.32134532928466797
+      ],
+      "size": [
+        0.2225239872932434,
+        0.6465900540351868,
+        0.6426901817321777
+      ],
+      "faces": 298
+    },
+    {
+      "id": "wheels_0128",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "KIT00_FRONT_TIRE_A2_GEOMETRY:MAGSILVER_TIRE1_0",
+      "center": [
+        0.867793619632721,
+        1.2659327983856201,
+        0.33948075771331787
+      ],
+      "size": [
+        0.05677151679992676,
+        0.5023260116577148,
+        0.4792632758617401
+      ],
+      "faces": 685
+    },
+    {
+      "id": "wheels_0129",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "KIT00_FRONT_TIRE_A2_GEOMETRY:MAGSILVER_TIRE1_0",
+      "center": [
+        0.8629782199859619,
+        1.2659327983856201,
+        0.3396073877811432
+      ],
+      "size": [
+        0.033961474895477295,
+        0.5180407762527466,
+        0.5205736756324768
+      ],
+      "faces": 180
+    },
+    {
+      "id": "wheels_0130",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "KIT00_FRONT_TIRE_A2_GEOMETRY:MAGSILVER_TIRE1_0",
+      "center": [
+        0.7642614841461182,
+        1.2683405876159668,
+        0.3396074175834656
+      ],
+      "size": [
+        0.1573893427848816,
+        0.44428837299346924,
+        0.4465690851211548
+      ],
+      "faces": 30
+    },
+    {
+      "id": "wheels_0131",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "KIT00_FRONT_TIRE_A2_GEOMETRY:RUBBER_TIRE_STYLE02_0",
+      "center": [
+        0.7671762704849243,
+        1.2659327983856201,
+        0.3396073579788208
+      ],
+      "size": [
+        0.2225239872932434,
+        0.6726418733596802,
+        0.6685850620269775
+      ],
+      "faces": 298
+    },
+    {
+      "id": "wheels_0132",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "KIT00_FRONT_TIRE_A_GEOMETRY:MAGSILVER_TIRE1_0",
+      "center": [
+        -0.8682029247283936,
+        1.2659327983856201,
+        0.33948051929473877
+      ],
+      "size": [
+        0.05677157640457153,
+        0.5023260116577148,
+        0.4792632758617401
+      ],
+      "faces": 685
+    },
+    {
+      "id": "wheels_0133",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "KIT00_FRONT_TIRE_A_GEOMETRY:MAGSILVER_TIRE1_0",
+      "center": [
+        -0.8633875250816345,
+        1.2659327983856201,
+        0.3396071791648865
+      ],
+      "size": [
+        0.03396153450012207,
+        0.5180407762527466,
+        0.5205737352371216
+      ],
+      "faces": 180
+    },
+    {
+      "id": "wheels_0134",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "KIT00_FRONT_TIRE_A_GEOMETRY:MAGSILVER_TIRE1_0",
+      "center": [
+        -0.7646708488464355,
+        1.2635247707366943,
+        0.3396071493625641
+      ],
+      "size": [
+        0.15738922357559204,
+        0.44428837299346924,
+        0.44656902551651
+      ],
+      "faces": 30
+    },
+    {
+      "id": "wheels_0135",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "KIT00_FRONT_TIRE_A_GEOMETRY:RUBBER_TIRE_STYLE02_0",
+      "center": [
+        -0.7675856351852417,
+        1.2659327983856201,
+        0.3396071791648865
+      ],
+      "size": [
+        0.2225239872932434,
+        0.6726418733596802,
+        0.6685850620269775
+      ],
+      "faces": 298
+    }
+  ]
+}

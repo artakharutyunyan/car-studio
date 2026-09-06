@@ -1,0 +1,2096 @@
+{
+  "modifications": "Normalized orientation and scale; removed presentation floor; separated and clustered source geometry; adapted browser materials.",
+  "objects": [
+    {
+      "id": "wheels_0000",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:WheelBL_pivot_rims_WheelBL_pivot_rims_None_df_0",
+      "center": [
+        0.9078518152236938,
+        1.3812413215637207,
+        0.3719654381275177
+      ],
+      "size": [
+        0.043985724449157715,
+        0.5537422895431519,
+        0.55625981092453
+      ],
+      "faces": 608
+    },
+    {
+      "id": "wheels_0001",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:WheelBL_pivot_rims_WheelBL_pivot_rims_None_df_0",
+      "center": [
+        0.8164030313491821,
+        1.3819327354431152,
+        0.3712484538555145
+      ],
+      "size": [
+        0.02046424150466919,
+        0.32536816596984863,
+        0.33023780584335327
+      ],
+      "faces": 34
+    },
+    {
+      "id": "wheels_0002",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:WheelBL_pivot_tyres_WheelBL_pivot_tyres_None_tyre_0",
+      "center": [
+        0.6750174760818481,
+        1.383664608001709,
+        0.3714892864227295
+      ],
+      "size": [
+        0.09281110763549805,
+        0.8844707012176514,
+        0.6045035123825073
+      ],
+      "faces": 7
+    },
+    {
+      "id": "wheels_0003",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:WheelBL_pivot_tyres_WheelBL_pivot_tyres_None_tyre_0",
+      "center": [
+        0.8085567951202393,
+        1.3818823099136353,
+        0.3715263307094574
+      ],
+      "size": [
+        0.25525927543640137,
+        0.7423064708709717,
+        0.7430526614189148
+      ],
+      "faces": 261
+    },
+    {
+      "id": "wheels_0004",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:WheelBR_rims_WheelBR_rims_None_df_0",
+      "center": [
+        -0.9078344702720642,
+        1.3824981451034546,
+        0.37196993827819824
+      ],
+      "size": [
+        0.043976664543151855,
+        0.5536983013153076,
+        0.5562348365783691
+      ],
+      "faces": 608
+    },
+    {
+      "id": "wheels_0005",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:WheelBR_rims_WheelBR_rims_None_df_0",
+      "center": [
+        -0.8163973093032837,
+        1.3817949295043945,
+        0.3712364137172699
+      ],
+      "size": [
+        0.020444214344024658,
+        0.32534921169281006,
+        0.3302077651023865
+      ],
+      "faces": 34
+    },
+    {
+      "id": "wheels_0006",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:WheelBR_tyres_WheelBR_tyres_None_tyre_0",
+      "center": [
+        -0.6750206351280212,
+        1.383664608001709,
+        0.3714962601661682
+      ],
+      "size": [
+        0.09281909465789795,
+        0.8844707012176514,
+        0.6044913530349731
+      ],
+      "faces": 7
+    },
+    {
+      "id": "wheels_0007",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:WheelBR_tyres_WheelBR_tyres_None_tyre_0",
+      "center": [
+        -0.808558464050293,
+        1.3818562030792236,
+        0.371526837348938
+      ],
+      "size": [
+        0.2552422881126404,
+        0.7422584295272827,
+        0.743053674697876
+      ],
+      "faces": 261
+    },
+    {
+      "id": "wheels_0008",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:WheelFL_pivot_rims_WheelFL_pivot_rims_None_df_0",
+      "center": [
+        0.9078518152236938,
+        -1.2887341976165771,
+        0.37196680903434753
+      ],
+      "size": [
+        0.043985724449157715,
+        0.553742527961731,
+        0.55625981092453
+      ],
+      "faces": 608
+    },
+    {
+      "id": "wheels_0009",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:WheelFL_pivot_rims_WheelFL_pivot_rims_None_df_0",
+      "center": [
+        0.8164030313491821,
+        -1.2880427837371826,
+        0.37124982476234436
+      ],
+      "size": [
+        0.02046424150466919,
+        0.3253682851791382,
+        0.33023780584335327
+      ],
+      "faces": 34
+    },
+    {
+      "id": "wheels_0010",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:WheelFL_pivot_tyres_WheelFL_pivot_tyres_None_tyre_0",
+      "center": [
+        0.721422553062439,
+        -1.2881132364273071,
+        0.3714906573295593
+      ],
+      "size": [
+        1.0132789611816406e-06,
+        0.604394257068634,
+        0.6045033931732178
+      ],
+      "faces": 6
+    },
+    {
+      "id": "wheels_0011",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:WheelFL_pivot_tyres_WheelFL_pivot_tyres_None_tyre_0",
+      "center": [
+        0.8085567951202393,
+        -1.2880933284759521,
+        0.3715277314186096
+      ],
+      "size": [
+        0.25525927543640137,
+        0.7423068881034851,
+        0.7430527210235596
+      ],
+      "faces": 261
+    },
+    {
+      "id": "wheels_0012",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:WheelFR_pivot_rims_WheelFR_pivot_rims_None_df_0",
+      "center": [
+        -0.9078530073165894,
+        -1.2874823808670044,
+        0.37196579575538635
+      ],
+      "size": [
+        0.043985724449157715,
+        0.5537424087524414,
+        0.55625981092453
+      ],
+      "faces": 608
+    },
+    {
+      "id": "wheels_0013",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:WheelFR_pivot_rims_WheelFR_pivot_rims_None_df_0",
+      "center": [
+        -0.8164042234420776,
+        -1.2881739139556885,
+        0.3712488114833832
+      ],
+      "size": [
+        0.02046424150466919,
+        0.32536816596984863,
+        0.33023780584335327
+      ],
+      "faces": 34
+    },
+    {
+      "id": "wheels_0014",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:WheelFR_pivot_tyres_WheelFR_pivot_tyres_None_tyre_0",
+      "center": [
+        -0.7214237451553345,
+        -1.2881033420562744,
+        0.37148967385292053
+      ],
+      "size": [
+        1.0132789611816406e-06,
+        0.604394257068634,
+        0.6045034527778625
+      ],
+      "faces": 6
+    },
+    {
+      "id": "wheels_0015",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:WheelFR_pivot_tyres_WheelFR_pivot_tyres_None_tyre_0",
+      "center": [
+        -0.80855792760849,
+        -1.2881232500076294,
+        0.3715267479419708
+      ],
+      "size": [
+        0.25525927543640137,
+        0.742306649684906,
+        0.7430527806282043
+      ],
+      "faces": 261
+    },
+    {
+      "id": "wheels_0016",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:bone_caliper_BL_pivot_rims_bone_caliper_BL_pivot_rims_None_df_0",
+      "center": [
+        0.8278288841247559,
+        1.545703411102295,
+        0.3753966689109802
+      ],
+      "size": [
+        0.033287882804870605,
+        0.10692751407623291,
+        0.25122785568237305
+      ],
+      "faces": 25
+    },
+    {
+      "id": "wheels_0017",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:bone_caliper_BR_pivot_rims_bone_caliper_BR_pivot_rims_None_df_0",
+      "center": [
+        -0.8278300762176514,
+        1.5457024574279785,
+        0.375397652387619
+      ],
+      "size": [
+        0.03328794240951538,
+        0.10692751407623291,
+        0.25122779607772827
+      ],
+      "faces": 25
+    },
+    {
+      "id": "wheels_0018",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:bone_caliper_FL_pivot_rims_bone_caliper_FL_pivot_rims_None_df_0",
+      "center": [
+        0.8278288841247559,
+        -1.124272108078003,
+        0.3753970265388489
+      ],
+      "size": [
+        0.033287882804870605,
+        0.10692763328552246,
+        0.2512277662754059
+      ],
+      "faces": 25
+    },
+    {
+      "id": "wheels_0019",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:bone_caliper_FR_pivot_rims_bone_caliper_FR_pivot_rims_None_df_0",
+      "center": [
+        -0.8278290033340454,
+        -1.124272108078003,
+        0.3753970265388489
+      ],
+      "size": [
+        0.03328794240951538,
+        0.10692763328552246,
+        0.2512277662754059
+      ],
+      "faces": 25
+    },
+    {
+      "id": "body_0020",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_bottom_chassis_pivot_bottom_None_under_0",
+      "center": [
+        4.470348358154297e-07,
+        -0.1654360294342041,
+        0.2598588764667511
+      ],
+      "size": [
+        1.699805736541748,
+        3.9610824584960938,
+        0.07483881711959839
+      ],
+      "faces": 76
+    },
+    {
+      "id": "body_0021",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carpaint_chassis_pivot_carpaint_None_black_glass_0",
+      "center": [
+        4.470348358154297e-07,
+        0.684689998626709,
+        1.552474021911621
+      ],
+      "size": [
+        1.1816046237945557,
+        1.598196029663086,
+        0.09235763549804688
+      ],
+      "faces": 332
+    },
+    {
+      "id": "body_0022",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carpaint_chassis_pivot_carpaint_None_car_range_rover_evoque:None1_0",
+      "center": [
+        4.917383193969727e-07,
+        1.9327976703643799,
+        0.3109201192855835
+      ],
+      "size": [
+        0.969501256942749,
+        0.2360057830810547,
+        0.039087921380996704
+      ],
+      "faces": 40
+    },
+    {
+      "id": "body_0023",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carpaint_chassis_pivot_carpaint_None_car_range_rover_evoque:None1_0",
+      "center": [
+        0.4124942123889923,
+        -0.5225213766098022,
+        0.9968748092651367
+      ],
+      "size": [
+        0.3288828730583191,
+        0.09290829300880432,
+        0.19510436058044434
+      ],
+      "faces": 78
+    },
+    {
+      "id": "body_0024",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carpaint_chassis_pivot_carpaint_None_car_range_rover_evoque:None1_0",
+      "center": [
+        3.8743019104003906e-07,
+        -0.01186591386795044,
+        0.9286100268363953
+      ],
+      "size": [
+        1.8567724227905273,
+        3.973283290863037,
+        1.2260884046554565
+      ],
+      "faces": 784
+    },
+    {
+      "id": "body_0025",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carpaint_chassis_pivot_carpaint_None_car_range_rover_evoque:None1_0",
+      "center": [
+        0.4069475531578064,
+        -0.6335445642471313,
+        0.9609847664833069
+      ],
+      "size": [
+        0.21593299508094788,
+        0.24996501207351685,
+        0.1662055253982544
+      ],
+      "faces": 16
+    },
+    {
+      "id": "body_0026",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carpaint_chassis_pivot_carpaint_None_car_range_rover_evoque:None1_0",
+      "center": [
+        -0.37613266706466675,
+        0.464235782623291,
+        1.3396252393722534
+      ],
+      "size": [
+        0.2223728597164154,
+        0.13377463817596436,
+        0.20516324043273926
+      ],
+      "faces": 18
+    },
+    {
+      "id": "body_0027",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carpaint_chassis_pivot_carpaint_None_car_range_rover_evoque:None1_0",
+      "center": [
+        0.3761335611343384,
+        0.464235782623291,
+        1.3396252393722534
+      ],
+      "size": [
+        0.2223728895187378,
+        0.13377463817596436,
+        0.20516324043273926
+      ],
+      "faces": 18
+    },
+    {
+      "id": "body_0028",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carpaint_chassis_pivot_carpaint_None_car_range_rover_evoque:None1_0",
+      "center": [
+        -0.3747722804546356,
+        0.13408002257347107,
+        0.8828632831573486
+      ],
+      "size": [
+        0.5372925400733948,
+        0.8217845559120178,
+        0.7633566856384277
+      ],
+      "faces": 98
+    },
+    {
+      "id": "body_0029",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carpaint_chassis_pivot_carpaint_None_car_range_rover_evoque:None1_0",
+      "center": [
+        0.37477314472198486,
+        0.13408002257347107,
+        0.8828632831573486
+      ],
+      "size": [
+        0.53729248046875,
+        0.8217845559120178,
+        0.7633566856384277
+      ],
+      "faces": 98
+    },
+    {
+      "id": "body_0030",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carpaint_chassis_pivot_carpaint_None_car_range_rover_evoque:None1_0",
+      "center": [
+        0.4124206006526947,
+        -0.5262765288352966,
+        1.0461198091506958
+      ],
+      "size": [
+        0.3616911768913269,
+        0.11632052063941956,
+        0.33524376153945923
+      ],
+      "faces": 128
+    },
+    {
+      "id": "body_0031",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carpaint_chassis_pivot_carpaint_None_carpaint_color_0",
+      "center": [
+        4.470348358154297e-07,
+        0.7772778272628784,
+        1.4866881370544434
+      ],
+      "size": [
+        1.339076042175293,
+        2.251077175140381,
+        0.20211923122406006
+      ],
+      "faces": 934
+    },
+    {
+      "id": "body_0032",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carpaint_chassis_pivot_carpaint_None_carpaint_color_0",
+      "center": [
+        3.8743019104003906e-07,
+        1.2695388793945312,
+        0.806755542755127
+      ],
+      "size": [
+        1.8822495937347412,
+        1.8319220542907715,
+        0.8907773494720459
+      ],
+      "faces": 3465
+    },
+    {
+      "id": "body_0033",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carpaint_chassis_pivot_carpaint_None_carpaint_color_0",
+      "center": [
+        4.470348358154297e-07,
+        -1.4555003643035889,
+        0.668163537979126
+      ],
+      "size": [
+        1.891296148300171,
+        1.4413915872573853,
+        0.6488056778907776
+      ],
+      "faces": 2142
+    },
+    {
+      "id": "wheels_0034",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carpaint_chassis_pivot_carpaint_None_carpaint_color_0",
+      "center": [
+        -0.7195270657539368,
+        -1.952936053276062,
+        0.39774084091186523
+      ],
+      "size": [
+        0.023160934448242188,
+        0.020908832550048828,
+        0.030987828969955444
+      ],
+      "faces": 34
+    },
+    {
+      "id": "wheels_0035",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carpaint_chassis_pivot_carpaint_None_carpaint_color_0",
+      "center": [
+        0.7195283770561218,
+        -1.952936053276062,
+        0.39774084091186523
+      ],
+      "size": [
+        0.02315998077392578,
+        0.020908832550048828,
+        0.030987828969955444
+      ],
+      "faces": 34
+    },
+    {
+      "id": "wheels_0036",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carpaint_chassis_pivot_carpaint_None_chassu_is_0",
+      "center": [
+        0.7921531200408936,
+        1.3813865184783936,
+        0.546908438205719
+      ],
+      "size": [
+        0.29561495780944824,
+        0.889026939868927,
+        0.5585318803787231
+      ],
+      "faces": 43
+    },
+    {
+      "id": "wheels_0037",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carpaint_chassis_pivot_carpaint_None_chassu_is_0",
+      "center": [
+        -0.7921523451805115,
+        1.3813865184783936,
+        0.546908438205719
+      ],
+      "size": [
+        0.29561495780944824,
+        0.889026939868927,
+        0.5585318803787231
+      ],
+      "faces": 43
+    },
+    {
+      "id": "wheels_0038",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carpaint_chassis_pivot_carpaint_None_chassu_is_0",
+      "center": [
+        0.759655773639679,
+        -1.2807881832122803,
+        0.5102582573890686
+      ],
+      "size": [
+        0.3698244094848633,
+        0.8632314801216125,
+        0.5756375789642334
+      ],
+      "faces": 40
+    },
+    {
+      "id": "body_0039",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carpaint_chassis_pivot_carpaint_None_chassu_is_0",
+      "center": [
+        4.470348358154297e-07,
+        -2.0205655097961426,
+        0.8523708581924438
+      ],
+      "size": [
+        0.7876229286193848,
+        0.044229865074157715,
+        0.021928131580352783
+      ],
+      "faces": 8
+    },
+    {
+      "id": "wheels_0040",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carpaint_chassis_pivot_carpaint_None_chassu_is_0",
+      "center": [
+        -0.7596549987792969,
+        -1.2807881832122803,
+        0.5102582573890686
+      ],
+      "size": [
+        0.3698244094848633,
+        0.8632314801216125,
+        0.5756375789642334
+      ],
+      "faces": 40
+    },
+    {
+      "id": "body_0041",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carpaint_chassis_pivot_carpaint_None_grid_0",
+      "center": [
+        3.8743019104003906e-07,
+        2.1393580436706543,
+        0.5959298610687256
+      ],
+      "size": [
+        1.157804012298584,
+        0.08935332298278809,
+        0.06294184923171997
+      ],
+      "faces": 168
+    },
+    {
+      "id": "body_0042",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carparts_dark_chassis_pivot_carparts_dark_None_black_SH_0",
+      "center": [
+        0.722274661064148,
+        -0.027446985244750977,
+        0.5508445501327515
+      ],
+      "size": [
+        0.45663508772850037,
+        4.1275553703308105,
+        0.6568102240562439
+      ],
+      "faces": 778
+    },
+    {
+      "id": "body_0043",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carparts_dark_chassis_pivot_carparts_dark_None_black_SH_0",
+      "center": [
+        0.6895099878311157,
+        0.4691975712776184,
+        1.2994048595428467
+      ],
+      "size": [
+        0.22070664167404175,
+        2.784022808074951,
+        0.4228135347366333
+      ],
+      "faces": 399
+    },
+    {
+      "id": "body_0044",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carparts_dark_chassis_pivot_carparts_dark_None_black_SH_0",
+      "center": [
+        -0.6895091533660889,
+        0.4691975712776184,
+        1.2994048595428467
+      ],
+      "size": [
+        0.22070658206939697,
+        2.784022808074951,
+        0.4228135347366333
+      ],
+      "faces": 399
+    },
+    {
+      "id": "body_0045",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carparts_dark_chassis_pivot_carparts_dark_None_black_SH_0",
+      "center": [
+        -0.7222738265991211,
+        -0.027446985244750977,
+        0.5508445501327515
+      ],
+      "size": [
+        0.4566352069377899,
+        4.1275553703308105,
+        0.6568102240562439
+      ],
+      "faces": 778
+    },
+    {
+      "id": "body_0046",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carparts_dark_chassis_pivot_carparts_dark_None_black_SH_0",
+      "center": [
+        4.76837158203125e-07,
+        2.0452880859375,
+        0.4033135771751404
+      ],
+      "size": [
+        0.8675793409347534,
+        0.2515575885772705,
+        0.21272361278533936
+      ],
+      "faces": 320
+    },
+    {
+      "id": "wheels_0047",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carparts_dark_chassis_pivot_carparts_dark_None_black_SH_0",
+      "center": [
+        0.6848260164260864,
+        -1.936218500137329,
+        0.5527524352073669
+      ],
+      "size": [
+        0.22407430410385132,
+        0.22534191608428955,
+        0.23663866519927979
+      ],
+      "faces": 49
+    },
+    {
+      "id": "body_0048",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carparts_dark_chassis_pivot_carparts_dark_None_black_SH_0",
+      "center": [
+        4.6193599700927734e-07,
+        -2.116288185119629,
+        0.34138113260269165
+      ],
+      "size": [
+        0.8708198070526123,
+        0.11223101615905762,
+        0.18665055930614471
+      ],
+      "faces": 166
+    },
+    {
+      "id": "body_0049",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carparts_dark_chassis_pivot_carparts_dark_None_black_SH_0",
+      "center": [
+        4.172325134277344e-07,
+        1.746675968170166,
+        1.4228601455688477
+      ],
+      "size": [
+        1.3175262212753296,
+        0.3036693334579468,
+        0.07446277141571045
+      ],
+      "faces": 94
+    },
+    {
+      "id": "body_0050",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carparts_dark_chassis_pivot_carparts_dark_None_black_SH_0",
+      "center": [
+        -0.8687084913253784,
+        -0.9890553951263428,
+        0.9682588577270508
+      ],
+      "size": [
+        0.03785824775695801,
+        0.30936694145202637,
+        0.04250675439834595
+      ],
+      "faces": 55
+    },
+    {
+      "id": "wheels_0051",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carparts_dark_chassis_pivot_carparts_dark_None_black_SH_0",
+      "center": [
+        -0.6848251819610596,
+        -1.936218500137329,
+        0.5527524352073669
+      ],
+      "size": [
+        0.22407418489456177,
+        0.22534191608428955,
+        0.23663866519927979
+      ],
+      "faces": 49
+    },
+    {
+      "id": "body_0052",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carparts_dark_chassis_pivot_carparts_dark_None_black_SH_0",
+      "center": [
+        0.8687092661857605,
+        -0.9890553951263428,
+        0.9682588577270508
+      ],
+      "size": [
+        0.03785824775695801,
+        0.30936694145202637,
+        0.04250675439834595
+      ],
+      "faces": 54
+    },
+    {
+      "id": "body_0053",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carparts_dark_chassis_pivot_carparts_dark_None_chrome_0",
+      "center": [
+        4.172325134277344e-07,
+        1.9966356754302979,
+        0.4504431486129761
+      ],
+      "size": [
+        1.3471933603286743,
+        0.3719733953475952,
+        0.30698275566101074
+      ],
+      "faces": 472
+    },
+    {
+      "id": "body_0054",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carparts_dark_chassis_pivot_carparts_dark_None_chrome_0",
+      "center": [
+        4.470348358154297e-07,
+        -2.092935085296631,
+        0.3605605959892273
+      ],
+      "size": [
+        1.0934770107269287,
+        0.18512964248657227,
+        0.23570235073566437
+      ],
+      "faces": 220
+    },
+    {
+      "id": "body_0055",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carparts_dark_chassis_pivot_carparts_dark_None_chrome_0",
+      "center": [
+        4.172325134277344e-07,
+        2.0883326530456543,
+        1.0721008777618408
+      ],
+      "size": [
+        1.1239290237426758,
+        0.0715186595916748,
+        0.04038572311401367
+      ],
+      "faces": 108
+    },
+    {
+      "id": "body_0056",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carparts_dark_chassis_pivot_carparts_dark_None_chrome_0",
+      "center": [
+        0.8758666515350342,
+        -0.933008074760437,
+        0.9848055839538574
+      ],
+      "size": [
+        0.04849803447723389,
+        0.33293962478637695,
+        0.056097447872161865
+      ],
+      "faces": 123
+    },
+    {
+      "id": "body_0057",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_carparts_dark_chassis_pivot_carparts_dark_None_chrome_0",
+      "center": [
+        -0.8758658170700073,
+        -0.933008074760437,
+        0.9848055839538574
+      ],
+      "size": [
+        0.04849797487258911,
+        0.33293962478637695,
+        0.056097447872161865
+      ],
+      "faces": 122
+    },
+    {
+      "id": "wheels_0058",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:chassis_pivot_details_chassis_pivot_details_None_df_0",
+      "center": [
+        0.5410906672477722,
+        1.945695400238037,
+        0.3551541566848755
+      ],
+      "size": [
+        0.19360211491584778,
+        0.26152122020721436,
+        0.12418335676193237
+      ],
+      "faces": 140
+    },
+    {
+      "id": "body_0059",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_details_chassis_pivot_details_None_df_0",
+      "center": [
+        0.6933046579360962,
+        1.8860933780670166,
+        1.0275893211364746
+      ],
+      "size": [
+        0.25680142641067505,
+        0.3387676477432251,
+        0.12558341026306152
+      ],
+      "faces": 378
+    },
+    {
+      "id": "wheels_0060",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:chassis_pivot_details_chassis_pivot_details_None_df_0",
+      "center": [
+        -0.6848251819610596,
+        -1.9355509281158447,
+        0.5809323191642761
+      ],
+      "size": [
+        0.224074125289917,
+        0.2240070104598999,
+        0.2643168866634369
+      ],
+      "faces": 81
+    },
+    {
+      "id": "wheels_0061",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:chassis_pivot_details_chassis_pivot_details_None_df_0",
+      "center": [
+        -0.6482006311416626,
+        -1.9485113620758057,
+        0.3092082440853119
+      ],
+      "size": [
+        0.18170374631881714,
+        0.15501689910888672,
+        0.0609360933303833
+      ],
+      "faces": 13
+    },
+    {
+      "id": "body_0062",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_details_chassis_pivot_details_None_df_0",
+      "center": [
+        -0.00020837783813476562,
+        2.080937385559082,
+        1.1040949821472168
+      ],
+      "size": [
+        0.7949771285057068,
+        0.054985761642456055,
+        0.13800048828125
+      ],
+      "faces": 824
+    },
+    {
+      "id": "body_0063",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_details_chassis_pivot_details_None_df_0",
+      "center": [
+        3.8743019104003906e-07,
+        -1.799411416053772,
+        0.8682749271392822
+      ],
+      "size": [
+        1.6232101917266846,
+        0.6334292888641357,
+        0.1793074607849121
+      ],
+      "faces": 1486
+    },
+    {
+      "id": "wheels_0064",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:chassis_pivot_details_chassis_pivot_details_None_df_0",
+      "center": [
+        0.6848260164260864,
+        -1.9355509281158447,
+        0.5809323191642761
+      ],
+      "size": [
+        0.22407430410385132,
+        0.2240070104598999,
+        0.2643168866634369
+      ],
+      "faces": 81
+    },
+    {
+      "id": "wheels_0065",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:chassis_pivot_details_chassis_pivot_details_None_df_0",
+      "center": [
+        0.6482014656066895,
+        -1.9485113620758057,
+        0.3092082440853119
+      ],
+      "size": [
+        0.18170374631881714,
+        0.15501689910888672,
+        0.0609360933303833
+      ],
+      "faces": 13
+    },
+    {
+      "id": "body_0066",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_details_chassis_pivot_details_None_df_0",
+      "center": [
+        4.470348358154297e-07,
+        -2.1095194816589355,
+        0.40445974469184875
+      ],
+      "size": [
+        0.5052032470703125,
+        0.01925373077392578,
+        0.04210013151168823
+      ],
+      "faces": 10
+    },
+    {
+      "id": "body_0067",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_details_chassis_pivot_details_None_df_0",
+      "center": [
+        -0.010166093707084656,
+        2.12235951423645,
+        0.790270209312439
+      ],
+      "size": [
+        0.9914792776107788,
+        0.10604619979858398,
+        0.41612738370895386
+      ],
+      "faces": 422
+    },
+    {
+      "id": "body_0068",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_details_chassis_pivot_details_None_df_0",
+      "center": [
+        4.172325134277344e-07,
+        -2.0998947620391846,
+        0.46508246660232544
+      ],
+      "size": [
+        1.07350754737854,
+        0.10510921478271484,
+        0.1819111406803131
+      ],
+      "faces": 24
+    },
+    {
+      "id": "body_0069",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_details_chassis_pivot_details_None_df_0",
+      "center": [
+        -0.6933039426803589,
+        1.8861584663391113,
+        1.0275893211364746
+      ],
+      "size": [
+        0.25680142641067505,
+        0.33863747119903564,
+        0.12558341026306152
+      ],
+      "faces": 378
+    },
+    {
+      "id": "body_0070",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_details_chassis_pivot_details_None_df_0",
+      "center": [
+        4.470348358154297e-07,
+        -2.149265766143799,
+        0.41250085830688477
+      ],
+      "size": [
+        0.5873705744743347,
+        0.014963865280151367,
+        0.04290124773979187
+      ],
+      "faces": 68
+    },
+    {
+      "id": "wheels_0071",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:chassis_pivot_details_chassis_pivot_details_None_df_0",
+      "center": [
+        -0.9000202417373657,
+        -1.7099556922912598,
+        0.5056428909301758
+      ],
+      "size": [
+        0.007277071475982666,
+        0.03147327899932861,
+        0.03181493282318115
+      ],
+      "faces": 10
+    },
+    {
+      "id": "wheels_0072",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:chassis_pivot_details_chassis_pivot_details_None_df_0",
+      "center": [
+        -0.6679176092147827,
+        2.042356491088867,
+        0.5940619111061096
+      ],
+      "size": [
+        0.23488068580627441,
+        0.13238787651062012,
+        0.05598723888397217
+      ],
+      "faces": 41
+    },
+    {
+      "id": "body_0073",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_details_chassis_pivot_details_None_df_0",
+      "center": [
+        0.5141284465789795,
+        2.06947660446167,
+        0.9733093976974487
+      ],
+      "size": [
+        0.05951112508773804,
+        0.013679027557373047,
+        0.015160977840423584
+      ],
+      "faces": 97
+    },
+    {
+      "id": "wheels_0074",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:chassis_pivot_details_chassis_pivot_details_None_df_0",
+      "center": [
+        0.9000195264816284,
+        -1.7099556922912598,
+        0.5056428909301758
+      ],
+      "size": [
+        0.007278084754943848,
+        0.03147327899932861,
+        0.03181493282318115
+      ],
+      "faces": 10
+    },
+    {
+      "id": "wheels_0075",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:chassis_pivot_details_chassis_pivot_details_None_df_0",
+      "center": [
+        -0.5410897731781006,
+        1.945695400238037,
+        0.3551541566848755
+      ],
+      "size": [
+        0.19360217452049255,
+        0.26152122020721436,
+        0.12418335676193237
+      ],
+      "faces": 140
+    },
+    {
+      "id": "wheels_0076",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:chassis_pivot_details_chassis_pivot_details_None_df_0",
+      "center": [
+        0.6679184436798096,
+        2.042356491088867,
+        0.5940619111061096
+      ],
+      "size": [
+        0.23488056659698486,
+        0.13238787651062012,
+        0.05598723888397217
+      ],
+      "faces": 41
+    },
+    {
+      "id": "body_0077",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_details_chassis_pivot_details_None_df_0",
+      "center": [
+        4.3958425521850586e-07,
+        1.8816672563552856,
+        1.4465826749801636
+      ],
+      "size": [
+        0.4606958031654358,
+        0.03368663787841797,
+        0.02158975601196289
+      ],
+      "faces": 8
+    },
+    {
+      "id": "body_0078",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_glass_border_chassis_pivot_glass_border_None_glass_surr_0",
+      "center": [
+        4.4330954551696777e-07,
+        -0.49184393882751465,
+        1.4463276863098145
+      ],
+      "size": [
+        0.03783221170306206,
+        0.024063199758529663,
+        0.012166857719421387
+      ],
+      "faces": 8
+    },
+    {
+      "id": "body_0079",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_glass_border_chassis_pivot_glass_border_None_glass_surr_0",
+      "center": [
+        9.238719940185547e-07,
+        1.7886738777160645,
+        1.3478114604949951
+      ],
+      "size": [
+        1.2859437465667725,
+        0.3934732675552368,
+        0.22500061988830566
+      ],
+      "faces": 58
+    },
+    {
+      "id": "body_0080",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_glass_border_chassis_pivot_glass_border_None_glass_surr_0",
+      "center": [
+        3.8743019104003906e-07,
+        -0.6606820821762085,
+        1.3062293529510498
+      ],
+      "size": [
+        1.5035829544067383,
+        0.8533580303192139,
+        0.4251668453216553
+      ],
+      "faces": 88
+    },
+    {
+      "id": "body_0081",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_glass_border_chassis_pivot_glass_border_None_glass_surr_0",
+      "center": [
+        -0.724777340888977,
+        1.0607340335845947,
+        1.333897352218628
+      ],
+      "size": [
+        0.13701999187469482,
+        1.0654706954956055,
+        0.291301965713501
+      ],
+      "faces": 46
+    },
+    {
+      "id": "body_0082",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_glass_border_chassis_pivot_glass_border_None_glass_surr_0",
+      "center": [
+        0.7248237133026123,
+        1.0607340335845947,
+        1.333897352218628
+      ],
+      "size": [
+        0.1370190978050232,
+        1.0654706954956055,
+        0.291301965713501
+      ],
+      "faces": 46
+    },
+    {
+      "id": "body_0083",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:chassis_pivot_licenseplate_chassis_pivot_licenseplate_None_plate_0",
+      "center": [
+        4.3958425521850586e-07,
+        2.0881474018096924,
+        0.9593992829322815
+      ],
+      "size": [
+        0.45804011821746826,
+        0.0311126708984375,
+        0.16332757472991943
+      ],
+      "faces": 8
+    },
+    {
+      "id": "body_0084",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_door_L_45_pivot_carpaint_detach_door_L_45_pivot_carpaint_None_car_range_rover_evoque:None1_0",
+      "center": [
+        0.7738659381866455,
+        -0.1073322594165802,
+        0.9112731218338013
+      ],
+      "size": [
+        0.30951011180877686,
+        1.3265411853790283,
+        1.1837077140808105
+      ],
+      "faces": 273
+    },
+    {
+      "id": "body_0085",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_door_L_45_pivot_carpaint_detach_door_L_45_pivot_carpaint_None_car_range_rover_evoque:None1_0",
+      "center": [
+        1.0059232711791992,
+        -0.44548600912094116,
+        1.1945242881774902
+      ],
+      "size": [
+        0.10926210880279541,
+        0.17088791728019714,
+        0.02456820011138916
+      ],
+      "faces": 49
+    },
+    {
+      "id": "body_0086",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_door_L_45_pivot_carpaint_detach_door_L_45_pivot_carpaint_None_carpaint_color_0",
+      "center": [
+        0.8694312572479248,
+        -0.10887089371681213,
+        0.7599797248840332
+      ],
+      "size": [
+        0.13627392053604126,
+        1.3234639167785645,
+        0.8302709460258484
+      ],
+      "faces": 510
+    },
+    {
+      "id": "body_0087",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_door_L_45_pivot_carpaint_detach_door_L_45_pivot_carpaint_None_carpaint_color_0",
+      "center": [
+        0.9102205038070679,
+        0.2988969683647156,
+        1.069347858428955
+      ],
+      "size": [
+        0.03882557153701782,
+        0.19149534404277802,
+        0.046517252922058105
+      ],
+      "faces": 148
+    },
+    {
+      "id": "body_0088",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_door_L_45_pivot_carpaint_detach_door_L_45_pivot_carpaint_None_carpaint_color_0",
+      "center": [
+        0.9429484009742737,
+        -0.48405957221984863,
+        1.2398312091827393
+      ],
+      "size": [
+        0.23521196842193604,
+        0.22847473621368408,
+        0.12570655345916748
+      ],
+      "faces": 140
+    },
+    {
+      "id": "body_0089",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_door_L_45_pivot_carpaint_detach_door_L_45_pivot_carpaint_None_mirror_0",
+      "center": [
+        0.9421020746231079,
+        0.010419309139251709,
+        1.1670386791229248
+      ],
+      "size": [
+        0.17449188232421875,
+        0.9148447513580322,
+        0.24068546295166016
+      ],
+      "faces": 131
+    },
+    {
+      "id": "body_0090",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_door_L_45_pivot_carparts_dark_detach_door_L_45_pivot_carparts_dark_None_black_SH_0",
+      "center": [
+        0.8578327894210815,
+        -0.09087452292442322,
+        1.3128268718719482
+      ],
+      "size": [
+        0.40448927879333496,
+        1.2936255931854248,
+        0.3803600072860718
+      ],
+      "faces": 624
+    },
+    {
+      "id": "body_0091",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_door_L_45_pivot_carparts_dark_detach_door_L_45_pivot_carparts_dark_None_black_SH_0",
+      "center": [
+        0.8663334846496582,
+        -0.18884937465190887,
+        0.34033000469207764
+      ],
+      "size": [
+        0.01793569326400757,
+        1.0905523300170898,
+        0.041821569204330444
+      ],
+      "faces": 37
+    },
+    {
+      "id": "body_0092",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_door_L_45_pivot_carparts_dark_detach_door_L_45_pivot_carparts_dark_None_chrome_0",
+      "center": [
+        0.8843579292297363,
+        -0.8140808939933777,
+        0.9886159896850586
+      ],
+      "size": [
+        0.038487017154693604,
+        0.4330238103866577,
+        0.07567453384399414
+      ],
+      "faces": 105
+    },
+    {
+      "id": "body_0093",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_door_R_45_carpaint_detach_door_R_45_carpaint_None_car_range_rover_evoque:None1_0",
+      "center": [
+        -0.7759333848953247,
+        -0.10733729600906372,
+        0.9112731218338013
+      ],
+      "size": [
+        0.313636839389801,
+        1.3265331983566284,
+        1.1837818622589111
+      ],
+      "faces": 299
+    },
+    {
+      "id": "body_0094",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_door_R_45_carpaint_detach_door_R_45_carpaint_None_car_range_rover_evoque:None1_0",
+      "center": [
+        -1.005923867225647,
+        -0.44548851251602173,
+        1.1945226192474365
+      ],
+      "size": [
+        0.10926079750061035,
+        0.17088690400123596,
+        0.024567008018493652
+      ],
+      "faces": 49
+    },
+    {
+      "id": "body_0095",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_door_R_45_carpaint_detach_door_R_45_carpaint_None_carpaint_color_0",
+      "center": [
+        -0.8692301511764526,
+        -0.10962498188018799,
+        0.7599002122879028
+      ],
+      "size": [
+        0.13586753606796265,
+        1.3219578266143799,
+        0.830103874206543
+      ],
+      "faces": 482
+    },
+    {
+      "id": "body_0096",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_door_R_45_carpaint_detach_door_R_45_carpaint_None_carpaint_color_0",
+      "center": [
+        -0.9102222323417664,
+        0.29889973998069763,
+        1.0693464279174805
+      ],
+      "size": [
+        0.03882455825805664,
+        0.1914738416671753,
+        0.0465160608291626
+      ],
+      "faces": 148
+    },
+    {
+      "id": "body_0097",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_door_R_45_carpaint_detach_door_R_45_carpaint_None_carpaint_color_0",
+      "center": [
+        -0.9429494142532349,
+        -0.4840620160102844,
+        1.239829182624817
+      ],
+      "size": [
+        0.2352096438407898,
+        0.22847363352775574,
+        0.12570643424987793
+      ],
+      "faces": 140
+    },
+    {
+      "id": "body_0098",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_door_R_45_carpaint_detach_door_R_45_carpaint_None_mirror_0",
+      "center": [
+        -0.9421037435531616,
+        0.010413303971290588,
+        1.1670372486114502
+      ],
+      "size": [
+        0.17449074983596802,
+        0.9148387908935547,
+        0.2406843900680542
+      ],
+      "faces": 131
+    },
+    {
+      "id": "body_0099",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_door_R_45_carparts_dark_detach_door_R_45_carparts_dark_None_black_SH_0",
+      "center": [
+        -0.8578343987464905,
+        -0.09087952971458435,
+        1.3128238916397095
+      ],
+      "size": [
+        0.4044860601425171,
+        1.2936177253723145,
+        0.3803579807281494
+      ],
+      "faces": 624
+    },
+    {
+      "id": "body_0100",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_door_R_45_carparts_dark_detach_door_R_45_carparts_dark_None_black_SH_0",
+      "center": [
+        -0.8662950992584229,
+        -0.18885385990142822,
+        0.3403134346008301
+      ],
+      "size": [
+        0.017854630947113037,
+        1.0905452966690063,
+        0.04186263680458069
+      ],
+      "faces": 37
+    },
+    {
+      "id": "body_0101",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_door_R_45_carparts_dark_detach_door_R_45_carparts_dark_None_chrome_0",
+      "center": [
+        -0.8843585252761841,
+        -0.8140819072723389,
+        0.9886159896850586
+      ],
+      "size": [
+        0.038490116596221924,
+        0.4330218434333801,
+        0.07567453384399414
+      ],
+      "faces": 105
+    },
+    {
+      "id": "body_0102",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_hood_45_pivot_carpaint_detach_hood_45_pivot_carpaint_None_carpaint_color_0",
+      "center": [
+        -1.6093254089355469e-06,
+        -1.399172306060791,
+        1.0357120037078857
+      ],
+      "size": [
+        1.754625678062439,
+        1.284346580505371,
+        0.24108260869979858
+      ],
+      "faces": 716
+    },
+    {
+      "id": "body_0103",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_hood_45_pivot_details_detach_hood_45_pivot_details_None_df_0",
+      "center": [
+        -0.6483328342437744,
+        -1.304335594177246,
+        1.0871195793151855
+      ],
+      "size": [
+        0.12884080410003662,
+        0.3091987371444702,
+        0.03791320323944092
+      ],
+      "faces": 276
+    },
+    {
+      "id": "body_0104",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_hood_45_pivot_details_detach_hood_45_pivot_details_None_df_0",
+      "center": [
+        6.955862045288086e-05,
+        -2.0414836406707764,
+        0.876327633857727
+      ],
+      "size": [
+        0.6465042233467102,
+        0.12159883975982666,
+        0.16904228925704956
+      ],
+      "faces": 659
+    },
+    {
+      "id": "body_0105",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_hood_45_pivot_details_detach_hood_45_pivot_details_None_df_0",
+      "center": [
+        0.6483296155929565,
+        -1.304335594177246,
+        1.0871195793151855
+      ],
+      "size": [
+        0.12884080410003662,
+        0.3091987371444702,
+        0.03791320323944092
+      ],
+      "faces": 276
+    },
+    {
+      "id": "body_0106",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:detach_hood_45_pivot_details_detach_hood_45_pivot_details_None_df_0",
+      "center": [
+        0.00018520653247833252,
+        -1.992079734802246,
+        0.9498170614242554
+      ],
+      "size": [
+        0.7940958738327026,
+        0.03951823711395264,
+        0.026024937629699707
+      ],
+      "faces": 239
+    },
+    {
+      "id": "glass_0107",
+      "part": "glass",
+      "label": "Glazing",
+      "source": "car_range_rover_evoque:glasses_glass_lights_glasses_glass_lights_None_glass_0",
+      "center": [
+        -0.6955699920654297,
+        1.887441873550415,
+        1.0267927646636963
+      ],
+      "size": [
+        0.26834726333618164,
+        0.3655277490615845,
+        0.12616926431655884
+      ],
+      "faces": 151
+    },
+    {
+      "id": "glass_0108",
+      "part": "glass",
+      "label": "Glazing",
+      "source": "car_range_rover_evoque:glasses_glass_lights_glasses_glass_lights_None_glass_0",
+      "center": [
+        0.695568859577179,
+        1.887441873550415,
+        1.0267927646636963
+      ],
+      "size": [
+        0.2683473825454712,
+        0.3655277490615845,
+        0.12616926431655884
+      ],
+      "faces": 151
+    },
+    {
+      "id": "glass_0109",
+      "part": "glass",
+      "label": "Glazing",
+      "source": "car_range_rover_evoque:glasses_glass_lights_glasses_glass_lights_None_glass_0",
+      "center": [
+        0.6232209801673889,
+        -1.7720465660095215,
+        0.8834177851676941
+      ],
+      "size": [
+        0.38279518485069275,
+        0.5753889083862305,
+        0.1673870086669922
+      ],
+      "faces": 170
+    },
+    {
+      "id": "glass_0110",
+      "part": "glass",
+      "label": "Glazing",
+      "source": "car_range_rover_evoque:glasses_glass_lights_glasses_glass_lights_None_glass_0",
+      "center": [
+        -0.6232221722602844,
+        -1.7720465660095215,
+        0.8834177851676941
+      ],
+      "size": [
+        0.3827952444553375,
+        0.5753889083862305,
+        0.1673870086669922
+      ],
+      "faces": 170
+    },
+    {
+      "id": "glass_0111",
+      "part": "glass",
+      "label": "Glazing",
+      "source": "car_range_rover_evoque:glasses_glass_windows_glasses_glass_windows_None_glass_0",
+      "center": [
+        -0.7312417030334473,
+        -0.10764065384864807,
+        1.3057277202606201
+      ],
+      "size": [
+        0.13902586698532104,
+        1.249723196029663,
+        0.3762413263320923
+      ],
+      "faces": 55
+    },
+    {
+      "id": "glass_0112",
+      "part": "glass",
+      "label": "Glazing",
+      "source": "car_range_rover_evoque:glasses_glass_windows_glasses_glass_windows_None_glass_0",
+      "center": [
+        -0.7297301888465881,
+        1.0584518909454346,
+        1.3330152034759521
+      ],
+      "size": [
+        0.1370100975036621,
+        1.061036467552185,
+        0.28914713859558105
+      ],
+      "faces": 48
+    },
+    {
+      "id": "glass_0113",
+      "part": "glass",
+      "label": "Glazing",
+      "source": "car_range_rover_evoque:glasses_glass_windows_glasses_glass_windows_None_glass_0",
+      "center": [
+        0.7308645248413086,
+        -0.10764065384864807,
+        1.3057277202606201
+      ],
+      "size": [
+        0.139026939868927,
+        1.249723196029663,
+        0.3762413263320923
+      ],
+      "faces": 55
+    },
+    {
+      "id": "glass_0114",
+      "part": "glass",
+      "label": "Glazing",
+      "source": "car_range_rover_evoque:glasses_glass_windows_glasses_glass_windows_None_glass_0",
+      "center": [
+        0.7289735078811646,
+        1.0584518909454346,
+        1.3330152034759521
+      ],
+      "size": [
+        0.1370111107826233,
+        1.061036467552185,
+        0.28914713859558105
+      ],
+      "faces": 48
+    },
+    {
+      "id": "glass_0115",
+      "part": "glass",
+      "label": "Glazing",
+      "source": "car_range_rover_evoque:glasses_glass_windows_glasses_glass_windows_None_glass_0",
+      "center": [
+        -5.960464477539062e-07,
+        -0.6635564565658569,
+        1.3060415983200073
+      ],
+      "size": [
+        1.503444790840149,
+        0.864658534526825,
+        0.4272887706756592
+      ],
+      "faces": 120
+    },
+    {
+      "id": "glass_0116",
+      "part": "glass",
+      "label": "Glazing",
+      "source": "car_range_rover_evoque:glasses_glass_windows_glasses_glass_windows_None_glass_0",
+      "center": [
+        -5.960464477539062e-07,
+        1.785536527633667,
+        1.354506254196167
+      ],
+      "size": [
+        1.2831227779388428,
+        0.37825632095336914,
+        0.211372971534729
+      ],
+      "faces": 72
+    },
+    {
+      "id": "wheels_0117",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:lights_position_back_glows_lights_position_back_glows_None_glows_0",
+      "center": [
+        -0.6566122770309448,
+        2.068244695663452,
+        0.5921663045883179
+      ],
+      "size": [
+        0.23745065927505493,
+        0.1379305124282837,
+        0.07948970794677734
+      ],
+      "faces": 4
+    },
+    {
+      "id": "wheels_0118",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_range_rover_evoque:lights_position_back_glows_lights_position_back_glows_None_glows_0",
+      "center": [
+        0.6566120386123657,
+        2.068244695663452,
+        0.5921663045883179
+      ],
+      "size": [
+        0.23745065927505493,
+        0.1379305124282837,
+        0.07948970794677734
+      ],
+      "faces": 4
+    },
+    {
+      "id": "body_0119",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:lights_position_back_glows_lights_position_back_glows_None_glows_0",
+      "center": [
+        -0.7011938095092773,
+        1.9048142433166504,
+        1.028908133506775
+      ],
+      "size": [
+        0.24559801816940308,
+        0.31684744358062744,
+        0.10211104154586792
+      ],
+      "faces": 75
+    },
+    {
+      "id": "body_0120",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:lights_position_back_glows_lights_position_back_glows_None_glows_0",
+      "center": [
+        0.7011945843696594,
+        1.9048142433166504,
+        1.028908133506775
+      ],
+      "size": [
+        0.2455979585647583,
+        0.31684744358062744,
+        0.10211104154586792
+      ],
+      "faces": 75
+    },
+    {
+      "id": "body_0121",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:lights_reverse_glows_lights_reverse_glows_None_glows_0",
+      "center": [
+        -0.6796736121177673,
+        1.9795572757720947,
+        1.0366488695144653
+      ],
+      "size": [
+        0.14350008964538574,
+        0.1125253438949585,
+        0.084026038646698
+      ],
+      "faces": 18
+    },
+    {
+      "id": "body_0122",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_range_rover_evoque:lights_reverse_glows_lights_reverse_glows_None_glows_0",
+      "center": [
+        0.6796743869781494,
+        1.9795572757720947,
+        1.0366488695144653
+      ],
+      "size": [
+        0.14350008964538574,
+        0.1125253438949585,
+        0.084026038646698
+      ],
+      "faces": 18
+    }
+  ]
+}

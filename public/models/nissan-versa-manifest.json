@@ -1,0 +1,2572 @@
+{
+  "modifications": "Normalized orientation and scale; removed presentation floor; separated and clustered source geometry; adapted browser materials.",
+  "objects": [
+    {
+      "id": "body_0000",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Badges_High_phong3_0",
+      "center": [
+        0.0,
+        -1.9252575635910034,
+        0.6091390252113342
+      ],
+      "size": [
+        1.0710111856460571,
+        0.1679093837738037,
+        0.09106910228729248
+      ],
+      "faces": 282
+    },
+    {
+      "id": "wheels_0001",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Badges_High_phong3_0",
+      "center": [
+        0.6257696151733398,
+        -1.2210257053375244,
+        0.29490554332733154
+      ],
+      "size": [
+        0.3588718771934509,
+        0.3260689973831177,
+        0.29265090823173523
+      ],
+      "faces": 207
+    },
+    {
+      "id": "wheels_0002",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Badges_High_phong3_0",
+      "center": [
+        -0.6257696151733398,
+        -1.2210257053375244,
+        0.29490554332733154
+      ],
+      "size": [
+        0.3588718771934509,
+        0.3260689973831177,
+        0.29265090823173523
+      ],
+      "faces": 207
+    },
+    {
+      "id": "wheels_0003",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Badges_High_phong3_0",
+      "center": [
+        -0.6554416418075562,
+        1.327142357826233,
+        0.2797142267227173
+      ],
+      "size": [
+        0.2892017960548401,
+        0.3301246166229248,
+        0.32730183005332947
+      ],
+      "faces": 204
+    },
+    {
+      "id": "wheels_0004",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_BrakeDisc_High_disk_0",
+      "center": [
+        0.7428967952728271,
+        -1.2170060873031616,
+        0.28719937801361084
+      ],
+      "size": [
+        0.04162365198135376,
+        0.27297019958496094,
+        0.2729702591896057
+      ],
+      "faces": 232
+    },
+    {
+      "id": "wheels_0005",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_BrakeDisc_High_disk_0",
+      "center": [
+        0.7221966981887817,
+        -1.2170062065124512,
+        0.28719937801361084
+      ],
+      "size": [
+        0.00022345781326293945,
+        0.2765275239944458,
+        0.2765275239944458
+      ],
+      "faces": 24
+    },
+    {
+      "id": "wheels_0006",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_BrakeDisc_High_disk_0",
+      "center": [
+        -0.7428967952728271,
+        -1.2170060873031616,
+        0.28719937801361084
+      ],
+      "size": [
+        0.04162365198135376,
+        0.27297019958496094,
+        0.2729702591896057
+      ],
+      "faces": 232
+    },
+    {
+      "id": "wheels_0007",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_BrakeDisc_High_disk_0",
+      "center": [
+        -0.7221966981887817,
+        -1.2170062065124512,
+        0.28719937801361084
+      ],
+      "size": [
+        0.00022345781326293945,
+        0.2765275239944458,
+        0.2765275239944458
+      ],
+      "faces": 24
+    },
+    {
+      "id": "wheels_0008",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_BrakeDisc_High_disk_0",
+      "center": [
+        0.7413804531097412,
+        1.3172956705093384,
+        0.27274149656295776
+      ],
+      "size": [
+        0.03919130563735962,
+        0.2575540542602539,
+        0.2575550675392151
+      ],
+      "faces": 232
+    },
+    {
+      "id": "wheels_0009",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_BrakeDisc_High_disk_0",
+      "center": [
+        0.7218897342681885,
+        1.317295789718628,
+        0.27274149656295776
+      ],
+      "size": [
+        0.000209808349609375,
+        0.2615872621536255,
+        0.26158636808395386
+      ],
+      "faces": 24
+    },
+    {
+      "id": "wheels_0010",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_BrakeDisc_High_disk_0",
+      "center": [
+        -0.7413804531097412,
+        1.3172956705093384,
+        0.27274149656295776
+      ],
+      "size": [
+        0.03919130563735962,
+        0.2575540542602539,
+        0.2575550675392151
+      ],
+      "faces": 232
+    },
+    {
+      "id": "wheels_0011",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_BrakeDisc_High_disk_0",
+      "center": [
+        -0.7218897342681885,
+        1.317295789718628,
+        0.27274149656295776
+      ],
+      "size": [
+        0.000209808349609375,
+        0.2615872621536255,
+        0.26158636808395386
+      ],
+      "faces": 24
+    },
+    {
+      "id": "wheels_0012",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Caliper_High_phong8_0",
+      "center": [
+        0.6554416418075562,
+        1.327142357826233,
+        0.2797142267227173
+      ],
+      "size": [
+        0.2892017960548401,
+        0.3301246166229248,
+        0.32730183005332947
+      ],
+      "faces": 204
+    },
+    {
+      "id": "body_0013",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Chassis_High_chassis_0",
+      "center": [
+        0.0,
+        0.004742622375488281,
+        0.4411173164844513
+      ],
+      "size": [
+        1.6382954120635986,
+        4.115184307098389,
+        0.6196855902671814
+      ],
+      "faces": 602
+    },
+    {
+      "id": "body_0014",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Chassis_High_chassis_0",
+      "center": [
+        0.0,
+        1.8697621822357178,
+        0.43162572383880615
+      ],
+      "size": [
+        1.2854018211364746,
+        0.1650627851486206,
+        0.09842067956924438
+      ],
+      "faces": 16
+    },
+    {
+      "id": "body_0015",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Chassis_High_chassis_0",
+      "center": [
+        0.0,
+        -1.9091308116912842,
+        0.4539184868335724
+      ],
+      "size": [
+        0.9339326024055481,
+        0.12047648429870605,
+        0.07138454914093018
+      ],
+      "faces": 16
+    },
+    {
+      "id": "body_0016",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Chassis_High_chassis_0",
+      "center": [
+        0.0,
+        1.2669036388397217,
+        0.14758341014385223
+      ],
+      "size": [
+        1.0283218622207642,
+        0.37660837173461914,
+        0.006551146507263184
+      ],
+      "faces": 8
+    },
+    {
+      "id": "body_0017",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassColor_High_red_glass_0",
+      "center": [
+        0.596336841583252,
+        1.680509328842163,
+        0.8221082091331482
+      ],
+      "size": [
+        0.3099670708179474,
+        0.518904447555542,
+        0.24095380306243896
+      ],
+      "faces": 235
+    },
+    {
+      "id": "body_0018",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassColor_High_red_glass_0",
+      "center": [
+        -0.596336841583252,
+        1.680509328842163,
+        0.8221082091331482
+      ],
+      "size": [
+        0.3099670708179474,
+        0.518904447555542,
+        0.24095380306243896
+      ],
+      "faces": 215
+    },
+    {
+      "id": "body_0019",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassColor_High_red_glass_0",
+      "center": [
+        0.6694999933242798,
+        -1.5903894901275635,
+        0.7184695601463318
+      ],
+      "size": [
+        0.17691975831985474,
+        0.17549800872802734,
+        0.13233435153961182
+      ],
+      "faces": 73
+    },
+    {
+      "id": "body_0020",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassColor_High_red_glass_0",
+      "center": [
+        0.0,
+        1.5420080423355103,
+        1.3272569179534912
+      ],
+      "size": [
+        0.3443547487258911,
+        0.0388941764831543,
+        0.039843201637268066
+      ],
+      "faces": 58
+    },
+    {
+      "id": "body_0021",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassColor_High_red_glass_0",
+      "center": [
+        -0.6694999933242798,
+        -1.5903894901275635,
+        0.7184695601463318
+      ],
+      "size": [
+        0.17691975831985474,
+        0.17549800872802734,
+        0.13233435153961182
+      ],
+      "faces": 73
+    },
+    {
+      "id": "body_0022",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassLights_High_phong1_0",
+      "center": [
+        0.0,
+        1.5420080423355103,
+        1.3277310132980347
+      ],
+      "size": [
+        0.3443547487258911,
+        0.0388941764831543,
+        0.04079127311706543
+      ],
+      "faces": 58
+    },
+    {
+      "id": "body_0023",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassLights_High_phong1_0",
+      "center": [
+        0.5912374258041382,
+        -1.705648422241211,
+        0.6782709360122681
+      ],
+      "size": [
+        0.36380133032798767,
+        0.4439626932144165,
+        0.2317049503326416
+      ],
+      "faces": 145
+    },
+    {
+      "id": "body_0024",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassLights_High_phong1_0",
+      "center": [
+        -0.5912374258041382,
+        -1.705648422241211,
+        0.6782709360122681
+      ],
+      "size": [
+        0.36380133032798767,
+        0.4439626932144165,
+        0.2317049503326416
+      ],
+      "faces": 145
+    },
+    {
+      "id": "body_0025",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassLights_High_phong1_0",
+      "center": [
+        -0.6528992652893066,
+        -0.16079357266426086,
+        1.1211659908294678
+      ],
+      "size": [
+        0.12948912382125854,
+        0.9154343008995056,
+        0.4349498748779297
+      ],
+      "faces": 31
+    },
+    {
+      "id": "body_0026",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassLights_High_phong1_0",
+      "center": [
+        0.6526616811752319,
+        0.656337559223175,
+        1.1403753757476807
+      ],
+      "size": [
+        0.12901407480239868,
+        0.5751107931137085,
+        0.3946326971054077
+      ],
+      "faces": 24
+    },
+    {
+      "id": "body_0027",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassLights_High_phong1_0",
+      "center": [
+        0.6493414640426636,
+        1.085477590560913,
+        1.12496018409729
+      ],
+      "size": [
+        0.1090925931930542,
+        0.27842479944229126,
+        0.3381882905960083
+      ],
+      "faces": 9
+    },
+    {
+      "id": "body_0028",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassLights_High_phong1_0",
+      "center": [
+        -0.6526616811752319,
+        0.656337559223175,
+        1.1403753757476807
+      ],
+      "size": [
+        0.12901407480239868,
+        0.5751107931137085,
+        0.3946326971054077
+      ],
+      "faces": 24
+    },
+    {
+      "id": "body_0029",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassLights_High_phong1_0",
+      "center": [
+        -0.6493414640426636,
+        1.085477590560913,
+        1.12496018409729
+      ],
+      "size": [
+        0.1090925931930542,
+        0.27842479944229126,
+        0.3381882905960083
+      ],
+      "faces": 9
+    },
+    {
+      "id": "body_0030",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassLights_High_phong1_0",
+      "center": [
+        0.5972853899002075,
+        1.680509328842163,
+        0.823056697845459
+      ],
+      "size": [
+        0.3118642270565033,
+        0.518904447555542,
+        0.24285078048706055
+      ],
+      "faces": 168
+    },
+    {
+      "id": "body_0031",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassLights_High_phong1_0",
+      "center": [
+        0.6941644549369812,
+        -0.770530104637146,
+        0.9762616753578186
+      ],
+      "size": [
+        0.03177940845489502,
+        0.19968855381011963,
+        0.14419329166412354
+      ],
+      "faces": 11
+    },
+    {
+      "id": "body_0032",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassLights_High_phong1_0",
+      "center": [
+        0.0,
+        -0.6871685981750488,
+        1.1522338390350342
+      ],
+      "size": [
+        1.184846043586731,
+        0.7183549404144287,
+        0.35194456577301025
+      ],
+      "faces": 68
+    },
+    {
+      "id": "body_0033",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassLights_High_phong1_0",
+      "center": [
+        -0.6941644549369812,
+        -0.770530104637146,
+        0.9762616753578186
+      ],
+      "size": [
+        0.03177940845489502,
+        0.19968855381011963,
+        0.14419329166412354
+      ],
+      "faces": 10
+    },
+    {
+      "id": "wheels_0034",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassLights_High_phong1_0",
+      "center": [
+        0.6246770620346069,
+        -1.825650691986084,
+        0.3505766689777374
+      ],
+      "size": [
+        0.08727377653121948,
+        0.059764742851257324,
+        0.08786731958389282
+      ],
+      "faces": 186
+    },
+    {
+      "id": "wheels_0035",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassLights_High_phong1_0",
+      "center": [
+        -0.6246770620346069,
+        -1.825650691986084,
+        0.3505766689777374
+      ],
+      "size": [
+        0.08727377653121948,
+        0.059764742851257324,
+        0.08786731958389282
+      ],
+      "faces": 186
+    },
+    {
+      "id": "body_0036",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassLights_High_phong1_0",
+      "center": [
+        -0.5972853899002075,
+        1.680509328842163,
+        0.823056697845459
+      ],
+      "size": [
+        0.3118642270565033,
+        0.518904447555542,
+        0.24285078048706055
+      ],
+      "faces": 168
+    },
+    {
+      "id": "body_0037",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassLights_High_phong1_0",
+      "center": [
+        0.6528992652893066,
+        -0.16079357266426086,
+        1.1211659908294678
+      ],
+      "size": [
+        0.12948912382125854,
+        0.9154343008995056,
+        0.4349498748779297
+      ],
+      "faces": 31
+    },
+    {
+      "id": "body_0038",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassLights_High_phong1_0",
+      "center": [
+        0.0,
+        1.706596851348877,
+        1.12496018409729
+      ],
+      "size": [
+        0.998913586139679,
+        0.2959737777709961,
+        0.31352436542510986
+      ],
+      "faces": 94
+    },
+    {
+      "id": "body_0039",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassSurround_High_surr_glass_0",
+      "center": [
+        0.0,
+        1.6743433475494385,
+        1.1204544305801392
+      ],
+      "size": [
+        1.2284834384918213,
+        0.4041184186935425,
+        0.3623793125152588
+      ],
+      "faces": 195
+    },
+    {
+      "id": "body_0040",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassSurround_High_surr_glass_0",
+      "center": [
+        0.0,
+        -0.6990264654159546,
+        1.1346834897994995
+      ],
+      "size": [
+        1.304375410079956,
+        0.8559076189994812,
+        0.4136052131652832
+      ],
+      "faces": 72
+    },
+    {
+      "id": "body_0041",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassSurround_High_surr_glass_0",
+      "center": [
+        0.0037054158747196198,
+        -0.33392009139060974,
+        1.2489949464797974
+      ],
+      "size": [
+        0.22512373328208923,
+        0.06023770570755005,
+        0.0673532485961914
+      ],
+      "faces": 12
+    },
+    {
+      "id": "body_0042",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassSurround_High_surr_glass_0",
+      "center": [
+        0.6925042867660522,
+        -0.7638895511627197,
+        0.990016758441925
+      ],
+      "size": [
+        0.04553455114364624,
+        0.25850313901901245,
+        0.20016157627105713
+      ],
+      "faces": 26
+    },
+    {
+      "id": "body_0043",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_GlassSurround_High_surr_glass_0",
+      "center": [
+        -0.6925042867660522,
+        -0.7638895511627197,
+        0.990016758441925
+      ],
+      "size": [
+        0.04553455114364624,
+        0.25850313901901245,
+        0.20016157627105713
+      ],
+      "faces": 27
+    },
+    {
+      "id": "cabin_0044",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Internal_Interior_High_interior_0",
+      "center": [
+        0.0,
+        0.4543967843055725,
+        0.7922263741493225
+      ],
+      "size": [
+        1.637345314025879,
+        3.054609775543213,
+        1.2180489301681519
+      ],
+      "faces": 1784
+    },
+    {
+      "id": "cabin_0045",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Internal_Interior_High_interior_0",
+      "center": [
+        0.0,
+        -1.4959995746612549,
+        0.7979177832603455
+      ],
+      "size": [
+        1.3859577178955078,
+        0.8708487749099731,
+        0.2836421728134155
+      ],
+      "faces": 371
+    },
+    {
+      "id": "cabin_0046",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Internal_Interior_High_interior_0",
+      "center": [
+        0.3788614571094513,
+        0.09913218021392822,
+        0.5981558561325073
+      ],
+      "size": [
+        0.5589835047721863,
+        0.7446800470352173,
+        0.8235647678375244
+      ],
+      "faces": 202
+    },
+    {
+      "id": "cabin_0047",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Internal_Interior_High_interior_0",
+      "center": [
+        0.3788619339466095,
+        0.39712288975715637,
+        1.1114426851272583
+      ],
+      "size": [
+        0.24308794736862183,
+        0.11786824464797974,
+        0.2343132495880127
+      ],
+      "faces": 52
+    },
+    {
+      "id": "cabin_0048",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Internal_Interior_High_interior_0",
+      "center": [
+        -0.3788614571094513,
+        0.09913218021392822,
+        0.5981558561325073
+      ],
+      "size": [
+        0.5589835047721863,
+        0.7446800470352173,
+        0.8235647678375244
+      ],
+      "faces": 202
+    },
+    {
+      "id": "cabin_0049",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Internal_Interior_High_interior_0",
+      "center": [
+        -0.016067497432231903,
+        -1.515920639038086,
+        0.7369679808616638
+      ],
+      "size": [
+        0.3613125681877136,
+        0.40791380405426025,
+        0.1095665693283081
+      ],
+      "faces": 68
+    },
+    {
+      "id": "cabin_0050",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Internal_Interior_High_interior_0",
+      "center": [
+        -0.19845044612884521,
+        -1.4039819240570068,
+        0.7632926106452942
+      ],
+      "size": [
+        0.43647587299346924,
+        0.27889978885650635,
+        0.09865868091583252
+      ],
+      "faces": 31
+    },
+    {
+      "id": "cabin_0051",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Internal_Interior_High_interior_0",
+      "center": [
+        -0.3788619339466095,
+        0.39712288975715637,
+        1.1114426851272583
+      ],
+      "size": [
+        0.24308794736862183,
+        0.11786824464797974,
+        0.2343132495880127
+      ],
+      "faces": 52
+    },
+    {
+      "id": "cabin_0052",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Internal_Interior_High_interior_0",
+      "center": [
+        -0.028222158551216125,
+        -1.725095510482788,
+        0.7561780214309692
+      ],
+      "size": [
+        0.9775699377059937,
+        0.15273094177246094,
+        0.05881547927856445
+      ],
+      "faces": 144
+    },
+    {
+      "id": "cabin_0053",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Internal_Interior_High_interior_0",
+      "center": [
+        -0.0021045394241809845,
+        -1.8303941488265991,
+        0.6819467544555664
+      ],
+      "size": [
+        0.19239521026611328,
+        0.10150408744812012,
+        0.06403303146362305
+      ],
+      "faces": 38
+    },
+    {
+      "id": "cabin_0054",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Internal_Interior_High_interior_0",
+      "center": [
+        -0.5717904567718506,
+        -1.2465085983276367,
+        0.7737278342247009
+      ],
+      "size": [
+        0.12759190797805786,
+        0.15178179740905762,
+        0.09012091159820557
+      ],
+      "faces": 38
+    },
+    {
+      "id": "cabin_0055",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Internal_Interior_High_interior_0",
+      "center": [
+        0.5717904567718506,
+        -1.2465085983276367,
+        0.7737278342247009
+      ],
+      "size": [
+        0.12759190797805786,
+        0.15178179740905762,
+        0.09012091159820557
+      ],
+      "faces": 38
+    },
+    {
+      "id": "cabin_0056",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Internal_Interior_High_interior_0",
+      "center": [
+        0.0,
+        -0.751320481300354,
+        0.7312760949134827
+      ],
+      "size": [
+        0.426174134016037,
+        0.5312363505363464,
+        0.37898051738739014
+      ],
+      "faces": 68
+    },
+    {
+      "id": "cabin_0057",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Internal_Interior_High_interior_0",
+      "center": [
+        0.0,
+        -0.3767269253730774,
+        0.47146835923194885
+      ],
+      "size": [
+        0.04360824450850487,
+        0.08940896391868591,
+        0.21984714269638062
+      ],
+      "faces": 22
+    },
+    {
+      "id": "cabin_0058",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Internal_Interior_High_interior_0",
+      "center": [
+        0.0,
+        -0.33166736364364624,
+        0.37417399883270264
+      ],
+      "size": [
+        0.11935051530599594,
+        0.20039962232112885,
+        0.03593027591705322
+      ],
+      "faces": 22
+    },
+    {
+      "id": "cabin_0059",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Internal_Interior_High_interior_0",
+      "center": [
+        0.3388410806655884,
+        1.277338981628418,
+        1.0872523784637451
+      ],
+      "size": [
+        0.2235218733549118,
+        0.12047719955444336,
+        0.21628892421722412
+      ],
+      "faces": 26
+    },
+    {
+      "id": "cabin_0060",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Internal_Interior_High_interior_0",
+      "center": [
+        -0.3388410806655884,
+        1.277338981628418,
+        1.0872523784637451
+      ],
+      "size": [
+        0.2235218733549118,
+        0.12047719955444336,
+        0.21628892421722412
+      ],
+      "faces": 26
+    },
+    {
+      "id": "cabin_0061",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Internal_Interior_High_interior_0",
+      "center": [
+        0.37898045778274536,
+        -0.5226987600326538,
+        0.7409998178482056
+      ],
+      "size": [
+        0.22956988215446472,
+        0.1413460671901703,
+        0.189727783203125
+      ],
+      "faces": 44
+    },
+    {
+      "id": "cabin_0062",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Internal_Interior_High_interior_0",
+      "center": [
+        0.37880221009254456,
+        -0.408150851726532,
+        0.8280370831489563
+      ],
+      "size": [
+        0.3769637942314148,
+        0.20348286628723145,
+        0.3543156385421753
+      ],
+      "faces": 372
+    },
+    {
+      "id": "cabin_0063",
+      "part": "cabin",
+      "label": "Cockpit detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Internal_Interior_High_interior_0",
+      "center": [
+        0.0,
+        -0.143244206905365,
+        0.3470635712146759
+      ],
+      "size": [
+        0.3204019069671631,
+        1.315759539604187,
+        0.32114309072494507
+      ],
+      "faces": 28
+    },
+    {
+      "id": "body_0064",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_LicensePlate_High_plast_1_0",
+      "center": [
+        0.0,
+        2.035773277282715,
+        0.38941144943237305
+      ],
+      "size": [
+        0.4273611903190613,
+        0.01517796516418457,
+        0.13541755080223083
+      ],
+      "faces": 144
+    },
+    {
+      "id": "body_0065",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_LightCluster_High_lights_0",
+      "center": [
+        0.0,
+        2.0575919151306152,
+        0.4651833474636078
+      ],
+      "size": [
+        0.24546006321907043,
+        0.02845931053161621,
+        0.005217373371124268
+      ],
+      "faces": 128
+    },
+    {
+      "id": "body_0066",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_LightCluster_High_lights_0",
+      "center": [
+        0.5912374258041382,
+        -1.705648422241211,
+        0.6773223876953125
+      ],
+      "size": [
+        0.36380133032798767,
+        0.44396257400512695,
+        0.22980785369873047
+      ],
+      "faces": 351
+    },
+    {
+      "id": "body_0067",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_LightCluster_High_lights_0",
+      "center": [
+        0.0,
+        1.5420080423355103,
+        1.3272569179534912
+      ],
+      "size": [
+        0.3443547487258911,
+        0.0388941764831543,
+        0.039843201637268066
+      ],
+      "faces": 50
+    },
+    {
+      "id": "body_0068",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_LightCluster_High_lights_0",
+      "center": [
+        -0.5912374258041382,
+        -1.705648422241211,
+        0.6773223876953125
+      ],
+      "size": [
+        0.36380133032798767,
+        0.44396257400512695,
+        0.22980785369873047
+      ],
+      "faces": 351
+    },
+    {
+      "id": "body_0069",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_LightCluster_High_lights_0",
+      "center": [
+        0.5978784561157227,
+        1.6795607805252075,
+        0.8211596012115479
+      ],
+      "size": [
+        0.306883841753006,
+        0.5170073509216309,
+        0.23905658721923828
+      ],
+      "faces": 154
+    },
+    {
+      "id": "body_0070",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_LightCluster_High_lights_0",
+      "center": [
+        0.6851522922515869,
+        1.7407475709915161,
+        0.7687475085258484
+      ],
+      "size": [
+        0.13138622045516968,
+        0.1840353012084961,
+        0.009960770606994629
+      ],
+      "faces": 10
+    },
+    {
+      "id": "body_0071",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_LightCluster_High_lights_0",
+      "center": [
+        0.6984332799911499,
+        1.544379711151123,
+        0.9333357810974121
+      ],
+      "size": [
+        0.032728493213653564,
+        0.21249449253082275,
+        0.015652179718017578
+      ],
+      "faces": 16
+    },
+    {
+      "id": "body_0072",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_LightCluster_High_lights_0",
+      "center": [
+        0.7091056108474731,
+        1.542957067489624,
+        0.9217149019241333
+      ],
+      "size": [
+        0.027511119842529297,
+        0.2096492052078247,
+        0.01707625389099121
+      ],
+      "faces": 16
+    },
+    {
+      "id": "body_0073",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_LightCluster_High_lights_0",
+      "center": [
+        0.7174062728881836,
+        1.551969289779663,
+        0.9067742228507996
+      ],
+      "size": [
+        0.022292792797088623,
+        0.18593251705169678,
+        0.020395636558532715
+      ],
+      "faces": 16
+    },
+    {
+      "id": "body_0074",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_LightCluster_High_lights_0",
+      "center": [
+        -0.5978784561157227,
+        1.6795607805252075,
+        0.8211596012115479
+      ],
+      "size": [
+        0.306883841753006,
+        0.5170073509216309,
+        0.23905658721923828
+      ],
+      "faces": 154
+    },
+    {
+      "id": "body_0075",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_LightCluster_High_lights_0",
+      "center": [
+        -0.6851522922515869,
+        1.7407475709915161,
+        0.7687475085258484
+      ],
+      "size": [
+        0.13138622045516968,
+        0.1840353012084961,
+        0.009960770606994629
+      ],
+      "faces": 10
+    },
+    {
+      "id": "body_0076",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_LightCluster_High_lights_0",
+      "center": [
+        -0.6984332799911499,
+        1.544379711151123,
+        0.9333357810974121
+      ],
+      "size": [
+        0.032728493213653564,
+        0.21249449253082275,
+        0.015652179718017578
+      ],
+      "faces": 16
+    },
+    {
+      "id": "body_0077",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_LightCluster_High_lights_0",
+      "center": [
+        -0.7091056108474731,
+        1.542957067489624,
+        0.9217149019241333
+      ],
+      "size": [
+        0.027511119842529297,
+        0.2096492052078247,
+        0.01707625389099121
+      ],
+      "faces": 16
+    },
+    {
+      "id": "body_0078",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_LightCluster_High_lights_0",
+      "center": [
+        -0.7174062728881836,
+        1.551969289779663,
+        0.9067742228507996
+      ],
+      "size": [
+        0.022292792797088623,
+        0.18593251705169678,
+        0.020395636558532715
+      ],
+      "faces": 16
+    },
+    {
+      "id": "body_0079",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_LightRefracted_High_Light_R_0",
+      "center": [
+        0.6040439605712891,
+        1.734581470489502,
+        0.8083525896072388
+      ],
+      "size": [
+        0.2907566428184509,
+        0.39178645610809326,
+        0.19921350479125977
+      ],
+      "faces": 809
+    },
+    {
+      "id": "body_0080",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_LightRefracted_High_Light_R_0",
+      "center": [
+        -0.6040439605712891,
+        1.734581470489502,
+        0.8083525896072388
+      ],
+      "size": [
+        0.2907566428184509,
+        0.39178645610809326,
+        0.19921350479125977
+      ],
+      "faces": 809
+    },
+    {
+      "id": "body_0081",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_Chrome_High_chrome_0",
+      "center": [
+        0.0,
+        -1.7611438035964966,
+        0.42779403924942017
+      ],
+      "size": [
+        1.625962257385254,
+        0.583411455154419,
+        0.5543149709701538
+      ],
+      "faces": 764
+    },
+    {
+      "id": "body_0082",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_Chrome_High_chrome_0",
+      "center": [
+        0.0,
+        -1.9608311653137207,
+        0.36065545678138733
+      ],
+      "size": [
+        0.8291084170341492,
+        0.07399380207061768,
+        0.02834075689315796
+      ],
+      "faces": 16
+    },
+    {
+      "id": "body_0083",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_Chrome_High_chrome_0",
+      "center": [
+        0.0,
+        -1.951345443725586,
+        0.31298673152923584
+      ],
+      "size": [
+        0.8229419589042664,
+        0.07399380207061768,
+        0.028577685356140137
+      ],
+      "faces": 17
+    },
+    {
+      "id": "body_0084",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_Chrome_High_chrome_0",
+      "center": [
+        0.0,
+        -1.9845476150512695,
+        0.33468693494796753
+      ],
+      "size": [
+        0.5506828427314758,
+        0.08347976207733154,
+        0.13767024874687195
+      ],
+      "faces": 126
+    },
+    {
+      "id": "body_0085",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_Chrome_High_chrome_0",
+      "center": [
+        0.3009548783302307,
+        1.8436750173568726,
+        0.1796586662530899
+      ],
+      "size": [
+        0.0654560923576355,
+        0.14893555641174316,
+        0.07728388905525208
+      ],
+      "faces": 264
+    },
+    {
+      "id": "body_0086",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_Chrome_High_chrome_0",
+      "center": [
+        0.0,
+        1.737902283668518,
+        0.45741650462150574
+      ],
+      "size": [
+        1.6382954120635986,
+        0.5312364101409912,
+        0.5870872139930725
+      ],
+      "faces": 203
+    },
+    {
+      "id": "body_0087",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_Chrome_High_chrome_0",
+      "center": [
+        0.3014881908893585,
+        1.6890469789505005,
+        0.1911008507013321
+      ],
+      "size": [
+        0.17680226266384125,
+        0.23621034622192383,
+        0.11866959929466248
+      ],
+      "faces": 44
+    },
+    {
+      "id": "body_0088",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_Chrome_High_chrome_0",
+      "center": [
+        0.0,
+        1.6990077495574951,
+        0.9632181525230408
+      ],
+      "size": [
+        1.3299874067306519,
+        0.5672842264175415,
+        0.807763934135437
+      ],
+      "faces": 188
+    },
+    {
+      "id": "body_0089",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_Chrome_High_chrome_0",
+      "center": [
+        0.8110840320587158,
+        0.1917428821325302,
+        0.812147319316864
+      ],
+      "size": [
+        0.009486675262451172,
+        0.02703610062599182,
+        0.025612950325012207
+      ],
+      "faces": 24
+    },
+    {
+      "id": "body_0090",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_Chrome_High_chrome_0",
+      "center": [
+        0.0,
+        -1.4983712434768677,
+        0.8090646266937256
+      ],
+      "size": [
+        1.380265235900879,
+        0.8698999881744385,
+        0.26609253883361816
+      ],
+      "faces": 122
+    },
+    {
+      "id": "body_0091",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_Chrome_High_chrome_0",
+      "center": [
+        0.8618359565734863,
+        -0.6239656209945679,
+        0.9596602916717529
+      ],
+      "size": [
+        0.16790902614593506,
+        0.08205735683441162,
+        0.13186025619506836
+      ],
+      "faces": 64
+    },
+    {
+      "id": "body_0092",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_Chrome_High_chrome_0",
+      "center": [
+        -0.8618359565734863,
+        -0.6239656209945679,
+        0.9596602916717529
+      ],
+      "size": [
+        0.16790902614593506,
+        0.08205735683441162,
+        0.13186025619506836
+      ],
+      "faces": 64
+    },
+    {
+      "id": "body_0093",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticRoughBlack_High_plast_1_0",
+      "center": [
+        0.0,
+        2.033876419067383,
+        0.3892929255962372
+      ],
+      "size": [
+        0.4273611903190613,
+        0.011384010314941406,
+        0.1351805329322815
+      ],
+      "faces": 24
+    },
+    {
+      "id": "body_0094",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        0.007826119661331177,
+        1.9143486022949219,
+        0.8512789607048035
+      ],
+      "size": [
+        0.7935346364974976,
+        0.13850069046020508,
+        0.286014199256897
+      ],
+      "faces": 334
+    },
+    {
+      "id": "body_0095",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        0.0,
+        -1.9892905950546265,
+        0.36065545678138733
+      ],
+      "size": [
+        0.8623110055923462,
+        0.13091254234313965,
+        0.02834075689315796
+      ],
+      "faces": 81
+    },
+    {
+      "id": "body_0096",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        0.0,
+        -1.979804277420044,
+        0.31298673152923584
+      ],
+      "size": [
+        0.8314806222915649,
+        0.13091135025024414,
+        0.028577685356140137
+      ],
+      "faces": 81
+    },
+    {
+      "id": "body_0097",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        0.0,
+        -1.9148228168487549,
+        0.6202859282493591
+      ],
+      "size": [
+        0.9680832028388977,
+        0.18498468399047852,
+        0.13802683353424072
+      ],
+      "faces": 824
+    },
+    {
+      "id": "wheels_0098",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        0.5964548587799072,
+        -1.8963242769241333,
+        0.34529998898506165
+      ],
+      "size": [
+        0.2072771191596985,
+        0.10814428329467773,
+        0.15201884508132935
+      ],
+      "faces": 134
+    },
+    {
+      "id": "wheels_0099",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        -0.5964548587799072,
+        -1.8963242769241333,
+        0.34529998898506165
+      ],
+      "size": [
+        0.2072771191596985,
+        0.10814428329467773,
+        0.15201884508132935
+      ],
+      "faces": 134
+    },
+    {
+      "id": "body_0100",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        -0.06154279410839081,
+        -1.1174941062927246,
+        0.9435335993766785
+      ],
+      "size": [
+        0.6528987884521484,
+        0.04932892322540283,
+        0.050276875495910645
+      ],
+      "faces": 92
+    },
+    {
+      "id": "body_0101",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        -0.4647136330604553,
+        -1.089983582496643,
+        0.9533758759498596
+      ],
+      "size": [
+        0.24972853064537048,
+        0.05691838264465332,
+        0.02110755443572998
+      ],
+      "faces": 94
+    },
+    {
+      "id": "body_0102",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        -0.43257811665534973,
+        -1.0952008962631226,
+        0.9456683397293091
+      ],
+      "size": [
+        0.31874173879623413,
+        0.07304573059082031,
+        0.010908901691436768
+      ],
+      "faces": 14
+    },
+    {
+      "id": "body_0103",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        -0.1098637804389,
+        -1.131723165512085,
+        0.9518342614173889
+      ],
+      "size": [
+        0.657286524772644,
+        0.06830227375030518,
+        0.05170094966888428
+      ],
+      "faces": 138
+    },
+    {
+      "id": "body_0104",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        0.5945576429367065,
+        -1.0330650806427002,
+        0.9281184077262878
+      ],
+      "size": [
+        0.016600310802459717,
+        0.018973708152770996,
+        0.019446492195129395
+      ],
+      "faces": 12
+    },
+    {
+      "id": "body_0105",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        -0.03598906844854355,
+        -1.1042125225067139,
+        0.9759769439697266
+      ],
+      "size": [
+        0.4307990074157715,
+        0.013281106948852539,
+        0.021439075469970703
+      ],
+      "faces": 106
+    },
+    {
+      "id": "body_0106",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        0.0,
+        -1.1032638549804688,
+        0.9264582991600037
+      ],
+      "size": [
+        1.3034253120422363,
+        0.2314671277999878,
+        0.03509962558746338
+      ],
+      "faces": 50
+    },
+    {
+      "id": "body_0107",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        -0.696773111820221,
+        -0.7627038955688477,
+        0.9978433847427368
+      ],
+      "size": [
+        0.06071269512176514,
+        0.290282666683197,
+        0.24332499504089355
+      ],
+      "faces": 88
+    },
+    {
+      "id": "body_0108",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        0.696773111820221,
+        -0.7627038955688477,
+        0.9978433847427368
+      ],
+      "size": [
+        0.06071269512176514,
+        0.290282666683197,
+        0.24332499504089355
+      ],
+      "faces": 88
+    },
+    {
+      "id": "body_0109",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        0.021818652749061584,
+        -1.0985212326049805,
+        0.9613204598426819
+      ],
+      "size": [
+        0.5634897947311401,
+        0.013280868530273438,
+        0.027036070823669434
+      ],
+      "faces": 14
+    },
+    {
+      "id": "body_0110",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        0.29918354749679565,
+        -1.0714850425720215,
+        0.9594233632087708
+      ],
+      "size": [
+        0.6196815967559814,
+        0.09201717376708984,
+        0.06687915325164795
+      ],
+      "faces": 138
+    },
+    {
+      "id": "body_0111",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        0.0037054158747196198,
+        -0.34660807251930237,
+        1.2489949464797974
+      ],
+      "size": [
+        0.22512373328208923,
+        0.0856136679649353,
+        0.0673532485961914
+      ],
+      "faces": 40
+    },
+    {
+      "id": "body_0112",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        0.0,
+        1.2156777381896973,
+        1.4776161909103394
+      ],
+      "size": [
+        0.04414057359099388,
+        0.18688154220581055,
+        0.16031956672668457
+      ],
+      "faces": 289
+    },
+    {
+      "id": "body_0113",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        0.0,
+        -0.38158929347991943,
+        1.2774536609649658
+      ],
+      "size": [
+        0.017772797495126724,
+        0.05359816551208496,
+        0.06166183948516846
+      ],
+      "faces": 16
+    },
+    {
+      "id": "body_0114",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        0.6635710597038269,
+        -0.2183050513267517,
+        1.1237746477127075
+      ],
+      "size": [
+        0.15557706356048584,
+        1.123896598815918,
+        0.48285651206970215
+      ],
+      "faces": 172
+    },
+    {
+      "id": "body_0115",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        -0.6635710597038269,
+        -0.2183050513267517,
+        1.1237746477127075
+      ],
+      "size": [
+        0.15557706356048584,
+        1.123896598815918,
+        0.48285651206970215
+      ],
+      "faces": 172
+    },
+    {
+      "id": "body_0116",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        -0.7766958475112915,
+        0.049566298723220825,
+        0.18151551485061646
+      ],
+      "size": [
+        0.05264914035797119,
+        1.8114211559295654,
+        0.09918421506881714
+      ],
+      "faces": 201
+    },
+    {
+      "id": "body_0117",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        0.6635710597038269,
+        0.8006492853164673,
+        1.1470164060592651
+      ],
+      "size": [
+        0.15557706356048584,
+        1.003657341003418,
+        0.4363729953765869
+      ],
+      "faces": 241
+    },
+    {
+      "id": "body_0118",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        0.7766958475112915,
+        0.049566298723220825,
+        0.18151551485061646
+      ],
+      "size": [
+        0.05264914035797119,
+        1.8114211559295654,
+        0.09918421506881714
+      ],
+      "faces": 201
+    },
+    {
+      "id": "body_0119",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        0.2114492803812027,
+        1.8441495895385742,
+        0.9959458112716675
+      ],
+      "size": [
+        0.4688187539577484,
+        0.10624730587005615,
+        0.046008408069610596
+      ],
+      "faces": 256
+    },
+    {
+      "id": "body_0120",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        -0.6635710597038269,
+        0.8006492853164673,
+        1.1470164060592651
+      ],
+      "size": [
+        0.15557706356048584,
+        1.003657341003418,
+        0.4363729953765869
+      ],
+      "faces": 240
+    },
+    {
+      "id": "body_0121",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Opaque_PlasticSmooth_High_pl_S_0",
+      "center": [
+        0.2834642827510834,
+        1.8242275714874268,
+        1.0002145767211914
+      ],
+      "size": [
+        0.29348427057266235,
+        0.0645071268081665,
+        0.0194474458694458
+      ],
+      "faces": 22
+    },
+    {
+      "id": "body_0122",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Paint_Metal_High_carpaint_0",
+      "center": [
+        0.0,
+        -1.1920928955078125e-07,
+        0.7958651781082153
+      ],
+      "size": [
+        1.6449357271194458,
+        4.173999786376953,
+        1.2904572486877441
+      ],
+      "faces": 5205
+    },
+    {
+      "id": "body_0123",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Paint_Metal_High_carpaint_0",
+      "center": [
+        0.7729010581970215,
+        -0.2587999701499939,
+        0.5799687504768372
+      ],
+      "size": [
+        0.09154319763183594,
+        1.1064656972885132,
+        0.697722315788269
+      ],
+      "faces": 232
+    },
+    {
+      "id": "body_0124",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Paint_Metal_High_carpaint_0",
+      "center": [
+        0.8046805262565613,
+        0.11923649907112122,
+        0.8078786134719849
+      ],
+      "size": [
+        0.02608799934387207,
+        0.20548847317695618,
+        0.0379449725151062
+      ],
+      "faces": 100
+    },
+    {
+      "id": "body_0125",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Paint_Metal_High_carpaint_0",
+      "center": [
+        -0.7729010581970215,
+        -0.2587999701499939,
+        0.5799687504768372
+      ],
+      "size": [
+        0.09154319763183594,
+        1.1064656972885132,
+        0.697722315788269
+      ],
+      "faces": 232
+    },
+    {
+      "id": "body_0126",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Paint_Metal_High_carpaint_0",
+      "center": [
+        -0.8046805262565613,
+        0.11923649907112122,
+        0.8078786134719849
+      ],
+      "size": [
+        0.02608799934387207,
+        0.20548847317695618,
+        0.0379449725151062
+      ],
+      "faces": 100
+    },
+    {
+      "id": "body_0127",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Paint_Metal_High_carpaint_0",
+      "center": [
+        -0.8110840320587158,
+        0.1917428821325302,
+        0.812147319316864
+      ],
+      "size": [
+        0.009486675262451172,
+        0.02703610062599182,
+        0.025612950325012207
+      ],
+      "faces": 24
+    },
+    {
+      "id": "wheels_0128",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Paint_Metal_High_carpaint_0",
+      "center": [
+        0.7686327695846558,
+        0.7611029744148254,
+        0.5894846320152283
+      ],
+      "size": [
+        0.10387605428695679,
+        0.9689129590988159,
+        0.7156873941421509
+      ],
+      "faces": 277
+    },
+    {
+      "id": "body_0129",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Paint_Metal_High_carpaint_0",
+      "center": [
+        0.7918740510940552,
+        1.0546461343765259,
+        0.8337290287017822
+      ],
+      "size": [
+        0.03652191162109375,
+        0.2072771191596985,
+        0.03936809301376343
+      ],
+      "faces": 94
+    },
+    {
+      "id": "wheels_0130",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Paint_Metal_High_carpaint_0",
+      "center": [
+        -0.7686327695846558,
+        0.7611029744148254,
+        0.5894846320152283
+      ],
+      "size": [
+        0.10387605428695679,
+        0.9689129590988159,
+        0.7156873941421509
+      ],
+      "faces": 277
+    },
+    {
+      "id": "body_0131",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Paint_Metal_High_carpaint_0",
+      "center": [
+        -0.7918740510940552,
+        1.0546461343765259,
+        0.8337290287017822
+      ],
+      "size": [
+        0.03652191162109375,
+        0.2072771191596985,
+        0.03936809301376343
+      ],
+      "faces": 94
+    },
+    {
+      "id": "body_0132",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Paint_Metal_High_carpaint_0",
+      "center": [
+        0.0,
+        1.8541100025177002,
+        0.7822655439376831
+      ],
+      "size": [
+        1.3299874067306519,
+        0.29123055934906006,
+        0.4458587169647217
+      ],
+      "faces": 652
+    },
+    {
+      "id": "body_0133",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Paint_Metal_High_carpaint_0",
+      "center": [
+        0.0,
+        -1.4993197917938232,
+        0.8100132346153259
+      ],
+      "size": [
+        1.380265235900879,
+        0.8717969655990601,
+        0.26798975467681885
+      ],
+      "faces": 456
+    },
+    {
+      "id": "body_0134",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Paint_Metal_High_carpaint_0",
+      "center": [
+        0.8431005477905273,
+        -0.6510017514228821,
+        0.9093829393386841
+      ],
+      "size": [
+        0.21391671895980835,
+        0.1475125551223755,
+        0.24095368385314941
+      ],
+      "faces": 794
+    },
+    {
+      "id": "body_0135",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Paint_Metal_High_carpaint_0",
+      "center": [
+        -0.8431005477905273,
+        -0.6510017514228821,
+        0.9093829393386841
+      ],
+      "size": [
+        0.21391671895980835,
+        0.1475125551223755,
+        0.24095368385314941
+      ],
+      "faces": 794
+    },
+    {
+      "id": "body_0136",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Paint_Metal_High_carpaint_0",
+      "center": [
+        0.19530797004699707,
+        -2.007314920425415,
+        0.36599189043045044
+      ],
+      "size": [
+        0.4133526086807251,
+        0.06071293354034424,
+        0.20123013854026794
+      ],
+      "faces": 84
+    },
+    {
+      "id": "body_0137",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Paint_Metal_High_carpaint_0",
+      "center": [
+        -0.780964732170105,
+        1.3665108680725098,
+        0.7922258377075195
+      ],
+      "size": [
+        0.05075198411941528,
+        0.18308627605438232,
+        0.15367889404296875
+      ],
+      "faces": 96
+    },
+    {
+      "id": "body_0138",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Paint_Metal_High_carpaint_0",
+      "center": [
+        0.0,
+        1.4903080463409424,
+        1.3201425075531006
+      ],
+      "size": [
+        1.1004174947738647,
+        0.14988470077514648,
+        0.0977095365524292
+      ],
+      "faces": 272
+    },
+    {
+      "id": "body_0139",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Paint_Metal_High_carpaint_0",
+      "center": [
+        0.7987515926361084,
+        0.11875744163990021,
+        0.8047958016395569
+      ],
+      "size": [
+        0.02466481924057007,
+        0.21308711171150208,
+        0.07921111583709717
+      ],
+      "faces": 156
+    },
+    {
+      "id": "body_0140",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Paint_Metal_High_carpaint_0",
+      "center": [
+        -0.7987515926361084,
+        0.11875744163990021,
+        0.8047958016395569
+      ],
+      "size": [
+        0.02466481924057007,
+        0.21308711171150208,
+        0.07921111583709717
+      ],
+      "faces": 156
+    },
+    {
+      "id": "body_0141",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Paint_Metal_High_carpaint_0",
+      "center": [
+        0.7838108539581299,
+        1.0548837184906006,
+        0.8304088115692139
+      ],
+      "size": [
+        0.024189889430999756,
+        0.21818697452545166,
+        0.07921123504638672
+      ],
+      "faces": 156
+    },
+    {
+      "id": "body_0142",
+      "part": "body",
+      "label": "Bodywork detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Paint_Metal_High_carpaint_0",
+      "center": [
+        -0.7838108539581299,
+        1.0548837184906006,
+        0.8304088115692139
+      ],
+      "size": [
+        0.024189889430999756,
+        0.21818697452545166,
+        0.07921123504638672
+      ],
+      "faces": 156
+    },
+    {
+      "id": "wheels_0143",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Rim_High_rim_0",
+      "center": [
+        0.7240681052207947,
+        1.317295789718628,
+        0.2727414667606354
+      ],
+      "size": [
+        0.16992461681365967,
+        0.35194361209869385,
+        0.35384055972099304
+      ],
+      "faces": 1662
+    },
+    {
+      "id": "wheels_0144",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Rim_High_rim_0",
+      "center": [
+        -0.7244887351989746,
+        -1.2170060873031616,
+        0.28719937801361084
+      ],
+      "size": [
+        0.18047797679901123,
+        0.3737630844116211,
+        0.3758963346481323
+      ],
+      "faces": 1788
+    },
+    {
+      "id": "wheels_0145",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Rim_High_rim_0",
+      "center": [
+        0.7244887351989746,
+        -1.2170060873031616,
+        0.28719937801361084
+      ],
+      "size": [
+        0.18047797679901123,
+        0.3737630844116211,
+        0.3758963346481323
+      ],
+      "faces": 1788
+    },
+    {
+      "id": "wheels_0146",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Rim_High_rim_0",
+      "center": [
+        -0.7240681052207947,
+        1.317295789718628,
+        0.2727414667606354
+      ],
+      "size": [
+        0.16992461681365967,
+        0.35194361209869385,
+        0.35384055972099304
+      ],
+      "faces": 1662
+    },
+    {
+      "id": "wheels_0147",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Tire_High_tyre_0",
+      "center": [
+        0.7231243848800659,
+        -1.2170066833496094,
+        0.28719937801361084
+      ],
+      "size": [
+        0.18889713287353516,
+        0.577720046043396,
+        0.5743987560272217
+      ],
+      "faces": 450
+    },
+    {
+      "id": "wheels_0148",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Tire_High_tyre_0",
+      "center": [
+        -0.7227640748023987,
+        1.3172956705093384,
+        0.2727414667606354
+      ],
+      "size": [
+        0.17786991596221924,
+        0.5435683727264404,
+        0.5407230257987976
+      ],
+      "faces": 450
+    },
+    {
+      "id": "wheels_0149",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Tire_High_tyre_0",
+      "center": [
+        0.7227640151977539,
+        1.3172956705093384,
+        0.2727414667606354
+      ],
+      "size": [
+        0.1778697967529297,
+        0.5435683727264404,
+        0.5407230257987976
+      ],
+      "faces": 450
+    },
+    {
+      "id": "wheels_0150",
+      "part": "wheels",
+      "label": "Wheel assembly detail",
+      "source": "car_nissan_versa_2010_Mesh:M_Tire_High_tyre_0",
+      "center": [
+        -0.7231244444847107,
+        -1.2170066833496094,
+        0.28719937801361084
+      ],
+      "size": [
+        0.1888972520828247,
+        0.577720046043396,
+        0.5743987560272217
+      ],
+      "faces": 450
+    }
+  ]
+}

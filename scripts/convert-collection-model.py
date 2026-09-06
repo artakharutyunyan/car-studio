@@ -30,6 +30,9 @@ for o,data,world in snapshots:
  # multiple unrelated sources (reference/measurement objects artists forget
  # to delete); it is never real vehicle geometry, so it is dropped everywhere.
  if o.name.startswith('Icosphere') and not len(o.data.materials):continue
+ # A default-primitive reference cube (exact ±1 unit vertices) sat well below
+ # the car's floor, skewing the height/floor calculation before being dropped.
+ if car=='mercedes-maybach' and o.name in ('Object_6','Object_7'):continue
  if car=='mercedes-amg-gt' and mats==['Material.035']:continue
  # The source scene bundles several small decorative props scattered far to
  # either side of the car (not the vehicle itself), which blew out the
