@@ -2300,91 +2300,6 @@
       "id": "cabin_0135",
       "part": "cabin",
       "label": "Cockpit detail",
-      "source": "int_glass_int_glass_0",
-      "center": [
-        -4.76837158203125e-07,
-        -0.0839531421661377,
-        0.9746378064155579
-      ],
-      "size": [
-        1.2287927865982056,
-        0.3011466860771179,
-        0.34458911418914795
-      ],
-      "faces": 64
-    },
-    {
-      "id": "cabin_0136",
-      "part": "cabin",
-      "label": "Cockpit detail",
-      "source": "int_glass_sides_int_glass_0",
-      "center": [
-        -0.6567100286483765,
-        0.007111102342605591,
-        0.9274351596832275
-      ],
-      "size": [
-        0.11006432771682739,
-        0.30341407656669617,
-        0.2789382338523865
-      ],
-      "faces": 15
-    },
-    {
-      "id": "cabin_0137",
-      "part": "cabin",
-      "label": "Cockpit detail",
-      "source": "int_glass_sides_int_glass_0",
-      "center": [
-        0.6567127108573914,
-        0.007110595703125,
-        0.9274351596832275
-      ],
-      "size": [
-        0.11007118225097656,
-        0.30341407656669617,
-        0.2789382338523865
-      ],
-      "faces": 15
-    },
-    {
-      "id": "cabin_0138",
-      "part": "cabin",
-      "label": "Cockpit detail",
-      "source": "int_glass_top_int_glass_0",
-      "center": [
-        -0.29656141996383667,
-        0.10187245160341263,
-        1.1258840560913086
-      ],
-      "size": [
-        0.3607929050922394,
-        0.13577528297901154,
-        0.04575908184051514
-      ],
-      "faces": 14
-    },
-    {
-      "id": "cabin_0139",
-      "part": "cabin",
-      "label": "Cockpit detail",
-      "source": "int_glass_top_int_glass_0",
-      "center": [
-        0.29656070470809937,
-        0.10187219828367233,
-        1.1258845329284668
-      ],
-      "size": [
-        0.36079293489456177,
-        0.13577501475811005,
-        0.04575812816619873
-      ],
-      "faces": 14
-    },
-    {
-      "id": "cabin_0140",
-      "part": "cabin",
-      "label": "Cockpit detail",
       "source": "int_light_int_bulb_red_0",
       "center": [
         0.5949815511703491,
@@ -2399,7 +2314,7 @@
       "faces": 748
     },
     {
-      "id": "body_0141",
+      "id": "body_0136",
       "part": "body",
       "label": "Bodywork detail",
       "source": "int_metal_bits_ext_carPaint_0",
@@ -2416,7 +2331,7 @@
       "faces": 112
     },
     {
-      "id": "body_0142",
+      "id": "body_0137",
       "part": "body",
       "label": "Bodywork detail",
       "source": "int_metal_bits_ext_carPaint_0",
@@ -2433,7 +2348,7 @@
       "faces": 920
     },
     {
-      "id": "body_0143",
+      "id": "body_0138",
       "part": "body",
       "label": "Bodywork detail",
       "source": "int_metal_bits_ext_carPaint_0",
@@ -2450,7 +2365,7 @@
       "faces": 436
     },
     {
-      "id": "cabin_0144",
+      "id": "cabin_0139",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "int_plastics_int_plastic_0",
@@ -2467,7 +2382,7 @@
       "faces": 158
     },
     {
-      "id": "cabin_0145",
+      "id": "cabin_0140",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "int_plastics_int_plastic_0",
@@ -2484,7 +2399,7 @@
       "faces": 32
     },
     {
-      "id": "cabin_0146",
+      "id": "cabin_0141",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "int_plastics_int_plastic_0",
@@ -2501,7 +2416,7 @@
       "faces": 192
     },
     {
-      "id": "cabin_0147",
+      "id": "cabin_0142",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "int_plastics_int_plastic_0",
@@ -2518,7 +2433,7 @@
       "faces": 16
     },
     {
-      "id": "cabin_0148",
+      "id": "cabin_0143",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "int_plastics_int_plastic_0",
@@ -2535,7 +2450,7 @@
       "faces": 12
     },
     {
-      "id": "cabin_0149",
+      "id": "cabin_0144",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "int_plastics_int_plastic_0",
@@ -2552,7 +2467,7 @@
       "faces": 12
     },
     {
-      "id": "cabin_0150",
+      "id": "cabin_0145",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "int_plastics_int_plastic_0",
@@ -2569,7 +2484,7 @@
       "faces": 32
     },
     {
-      "id": "cabin_0151",
+      "id": "cabin_0146",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "int_seat_braces_int_leather_0",
@@ -2586,7 +2501,7 @@
       "faces": 264
     },
     {
-      "id": "cabin_0152",
+      "id": "cabin_0147",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "int_seat_braces_int_leather_0",
@@ -2603,7 +2518,7 @@
       "faces": 264
     },
     {
-      "id": "cabin_0153",
+      "id": "cabin_0148",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "leather_int_leather_0",
@@ -2620,7 +2535,7 @@
       "faces": 2824
     },
     {
-      "id": "cabin_0154",
+      "id": "cabin_0149",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "leather_int_leather_0",
@@ -2637,7 +2552,7 @@
       "faces": 2824
     },
     {
-      "id": "cabin_0155",
+      "id": "cabin_0150",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "leather_int_leather_0",
@@ -2654,7 +2569,7 @@
       "faces": 244
     },
     {
-      "id": "cabin_0156",
+      "id": "cabin_0151",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "leather_int_leather_0",
@@ -2671,7 +2586,7 @@
       "faces": 407
     },
     {
-      "id": "cabin_0157",
+      "id": "cabin_0152",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "leather_int_leather_0",
@@ -2688,7 +2603,7 @@
       "faces": 311
     },
     {
-      "id": "cabin_0158",
+      "id": "cabin_0153",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "leather_int_leather_0",
@@ -2705,7 +2620,7 @@
       "faces": 311
     },
     {
-      "id": "cabin_0159",
+      "id": "cabin_0154",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "leather_int_leather_0",
@@ -2722,7 +2637,7 @@
       "faces": 4942
     },
     {
-      "id": "cabin_0160",
+      "id": "cabin_0155",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "leather_int_leather_0",
@@ -2739,7 +2654,7 @@
       "faces": 4942
     },
     {
-      "id": "cabin_0161",
+      "id": "cabin_0156",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "leather_int_leather_0",
@@ -2756,7 +2671,7 @@
       "faces": 280
     },
     {
-      "id": "cabin_0162",
+      "id": "cabin_0157",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "leather_int_leather_0",
@@ -2773,7 +2688,7 @@
       "faces": 3708
     },
     {
-      "id": "body_0163",
+      "id": "body_0158",
       "part": "body",
       "label": "Bodywork detail",
       "source": "metal_bits2_ext_chrome_0",
@@ -2790,7 +2705,7 @@
       "faces": 76
     },
     {
-      "id": "body_0164",
+      "id": "body_0159",
       "part": "body",
       "label": "Bodywork detail",
       "source": "metal_bits2_ext_chrome_0",
@@ -2807,7 +2722,7 @@
       "faces": 16
     },
     {
-      "id": "body_0165",
+      "id": "body_0160",
       "part": "body",
       "label": "Bodywork detail",
       "source": "metal_bits2_ext_chrome_0",
@@ -2824,7 +2739,7 @@
       "faces": 36
     },
     {
-      "id": "body_0166",
+      "id": "body_0161",
       "part": "body",
       "label": "Bodywork detail",
       "source": "metal_bits2_ext_chrome_0",
@@ -2841,7 +2756,7 @@
       "faces": 28
     },
     {
-      "id": "body_0167",
+      "id": "body_0162",
       "part": "body",
       "label": "Bodywork detail",
       "source": "metal_bits2_ext_chrome_0",
@@ -2858,7 +2773,7 @@
       "faces": 12
     },
     {
-      "id": "body_0168",
+      "id": "body_0163",
       "part": "body",
       "label": "Bodywork detail",
       "source": "metal_bits2_ext_chrome_0",
@@ -2875,7 +2790,7 @@
       "faces": 12
     },
     {
-      "id": "body_0169",
+      "id": "body_0164",
       "part": "body",
       "label": "Bodywork detail",
       "source": "metal_bits2_ext_chrome_0",
@@ -2892,7 +2807,7 @@
       "faces": 10
     },
     {
-      "id": "body_0170",
+      "id": "body_0165",
       "part": "body",
       "label": "Bodywork detail",
       "source": "metal_bits2_ext_chrome_0",
@@ -2909,7 +2824,7 @@
       "faces": 10
     },
     {
-      "id": "body_0171",
+      "id": "body_0166",
       "part": "body",
       "label": "Bodywork detail",
       "source": "metal_bits2_ext_chrome_0",
@@ -2926,7 +2841,7 @@
       "faces": 376
     },
     {
-      "id": "body_0172",
+      "id": "body_0167",
       "part": "body",
       "label": "Bodywork detail",
       "source": "metal_bits2_ext_chrome_0",
@@ -2943,7 +2858,7 @@
       "faces": 28
     },
     {
-      "id": "body_0173",
+      "id": "body_0168",
       "part": "body",
       "label": "Bodywork detail",
       "source": "metal_bits2_ext_chrome_0",
@@ -2960,7 +2875,7 @@
       "faces": 330
     },
     {
-      "id": "body_0174",
+      "id": "body_0169",
       "part": "body",
       "label": "Bodywork detail",
       "source": "metal_bits2_ext_chrome_0",
@@ -2977,7 +2892,7 @@
       "faces": 96
     },
     {
-      "id": "body_0175",
+      "id": "body_0170",
       "part": "body",
       "label": "Bodywork detail",
       "source": "metal_bits2_ext_chrome_0",
@@ -2994,7 +2909,7 @@
       "faces": 16
     },
     {
-      "id": "body_0176",
+      "id": "body_0171",
       "part": "body",
       "label": "Bodywork detail",
       "source": "mirror_base_ext_chrome_0",
@@ -3011,7 +2926,7 @@
       "faces": 2414
     },
     {
-      "id": "body_0177",
+      "id": "body_0172",
       "part": "body",
       "label": "Bodywork detail",
       "source": "mount_seals_ext_chrome_0",
@@ -3028,7 +2943,7 @@
       "faces": 200
     },
     {
-      "id": "body_0178",
+      "id": "body_0173",
       "part": "body",
       "label": "Bodywork detail",
       "source": "mount_seals_ext_chrome_0",
@@ -3045,7 +2960,7 @@
       "faces": 200
     },
     {
-      "id": "body_0179",
+      "id": "body_0174",
       "part": "body",
       "label": "Bodywork detail",
       "source": "oil_cooler_lines_oil_lines_0",
@@ -3062,7 +2977,7 @@
       "faces": 128
     },
     {
-      "id": "body_0180",
+      "id": "body_0175",
       "part": "body",
       "label": "Bodywork detail",
       "source": "oil_cooler_radiator_0",
@@ -3079,7 +2994,7 @@
       "faces": 10
     },
     {
-      "id": "body_0181",
+      "id": "body_0176",
       "part": "body",
       "label": "Bodywork detail",
       "source": "pass_unbuckle1_belts_0",
@@ -3096,7 +3011,7 @@
       "faces": 140
     },
     {
-      "id": "wheels_0182",
+      "id": "wheels_0177",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "rim_lf_002_rim_chrome_0",
@@ -3113,7 +3028,7 @@
       "faces": 12282
     },
     {
-      "id": "wheels_0183",
+      "id": "wheels_0178",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "rim_lf_002_rim_chrome_0",
@@ -3130,7 +3045,7 @@
       "faces": 453
     },
     {
-      "id": "wheels_0184",
+      "id": "wheels_0179",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "rim_lf_002_rim_chrome_0",
@@ -3147,7 +3062,7 @@
       "faces": 1680
     },
     {
-      "id": "wheels_0185",
+      "id": "wheels_0180",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "rim_lr_002_rim_chrome_0",
@@ -3164,7 +3079,7 @@
       "faces": 12282
     },
     {
-      "id": "wheels_0186",
+      "id": "wheels_0181",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "rim_lr_002_rim_chrome_0",
@@ -3181,7 +3096,7 @@
       "faces": 73
     },
     {
-      "id": "wheels_0187",
+      "id": "wheels_0182",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "rim_lr_002_rim_chrome_0",
@@ -3198,7 +3113,7 @@
       "faces": 1680
     },
     {
-      "id": "wheels_0188",
+      "id": "wheels_0183",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "rim_lr_002_rim_chrome_0",
@@ -3215,7 +3130,7 @@
       "faces": 380
     },
     {
-      "id": "wheels_0189",
+      "id": "wheels_0184",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "rim_rf_002_rim_chrome_0",
@@ -3232,7 +3147,7 @@
       "faces": 12282
     },
     {
-      "id": "wheels_0190",
+      "id": "wheels_0185",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "rim_rf_002_rim_chrome_0",
@@ -3249,7 +3164,7 @@
       "faces": 453
     },
     {
-      "id": "wheels_0191",
+      "id": "wheels_0186",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "rim_rf_002_rim_chrome_0",
@@ -3266,7 +3181,7 @@
       "faces": 1680
     },
     {
-      "id": "wheels_0192",
+      "id": "wheels_0187",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "rim_rr_002_rim_chrome_0",
@@ -3283,7 +3198,7 @@
       "faces": 12282
     },
     {
-      "id": "wheels_0193",
+      "id": "wheels_0188",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "rim_rr_002_rim_chrome_0",
@@ -3300,7 +3215,7 @@
       "faces": 73
     },
     {
-      "id": "wheels_0194",
+      "id": "wheels_0189",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "rim_rr_002_rim_chrome_0",
@@ -3317,7 +3232,7 @@
       "faces": 1680
     },
     {
-      "id": "wheels_0195",
+      "id": "wheels_0190",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "rim_rr_002_rim_chrome_0",
@@ -3334,7 +3249,7 @@
       "faces": 380
     },
     {
-      "id": "body_0196",
+      "id": "body_0191",
       "part": "body",
       "label": "Bodywork detail",
       "source": "rollbar_front_seals_ext_plastic_0",
@@ -3351,7 +3266,7 @@
       "faces": 288
     },
     {
-      "id": "suspension_0197",
+      "id": "suspension_0192",
       "part": "suspension",
       "label": "Suspension detail",
       "source": "susp_lf2_suspension_0",
@@ -3368,7 +3283,7 @@
       "faces": 48
     },
     {
-      "id": "suspension_0198",
+      "id": "suspension_0193",
       "part": "suspension",
       "label": "Suspension detail",
       "source": "susp_lf2_suspension_0",
@@ -3385,7 +3300,7 @@
       "faces": 86
     },
     {
-      "id": "suspension_0199",
+      "id": "suspension_0194",
       "part": "suspension",
       "label": "Suspension detail",
       "source": "susp_lf3_suspension_0",
@@ -3402,7 +3317,7 @@
       "faces": 36
     },
     {
-      "id": "suspension_0200",
+      "id": "suspension_0195",
       "part": "suspension",
       "label": "Suspension detail",
       "source": "susp_lf4_suspension_0",
@@ -3419,7 +3334,7 @@
       "faces": 152
     },
     {
-      "id": "suspension_0201",
+      "id": "suspension_0196",
       "part": "suspension",
       "label": "Suspension detail",
       "source": "susp_lf_suspension_0",
@@ -3436,7 +3351,7 @@
       "faces": 174
     },
     {
-      "id": "suspension_0202",
+      "id": "suspension_0197",
       "part": "suspension",
       "label": "Suspension detail",
       "source": "susp_lf_suspension_0",
@@ -3453,7 +3368,7 @@
       "faces": 36
     },
     {
-      "id": "suspension_0203",
+      "id": "suspension_0198",
       "part": "suspension",
       "label": "Suspension detail",
       "source": "susp_lr_suspension_0",
@@ -3470,7 +3385,7 @@
       "faces": 124
     },
     {
-      "id": "suspension_0204",
+      "id": "suspension_0199",
       "part": "suspension",
       "label": "Suspension detail",
       "source": "susp_lr_suspension_0",
@@ -3487,7 +3402,7 @@
       "faces": 272
     },
     {
-      "id": "suspension_0205",
+      "id": "suspension_0200",
       "part": "suspension",
       "label": "Suspension detail",
       "source": "susp_lr_suspension_0",
@@ -3504,7 +3419,7 @@
       "faces": 72
     },
     {
-      "id": "suspension_0206",
+      "id": "suspension_0201",
       "part": "suspension",
       "label": "Suspension detail",
       "source": "susp_lr_suspension_0",
@@ -3521,7 +3436,7 @@
       "faces": 16
     },
     {
-      "id": "suspension_0207",
+      "id": "suspension_0202",
       "part": "suspension",
       "label": "Suspension detail",
       "source": "susp_lr_suspension_0",
@@ -3538,7 +3453,7 @@
       "faces": 32
     },
     {
-      "id": "suspension_0208",
+      "id": "suspension_0203",
       "part": "suspension",
       "label": "Suspension detail",
       "source": "susp_rf2_suspension_0",
@@ -3555,7 +3470,7 @@
       "faces": 48
     },
     {
-      "id": "suspension_0209",
+      "id": "suspension_0204",
       "part": "suspension",
       "label": "Suspension detail",
       "source": "susp_rf2_suspension_0",
@@ -3572,7 +3487,7 @@
       "faces": 86
     },
     {
-      "id": "suspension_0210",
+      "id": "suspension_0205",
       "part": "suspension",
       "label": "Suspension detail",
       "source": "susp_rf3_suspension_0",
@@ -3589,7 +3504,7 @@
       "faces": 36
     },
     {
-      "id": "suspension_0211",
+      "id": "suspension_0206",
       "part": "suspension",
       "label": "Suspension detail",
       "source": "susp_rf_suspension_0",
@@ -3606,7 +3521,7 @@
       "faces": 174
     },
     {
-      "id": "suspension_0212",
+      "id": "suspension_0207",
       "part": "suspension",
       "label": "Suspension detail",
       "source": "susp_rf_suspension_0",
@@ -3623,7 +3538,7 @@
       "faces": 36
     },
     {
-      "id": "suspension_0213",
+      "id": "suspension_0208",
       "part": "suspension",
       "label": "Suspension detail",
       "source": "susp_rr_suspension_0",
@@ -3640,7 +3555,7 @@
       "faces": 124
     },
     {
-      "id": "suspension_0214",
+      "id": "suspension_0209",
       "part": "suspension",
       "label": "Suspension detail",
       "source": "susp_rr_suspension_0",
@@ -3657,7 +3572,7 @@
       "faces": 16
     },
     {
-      "id": "suspension_0215",
+      "id": "suspension_0210",
       "part": "suspension",
       "label": "Suspension detail",
       "source": "susp_rr_suspension_0",
@@ -3674,7 +3589,7 @@
       "faces": 32
     },
     {
-      "id": "wheels_0216",
+      "id": "wheels_0211",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "sw_rim_chrome_int_chrome_0",
@@ -3691,7 +3606,7 @@
       "faces": 320
     },
     {
-      "id": "wheels_0217",
+      "id": "wheels_0212",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "sw_rim_chrome_int_chrome_0",
@@ -3708,7 +3623,7 @@
       "faces": 320
     },
     {
-      "id": "wheels_0218",
+      "id": "wheels_0213",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "sw_rim_int_wood_0",
@@ -3725,7 +3640,7 @@
       "faces": 4800
     },
     {
-      "id": "wheels_0219",
+      "id": "wheels_0214",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "sw_rim_int_wood_0",
@@ -3742,7 +3657,7 @@
       "faces": 4800
     },
     {
-      "id": "cabin_0220",
+      "id": "cabin_0215",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "sw_spokes_int_brushed_metal_0",
@@ -3759,7 +3674,7 @@
       "faces": 188
     },
     {
-      "id": "cabin_0221",
+      "id": "cabin_0216",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "sw_spokes_int_brushed_metal_0",
@@ -3776,7 +3691,7 @@
       "faces": 188
     },
     {
-      "id": "cabin_0222",
+      "id": "cabin_0217",
       "part": "cabin",
       "label": "Cockpit detail",
       "source": "throttle_link_int_brushed_metal_0",
@@ -3793,7 +3708,7 @@
       "faces": 52
     },
     {
-      "id": "body_0223",
+      "id": "body_0218",
       "part": "body",
       "label": "Bodywork detail",
       "source": "trunk_ext_carPaint_0",
@@ -3810,7 +3725,7 @@
       "faces": 1312
     },
     {
-      "id": "wheels_0224",
+      "id": "wheels_0219",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "tyre_lf_Tyre_0",
@@ -3827,7 +3742,7 @@
       "faces": 1920
     },
     {
-      "id": "wheels_0225",
+      "id": "wheels_0220",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "tyre_lr_Tyre_0",
@@ -3844,7 +3759,7 @@
       "faces": 1920
     },
     {
-      "id": "wheels_0226",
+      "id": "wheels_0221",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "tyre_rf_Tyre_0",
@@ -3861,7 +3776,7 @@
       "faces": 1920
     },
     {
-      "id": "wheels_0227",
+      "id": "wheels_0222",
       "part": "wheels",
       "label": "Wheel assembly detail",
       "source": "tyre_rr_Tyre_0",
@@ -3878,7 +3793,7 @@
       "faces": 1920
     },
     {
-      "id": "body_0228",
+      "id": "body_0223",
       "part": "body",
       "label": "Bodywork detail",
       "source": "wiper_l_base_ext_chrome_0",
@@ -3895,7 +3810,7 @@
       "faces": 144
     },
     {
-      "id": "body_0229",
+      "id": "body_0224",
       "part": "body",
       "label": "Bodywork detail",
       "source": "wiper_l_base_ext_chrome_0",
@@ -3912,7 +3827,7 @@
       "faces": 96
     },
     {
-      "id": "body_0230",
+      "id": "body_0225",
       "part": "body",
       "label": "Bodywork detail",
       "source": "wiper_l_base_ext_chrome_0",
@@ -3929,7 +3844,7 @@
       "faces": 36
     },
     {
-      "id": "body_0231",
+      "id": "body_0226",
       "part": "body",
       "label": "Bodywork detail",
       "source": "wiper_l_rubber_ext_plastic_0",
@@ -3946,7 +3861,7 @@
       "faces": 52
     },
     {
-      "id": "body_0232",
+      "id": "body_0227",
       "part": "body",
       "label": "Bodywork detail",
       "source": "wiper_r_base_ext_chrome_0",
@@ -3963,7 +3878,7 @@
       "faces": 144
     },
     {
-      "id": "body_0233",
+      "id": "body_0228",
       "part": "body",
       "label": "Bodywork detail",
       "source": "wiper_r_base_ext_chrome_0",
@@ -3980,7 +3895,7 @@
       "faces": 36
     },
     {
-      "id": "body_0234",
+      "id": "body_0229",
       "part": "body",
       "label": "Bodywork detail",
       "source": "wiper_r_rubber_ext_plastic_0",

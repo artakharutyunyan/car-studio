@@ -25,6 +25,7 @@ for o,data,world in snapshots:
  if car=='mclaren-f1-1993' and mats in (['floor'],['material']):continue
  if car=='f1-mclaren-mp427' and (mats==['ground_shadow'] or o.name in ('Plane.024','Plane.018')):continue
  if car=='lambo-svj-carbonado' and o.name in ('Object_9','Object_11'):continue
+ if car=='shelby-cobra' and o.name in ('int_glass_int_glass_0','int_glass_sides_int_glass_0','int_glass_top_int_glass_0'):continue
  # Two leftover default-primitive spheres sit well below the car's actual
  # lowest point, which the export catalog later drops (no material) but which
  # still got used to compute the floor offset, leaving the real car floating.

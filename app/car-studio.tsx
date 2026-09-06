@@ -1,7 +1,7 @@
 'use client';
 import {flushSync} from 'react-dom';
 import {useState, useRef, useEffect} from 'react';
-import {ArrowUpRight, Box, Layers3, RotateCcw, Rotate3d, Plus, Minus, Maximize2, X, Crosshair, ChevronRight, CircleHelp, Expand, MoreHorizontal, ArrowLeft} from 'lucide-react';
+import {ArrowUpRight, Box, Layers3, RotateCcw, Rotate3d, Plus, Minus, Maximize2, X, Crosshair, ChevronLeft, ChevronRight, CircleHelp, Expand, MoreHorizontal, ArrowLeft} from 'lucide-react';
 import {Select,SelectTrigger,SelectValue,SelectContent,SelectItem} from '@/components/ui/select';
 import {Slider} from '@/components/ui/slider';
 import {Switch} from '@/components/ui/switch';
@@ -9,7 +9,7 @@ import {Tabs,TabsList,TabsTrigger} from '@/components/ui/tabs';
 import {describePiece, type PartId} from './parts';
 import VehicleScene, {type SceneHandle} from './vehicle-scene';
 import type {Vehicle} from './vehicles';
-export default function CarStudio({vehicle}:{vehicle:Vehicle}){
+export default function CarStudio({vehicle,previous,next}:{vehicle:Vehicle;previous?:Vehicle;next?:Vehicle}){
  const parts=vehicle.parts;
  const [selected,setSelected]=useState<PartId>('body');
  const [highQuality,setHighQuality]=useState(false);
@@ -43,7 +43,12 @@ export default function CarStudio({vehicle}:{vehicle:Vehicle}){
   <section className="stage-view" aria-label={`Interactive ${vehicle.make} ${vehicle.name} studio`}>
    <VehicleScene key={vehicle.id} vehicle={vehicle} highQuality={highQuality} focusedMesh={focusedMesh} onInspect={setFocusedMesh} ref={scene} selected={selected} explode={explode} labels={labels} autoRotate={rotate} isolated={isolated} onSelect={select}/>
   </section>
-  <div className="studio-heading"><a className="back-to-garage" href={vehicle.category==='formula-1'?'/formula-1':'/'} aria-label="Back to car collection"><ArrowLeft size={16}/><span>Collection</span></a><div className="model-plaque"><span>{vehicle.make.toUpperCase()}</span><h1>{vehicle.name.toUpperCase()}</h1></div></div>
+  <div className="studio-heading"><a className="back-to-garage" href={vehicle.category==='formula-1'?'/formula-1':'/'} aria-label="Back to car collection"><ArrowLeft size={16}/><span>Collection</span></a><div className="model-plaque"><span>{vehicle.make.toUpperCase()}</span><h1>{vehicle.name.toUpperCase()}</h1></div>
+   {(previous||next)&&<nav className="car-pager" aria-label="Browse cars">
+    {previous&&<a className="pager-button" href={`/cars/${previous.id}`} title={`Previous: ${previous.make} ${previous.name}`} aria-label={`Previous car: ${previous.make} ${previous.name}`}><ChevronLeft size={15}/></a>}
+    {next&&<a className="pager-button" href={`/cars/${next.id}`} title={`Next: ${next.make} ${next.name}`} aria-label={`Next car: ${next.make} ${next.name}`}><ChevronRight size={15}/></a>}
+   </nav>}
+  </div>
   {componentsOpen&&<aside className="components-panel floating-panel" aria-label="Components">
    <div className="panel-heading"><h2>Components</h2><button className="icon-button" onClick={()=>setComponentsOpen(false)} aria-label="Hide components"><X size={14}/></button></div>
    <div className="parts-list">{parts.map((p,i)=><button key={p.id} onClick={()=>select(p.id)} className={'part-row '+(p.id===selected&&detailOpen?'selected':'')} aria-pressed={p.id===selected&&detailOpen}><span className="part-number">{String(i+1).padStart(2,'0')}</span><span>{p.name}</span><ChevronRight size={13}/></button>)}</div>

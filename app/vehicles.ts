@@ -23,6 +23,13 @@ export const vehicles:Vehicle[] = [
   {id:'porsche-930',make:'Porsche',name:'911 Turbo',edition:'1975 · Type 930',color:'Yellow',paint:'#f2c83e',model:'/models/porsche-930.glb',manifest:'/models/porsche-930-manifest.json',image:'/cars/porsche-930.webp',creator:'Karol Miklas',source:'https://sketchfab.com/3d-models/free-1975-porsche-911-930-turbo-8568d9d14a994b9cae59499f0dbed21e',license:'CC BY 4.0',licenseUrl:'https://creativecommons.org/licenses/by/4.0/',parts:classicParts(false),illustrative:[]},
 ];
 export function getVehicle(id:string){return vehicles.find(vehicle=>vehicle.id===id);}
+export function getAdjacentVehicles(id:string){
+  const vehicle=getVehicle(id);if(!vehicle)return {previous:undefined,next:undefined};
+  const category=vehicle.category||'road';
+  const siblings=vehicles.filter(v=>(v.category||'road')===category).sort((a,b)=>`${a.make} ${a.name}`.localeCompare(`${b.make} ${b.name}`));
+  const index=siblings.findIndex(v=>v.id===id);
+  return {previous:siblings[(index-1+siblings.length)%siblings.length],next:siblings[(index+1)%siblings.length]};
+}
 
 
 // Additional licensed collection assets.
